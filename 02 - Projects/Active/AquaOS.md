@@ -9,79 +9,79 @@ stack: []
 repo:
 url: https://aquaos.pt
 monetisable: true
-revenue_model: annual subscription — 3.000 €/client
+revenue_model: subscrição anual — 3.000 €/cliente
 tags: [project, aquaos]
 ---
 
 # AquaOS
 
-> CRM platform for pool companies. Deployed and in testing with client zero.
+> Plataforma CRM para empresas de piscinas. Em produção e em testes com o cliente zero.
 
 | | |
 |---|---|
-| **Status** | 🟢 active — testing with client zero |
-| **Live at** | aquaos.pt |
-| **Started** | May 2026 |
-| **Revenue model** | 3.000 € / year per client |
+| **Estado** | 🟢 ativo — em testes com o cliente zero |
+| **Online em** | aquaos.pt |
+| **Início** | maio 2026 |
+| **Modelo de receita** | 3.000 € / ano por cliente |
 
-⚠️ **Not in the original [[2026]] objectives** — it emerged as an idea in May. It is now the single most important asset in the vault, because it's the only one that can close the 9.800 € invoicing gap.
-
----
-
-## 🎯 Definition of "done enough"
-
-- [ ] Client zero validated and paying
-- [ ] Subscriptions can be taken (blocked — see below)
-- [ ] Onboarding a second client doesn't require me rebuilding anything
+⚠️ **Não consta dos objetivos originais de [[2026]]** — surgiu como ideia em maio. É agora o ativo mais importante do vault, porque é o único que pode fechar a lacuna de faturação de 9.800 €.
 
 ---
 
-## 🚧 Blockers
+## 🎯 Definição de "suficientemente feito"
 
-| Blocker | Type | Owner | Date | Status |
+- [ ] Cliente zero validado e a pagar
+- [ ] Subscrições podem ser aceites (bloqueado — ver abaixo)
+- [ ] Integrar um segundo cliente não exige reconstruir nada
+
+---
+
+## 🚧 Bloqueios
+
+| Bloqueio | Tipo | Responsável | Data | Estado |
 |---|---|---|---|---|
-| **Not registered to invoice** — can't scale with new subscriptions | 🔴 admin | me | ❌ **none** | open — ❓ scope unclear |
-| Client zero still in test phase | tech | me | | open |
+| **Sem registo para faturar** — não pode escalar com novas subscrições | 🔴 admin | eu | ❌ **nenhuma** | aberto — ❓ âmbito por esclarecer |
+| Cliente zero ainda em fase de testes | tech | eu | | aberto |
 
-> This is an **administrative** blocker, not a technical one, and it has no date — which is why it hasn't moved.
+> Este é um bloqueio **administrativo**, não técnico, e não tem data — que é por isso que não se moveu.
 >
-> ❓ **Its actual size is unknown.** *Abertura de atividade* as self-employed is a free online form done in an afternoon; incorporating a company is weeks and ongoing cost. Nobody has confirmed which this needs. Don't treat it as a large obstacle until that's checked — it may be an afternoon. → [[Capital]]
+> ❓ **A sua dimensão real é desconhecida.** A *abertura de atividade* como trabalhador independente é um formulário online grátis feito numa tarde; constituir uma sociedade é semanas e custo contínuo. Ninguém confirmou qual é necessário. Não o trates como um grande obstáculo até isso estar verificado — pode ser uma tarde. → [[Capital]]
 
 ---
 
-## 🔨 Next actions
+## 🔨 Próximas ações
 
-### Now
-- [ ] **Find out which registration is needed** (accountant, ~30 min) — then set a date
-- [ ] Close out client zero's test feedback
+### Agora
+- [ ] **Descobrir qual registo é necessário** (contabilista, ~30 min) — depois definir uma data
+- [ ] Fechar o feedback dos testes do cliente zero
 
-### Next
-- [ ] Define the subscription/billing flow
-- [ ] Decide what "client two" needs that client zero didn't
+### A seguir
+- [ ] Definir o fluxo de subscrição/faturação
+- [ ] Decidir o que o "cliente dois" precisa que o cliente zero não precisou
 
-### Someday
-- [ ] Self-serve signup
+### Um dia
+- [ ] Registo self-serve
 
 ---
 
-## 💰 Revenue
+## 💰 Receita
 
 | | |
 |---|---|
-| **Price** | 3.000 € / year |
-| **Clients needed to matter** | ~3 by year end ≈ 9.000 € |
-| **Current paying clients** | 0 (client zero in test) |
-| **Blocking monetisation** | not registered to invoice — scope of that task still unconfirmed |
+| **Preço** | 3.000 € / ano |
+| **Clientes necessários para contar** | ~3 até ao fim do ano ≈ 9.000 € |
+| **Clientes pagantes atuais** | 0 (cliente zero em testes) |
+| **A bloquear a monetização** | sem registo para faturar — âmbito dessa tarefa ainda por confirmar |
 
-Three clients closes almost the whole 2026 invoicing target. The arithmetic is not the problem.
+Três clientes fecham quase todo o alvo de faturação de 2026. A aritmética não é o problema.
 
 ---
 
-## 🧱 Stack & architecture
+## 🧱 Stack & arquitetura
 
-- *(to fill — Claude Code is the dev tool for this)*
+- *(a preencher — o Claude Code é a ferramenta de dev para isto)*
 
-## 🧠 Decisions & gotchas
+## 🧠 Decisões & armadilhas
 
 ### 
 - 
@@ -91,7 +91,7 @@ Three clients closes almost the whole 2026 invoicing target. The arithmetic is n
 ## 📜 Changelog
 
 ### 2026-05
-- Project started from an idea
+- Projeto iniciado a partir de uma ideia
 
 ### 2026-08
-- Deployed at aquaos.pt, client zero testing
+- Em produção em aquaos.pt, cliente zero em testes

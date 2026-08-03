@@ -22,9 +22,9 @@ craft_hours: 0
 linkedin_connections: 0
 socialised: false
 
-# --- RECHARGE ---  (observing: log, don't score)
-recharge:            # what you did — social / her / solo / sleep
-enjoyed:             # 1-5 — could you actually be present?
+# --- RECHARGE ---  (em observação: registar, não pontuar)
+recharge:            # o que fizeste — convívio / ela / solo / sono
+enjoyed:             # 1-5 — conseguiste estar mesmo presente?
 sleep_time:
 mood: 0
 
@@ -33,81 +33,81 @@ tags: [daily]
 
 # {{date:dddd, D MMMM YYYY}}
 
-*Yesterday ← · → Tomorrow  (auto-links if you use the Periodic Notes plugin)*
+*Ontem ← · → Amanhã  (liga automaticamente se usares o plugin Periodic Notes)*
 
 ---
 
-## ☀️ Opening
+## ☀️ Abertura
 
-**Today's plan**
+**Plano de hoje**
 
-| Pillar | Target today | Note |
+| Pilar | Alvo hoje | Nota |
 |---|---|---|
-| Mind | 30 min Duolingo · 15 pages | |
-| Body | 5 meals · 3L water · training? | |
-| Craft | ___ h — on what? | |
-| People | connections · reach out to? | |
-| Recharge | when do I stop? with whom? | |
+| Mind | 30 min Duolingo · 15 páginas | |
+| Body | 5 refeições · 3L água · treino? | |
+| Craft | ___ h — em quê? | |
+| People | ligações · contactar quem? | |
+| Recharge | quando é que paro? com quem? | |
 
-**The one thing that must happen today:**
+**A única coisa que tem de acontecer hoje:**
 > 
 
-**Carried over from yesterday:**
+**Transitado de ontem:**
 - 
 
 ---
 
-## 📊 Actuals
+## 📊 Números reais
 
-> Fill the frontmatter numbers above. Not checkboxes — real amounts.
+> Preenche os números do frontmatter acima. Não checkboxes — quantidades reais.
 
-| | Target | Actual |
+| | Alvo | Real |
 |---|---|---|
 | Duolingo (min) | 30 | |
-| Pages read | 15 | |
-| Meals | 5 | |
-| Water (L) | 3 | |
+| Páginas lidas | 15 | |
+| Refeições | 5 | |
+| Água (L) | 3 | |
 | Craft (h) | ~2.5 | |
 | LinkedIn | 1–2 | |
 
 ---
 
-## 📝 Log
+## 📝 Registo
 
-> Running notes through the day.
+> Notas ao longo do dia.
 
 - 
 
 ---
 
-## 🌙 Closing — Journaling
+## 🌙 Fecho — Journaling
 
-**What actually got done:**
+**O que se fez de facto:**
 - 
 
-**What didn't, and why:**
+**O que não se fez, e porquê:**
 - 
 
-**Craft progress** — which project, what moved:
+**Progresso de Craft** — que projeto, o que se moveu:
 - 
 
-**Did I stop today?** — what did you do, and *could you actually enjoy it?*
+**Parei hoje?** — o que fizeste, e *conseguiste mesmo desfrutar?*
 
-> No hours target. The question is presence, not quantity. Guilty leisure counts as zero.
+> Sem alvo de horas. A pergunta é presença, não quantidade. Lazer com culpa conta como zero.
 
-- What:
-- Present? (1–5):
-- If guilty — what was the thought?
+- O quê:
+- Presente? (1–5):
+- Se houve culpa — qual foi o pensamento?
 
-**Mood (1–5):** 
+**Humor (1–5):** 
 
-**One line for future me:**
+**Uma linha para o eu do futuro:**
 > 
 
 ---
 
-## 📥 Capture
+## 📥 Captura
 
-> Anything to process later → [[00 - Inbox]]
+> Algo para processar mais tarde → [[00 - Inbox]]
 
 - 

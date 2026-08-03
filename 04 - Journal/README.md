@@ -4,20 +4,20 @@ tags: [journal]
 
 # 📅 Journal
 
-| Folder | Cadence | Template |
+| Pasta | Cadência | Template |
 |---|---|---|
-| `Daily/` | morning opening + night journaling | [[Daily Note]] |
-| `Weekly/` | Friday | [[Weekly Review]] |
-| `Monthly/` | month end | [[Monthly Review]] |
+| `Daily/` | abertura de manhã + journaling à noite | [[Daily Note]] |
+| `Weekly/` | sexta | [[Weekly Review]] |
+| `Monthly/` | fim do mês | [[Monthly Review]] |
 
-## Naming
+## Nomenclatura
 
-- Daily: `2026-08-03.md`
-- Weekly: `2026-W32.md`
-- Monthly: `2026-08.md`
+- Diário: `2026-08-03.md`
+- Semanal: `2026-W32.md`
+- Mensal: `2026-08.md`
 
-Consistent names matter — the Dataview rollups in [[Weekly Review]] and [[Monthly Review]] group on the `week` and `date` frontmatter fields.
+Nomes consistentes são importantes — os rollups do Dataview em [[Weekly Review]] e [[Monthly Review]] agrupam pelos campos de frontmatter `week` e `date`.
 
-## The point of this folder
+## O propósito desta pasta
 
-This is the counter that [[Body]], [[Craft]], [[People]] and [[Recharge]] don't currently have. Filling it in with real amounts is what makes the weekly and monthly reviews say anything true.
+Este é o contador que [[Body]], [[Craft]], [[People]] e [[Recharge]] não têm atualmente. Preenchê-lo com quantidades reais é o que faz as revisões semanais e mensais dizerem algo verdadeiro.

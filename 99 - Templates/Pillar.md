@@ -6,36 +6,36 @@ tags: [pillar]
 
 # {{pillar}}
 
-> What this pillar is for, in one line.
+> Para que serve este pilar, numa linha.
 
-## 🎯 Targets
+## 🎯 Alvos
 
-### Daily
-| Target | Amount |
+### Diário
+| Alvo | Quantidade |
 |---|---|
 
-### Weekly
-| Target | Amount |
+### Semanal
+| Alvo | Quantidade |
 |---|---|
 
 ### 2026
-| Target | Goal | Current |
+| Alvo | Meta | Atual |
 |---|---|---|
 
 ---
 
-## ⚙️ Mechanism
+## ⚙️ Mecanismo
 
-How does this actually get done? What is the trigger, and what is the counter?
+Como é que isto se faz de facto? Qual é o gatilho, e qual é o contador?
 
-- **Trigger:** (when/where — attached to what existing habit?)
-- **Counter:** (what records it, so it can't silently disappear)
-- **Known failure mode:**
+- **Gatilho:** (quando/onde — ligado a que hábito existente?)
+- **Contador:** (o que o regista, para não desaparecer em silêncio)
+- **Modo de falha conhecido:**
 
 ---
 
-## 📊 Current state
+## 📊 Estado atual
 
 - 
 
-## 🪞 Notes
+## 🪞 Notas

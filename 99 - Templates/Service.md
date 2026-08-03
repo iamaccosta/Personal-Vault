@@ -17,52 +17,52 @@ tags: [service]
 
 | | |
 |---|---|
-| **Client** | |
-| **Contact** | |
-| **Fee agreed** | |
-| **Started** | |
-| **Deadline** | |
-| **Status** | |
+| **Cliente** | |
+| **Contacto** | |
+| **Valor acordado** | |
+| **Início** | |
+| **Prazo** | |
+| **Estado** | |
 
-> Counts toward the 2026 goal of **5 services delivered**.
-
----
-
-## 📋 Scope — as agreed
-
-The source of truth when scope creep starts.
-
-- 
-- 
-
-**Explicitly NOT included:**
-- 
+> Conta para o objetivo de 2026 de **5 serviços entregues**.
 
 ---
 
-## 📦 Deliverables
+## 📋 Âmbito — como acordado
+
+A fonte de verdade quando começa o scope creep.
+
+- 
+- 
+
+**Explicitamente NÃO incluído:**
+- 
+
+---
+
+## 📦 Entregáveis
 
 - [ ] 
 - [ ] 
 
 ---
 
-## 🔨 Next actions
+## 🔨 Próximas ações
 
 - [ ] 
 
 ---
 
-## 📅 Log
+## 📅 Registo
 
 ### 
 - 
 
 ---
 
-## 💰 Billing
+## 💰 Faturação
 
-| Date | Description | Hours | Amount | Invoiced | Paid |
+| Data | Descrição | Horas | Valor | Faturado | Pago |
 |---|---|---|---|---|---|
 | | | | € | ☐ | ☐ |
 
@@ -70,10 +70,10 @@ The source of truth when scope creep starts.
 
 ---
 
-## 🪞 Retrospective
+## 🪞 Retrospetiva
 
-**What I'd charge next time:**
+**O que cobraria da próxima vez:**
 
-**What took longer than expected:**
+**O que demorou mais do que esperado:**
 
-**Reusable for other clients?**
+**Reutilizável para outros clientes?**

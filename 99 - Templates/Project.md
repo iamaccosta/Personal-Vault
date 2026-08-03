@@ -15,68 +15,68 @@ tags: [project]
 
 # {{title}}
 
-> One paragraph: what it does, who it's for, why it exists.
+> Um parágrafo: o que faz, para quem é, porque existe.
 
 | | |
 |---|---|
-| **Status** | |
-| **Live at** | |
+| **Estado** | |
+| **Online em** | |
 | **Repo** | |
-| **Started** | |
-| **Last worked on** | |
+| **Início** | |
+| **Último trabalho** | |
 
 ---
 
-## 🎯 Definition of "done enough"
+## 🎯 Definição de "suficientemente feito"
 
-What has to be true for this to stop consuming attention?
+O que tem de ser verdade para isto deixar de consumir atenção?
 
 - [ ] 
 - [ ] 
 
 ---
 
-## 🚧 Blockers
+## 🚧 Bloqueios
 
-> Distinguish **technical** from **administrative**. Admin blockers rot silently because they have no owner and no date — give every one a date.
+> Distingue **técnico** de **administrativo**. Os bloqueios admin apodrecem em silêncio porque não têm dono nem data — dá uma data a cada um.
 
-| Blocker | Type | Owner | Date | Status |
+| Bloqueio | Tipo | Responsável | Data | Estado |
 |---|---|---|---|---|
-| | tech / admin | me | | |
+| | tech / admin | eu | | |
 
 ---
 
-## 🔨 Next actions
+## 🔨 Próximas ações
 
-### Now
+### Agora
 - [ ] 
 
-### Next
+### A seguir
 - [ ] 
 
-### Someday
+### Um dia
 - [ ] 
 
 ---
 
-## 💰 Revenue
+## 💰 Receita
 
-If this is meant to make money, state the maths.
+Se isto é para dar dinheiro, apresenta as contas.
 
-- Price:
-- Clients needed to matter:
-- Current clients:
-- Blocking monetisation:
+- Preço:
+- Clientes necessários para contar:
+- Clientes atuais:
+- A bloquear a monetização:
 
 ---
 
-## 🧱 Stack & architecture
+## 🧱 Stack & arquitetura
 
 - 
 
-## 🧠 Decisions & gotchas
+## 🧠 Decisões & armadilhas
 
-> Why things are the way they are. Future you will not remember.
+> Porque é que as coisas são como são. O teu eu do futuro não se vai lembrar.
 
 ### 
 - 

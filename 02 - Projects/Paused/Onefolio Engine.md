@@ -12,31 +12,31 @@ tags: [project, idea]
 
 # Onefolio Engine
 
-> Platform for building one-page personal websites. Never left the idea stage.
+> Plataforma para construir sites pessoais de uma só página. Nunca saiu da fase de ideia.
 
 | | |
 |---|---|
-| **Status** | ⏸ paused — idea only |
+| **Estado** | ⏸ em pausa — só ideia |
 
 ---
 
-## Why it stopped
+## Porque parou
 
-Market saturated — the offering already exists in abundance, and the potential didn't justify the build.
+Mercado saturado — a oferta já existe em abundância, e o potencial não justificava a construção.
 
-This was a reasonable call, and it's recorded here so the decision doesn't get relitigated from scratch later.
-
----
-
-## What would change the decision
-
-- [ ] A specific differentiator that the existing tools don't cover
-- [ ] An actual buyer asking for it
-
-Until one of those appears, it stays here.
+Foi uma decisão razoável, e fica registada aqui para não ser reaberta do zero mais tarde.
 
 ---
 
-## 🧠 Notes
+## O que mudaria a decisão
 
-Overlaps conceptually with [[iamaccosta.dev]] — if the "replicate for others" path ever gets picked up, that's the same market, approached from a warmer angle (a real portfolio as proof).
+- [ ] Um diferenciador específico que as ferramentas existentes não cobrem
+- [ ] Um comprador real a pedi-lo
+
+Até um desses aparecer, fica aqui.
+
+---
+
+## 🧠 Notas
+
+Sobrepõe-se conceptualmente ao [[iamaccosta.dev]] — se o caminho de "replicar para outros" for alguma vez retomado, é o mesmo mercado, abordado de um ângulo mais quente (um portfólio real como prova).

@@ -17,48 +17,48 @@ tags: [book, reading]
 
 | | |
 |---|---|
-| **Status** | |
-| **Progress** | / pages |
-| **Started** | |
+| **Estado** | |
+| **Progresso** | / páginas |
+| **Início** | |
 
-> Goal is **not** to finish books. It is to change behaviour. Last year: 7 books read, but read *to prove a point*. This note exists to stop that.
+> O objetivo **não** é terminar livros. É mudar comportamento. No ano passado: 7 livros lidos, mas lidos *para provar um ponto*. Esta nota existe para travar isso.
 
 ---
 
-## ❓ Why I'm reading this
+## ❓ Porque estou a ler isto
 
-What question do I want answered?
+A que pergunta quero resposta?
 > 
 
 ---
 
-## 📌 Ideas worth keeping
+## 📌 Ideias que vale a pena guardar
 
-> Quote or paraphrase — then say what it means for *you*, specifically.
+> Cita ou parafraseia — depois diz o que significa para *ti*, especificamente.
 
 ### 
 > 
 
-**What this means for me:**
+**O que isto significa para mim:**
 
-**Do I actually agree?**
+**Concordo mesmo?**
 
 ---
 
-## ✅ Applied
+## ✅ Aplicado
 
-The only section that matters. What did I *do* differently because of this book?
+A única secção que importa. O que fiz de diferente por causa deste livro?
 
-| Idea | Action I took | Date | Worked? |
+| Ideia | Ação que tomei | Data | Funcionou? |
 |---|---|---|---|
 | | | | |
 
 ---
 
-## 🪞 After finishing
+## 🪞 Depois de terminar
 
-**One sentence summary:**
+**Resumo numa frase:**
 
-**The single thing I'm keeping:**
+**A única coisa que estou a guardar:**
 
-**Would I recommend it, and to whom:**
+**Recomendaria, e a quem:**

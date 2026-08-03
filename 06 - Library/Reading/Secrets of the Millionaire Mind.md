@@ -15,43 +15,43 @@ tags: [book, reading]
 
 | | |
 |---|---|
-| **Status** | 📖 reading — book 3 of 6 for [[2026]] |
+| **Estado** | 📖 a ler — livro 3 de 6 para [[2026]] |
 
-> Goal is **not** to finish. Last year: 7 books against a target of 4, but read *to prove a point* — *"não interagi com os livros como poderia ter interagido. Eu quero aprender e aplicar o que estes livros ensinam."*
+> O objetivo **não** é terminar. No ano passado: 7 livros contra um alvo de 4, mas lidos *para provar um ponto* — *"não interagi com os livros como poderia ter interagido. Eu quero aprender e aplicar o que estes livros ensinam."*
 >
-> This note exists so that doesn't repeat. **If the Applied table is empty, the book didn't count.**
+> Esta nota existe para que isso não se repita. **Se a tabela Aplicado estiver vazia, o livro não contou.**
 
 ---
 
-## ❓ Why I'm reading this
+## ❓ Porque estou a ler isto
 
 > 
 
-Worth being concrete here — there's a live financial goal in [[Capital]] (10.000 € invoiced, currently 200 €). If this book has anything to say about that, it should end up in Applied, not in the notes.
+Vale a pena ser concreto aqui — há um objetivo financeiro vivo em [[Capital]] (10.000 € faturados, atualmente 200 €). Se este livro tiver algo a dizer sobre isso, deve acabar em Aplicado, não nas notas.
 
 ---
 
-## 📌 Ideas worth keeping
+## 📌 Ideias que vale a pena guardar
 
 ### 
 > 
 
-**What this means for me:**
+**O que isto significa para mim:**
 
-**Do I actually agree?**
+**Concordo mesmo?**
 
 ---
 
-## ✅ Applied
+## ✅ Aplicado
 
-| Idea | Action I took | Date | Worked? |
+| Ideia | Ação que tomei | Data | Funcionou? |
 |---|---|---|---|
 | | | | |
 
 ---
 
-## 🪞 After finishing
+## 🪞 Depois de terminar
 
-**One sentence summary:**
+**Resumo numa frase:**
 
-**The single thing I'm keeping:**
+**A única coisa que estou a guardar:**

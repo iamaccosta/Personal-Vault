@@ -6,36 +6,36 @@ tags: [monthly, review]
 
 # {{date:MMMM YYYY}}
 
-## ⚠️ Monthly non-negotiables
+## ⚠️ Não negociáveis do mês
 
-- [ ] **Flowers for her** 🌹 — *dinners do NOT substitute flowers*
-- [ ] Review [[2026]] objectives — update Current State column
-- [ ] Process [[00 - Inbox]] to zero
+- [ ] **Flores para ela** 🌹 — *jantares NÃO substituem flores*
+- [ ] Rever os objetivos de [[2026]] — atualizar a coluna Estado Atual
+- [ ] Processar a [[00 - Inbox]] até zero
 
 ---
 
-## 📈 2026 objectives — progress this month
+## 📈 Objetivos 2026 — progresso este mês
 
-| Objective | Target | Was | Now | On track? |
+| Objetivo | Alvo | Antes | Agora | No caminho? |
 |---|---|---|---|---|
-| Invoiced (extra) | 10.000 € | | | |
-| Saved | 15.000 € | | | |
-| Services delivered | 5 | | | |
-| Courses / formações | 6 | | | |
-| Books read | 6 | | | |
-| LinkedIn connections | 4.000 | | | |
-| LinkedIn posts | 10 | | | |
-| Duolingo streak | 700 | | | |
-| Duolingo — A2 complete | — | | | |
-| Weight | 77 kg / 15% BF | | | |
-| Flowers | 12 | | | |
-| Work presence (INESC TEC) | 7 items | | | |
+| Faturado (extra) | 10.000 € | | | |
+| Poupado | 15.000 € | | | |
+| Serviços entregues | 5 | | | |
+| Cursos / formações | 6 | | | |
+| Livros lidos | 6 | | | |
+| Ligações no LinkedIn | 4.000 | | | |
+| Publicações no LinkedIn | 10 | | | |
+| Streak Duolingo | 700 | | | |
+| Duolingo — A2 completo | — | | | |
+| Peso | 77 kg / 15% MG | | | |
+| Flores | 12 | | | |
+| Presença no trabalho (INESC TEC) | 7 itens | | | |
 
 ---
 
-## 🏛 Pillar month in review
+## 🏛 O mês dos pilares em revisão
 
-| Pillar | Trend | Note |
+| Pilar | Tendência | Nota |
 |---|---|---|
 | [[Body]] | ↗ ↔ ↘ | |
 | [[Mind]] | | |
@@ -46,18 +46,18 @@ tags: [monthly, review]
 
 ---
 
-## 🧮 Month totals
+## 🧮 Totais do mês
 
 ```dataview
 TABLE WITHOUT ID
   sum(rows.duolingo_min) AS "Duo min",
-  sum(rows.pages_read) AS "Pages",
+  sum(rows.pages_read) AS "Págs",
   sum(rows.craft_hours) AS "Craft h",
   sum(rows.linkedin_connections) AS "LinkedIn",
-  length(filter(rows, (r) => r.trained)) AS "Trainings",
+  length(filter(rows, (r) => r.trained)) AS "Treinos",
   length(filter(rows, (r) => r.cardio)) AS "Cardio",
-  round(average(rows.mood), 1) AS "Avg mood",
-  round(average(rows.enjoyed), 1) AS "Avg present"
+  round(average(rows.mood), 1) AS "Humor médio",
+  round(average(rows.enjoyed), 1) AS "Presença média"
 FROM "04 - Journal/Daily"
 WHERE startswith(string(date), this.month)
 GROUP BY true
@@ -65,13 +65,13 @@ GROUP BY true
 
 ---
 
-## 🪞 Introspection
+## 🪞 Introspeção
 
-**What worked, and why it worked (the mechanism):**
+**O que funcionou, e porque funcionou (o mecanismo):**
 
-**What failed, and the mechanism that was missing:**
+**O que falhou, e o mecanismo que faltava:**
 
-**What I'm changing structurally next month** — not "try harder":
+**O que vou mudar estruturalmente no próximo mês** — não "esforçar-me mais":
 
-**Am I still on track for the 2026 main goal (moving in together)?**
+**Continuo no caminho para o objetivo principal de 2026 (ir viver juntos)?**
 > 

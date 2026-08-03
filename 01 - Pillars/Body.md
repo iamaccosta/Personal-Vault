@@ -6,53 +6,53 @@ tags: [pillar]
 
 # 🏋️ Body
 
-> Physical capacity and the body composition target. Currently the weakest pillar.
+> Capacidade física e o alvo de composição corporal. Atualmente o pilar mais fraco.
 
-## 🎯 Targets
+## 🎯 Alvos
 
-### Daily
-| Target | Amount |
+### Diário
+| Alvo | Quantidade |
 |---|---|
-| Meals | 5 |
-| Water | 3 L (creatine — hydration is not optional) |
+| Refeições | 5 |
+| Água | 3 L (creatina — a hidratação não é opcional) |
 
-### Weekly
-| Target | Amount |
+### Semanal
+| Alvo | Quantidade |
 |---|---|
-| Training sessions | 3 |
-| Cardio / run | 1 |
+| Sessões de treino | 3 |
+| Cardio / corrida | 1 |
 
 ### 2026
-| Target | Goal | Current |
+| Alvo | Meta | Atual |
 |---|---|---|
-| Weight | **77 kg (15% BF) by December** | — |
-| Training plans created | 4 varied plans | 1 |
-| Nutrition plan | defined & followed | ❌ none |
+| Peso | **77 kg (15% MG) até dezembro** | — |
+| Planos de treino criados | 4 planos variados | 1 |
+| Plano alimentar | definido e seguido | ❌ nenhum |
 
 ---
 
-## ⚙️ Mechanism
+## ⚙️ Mecanismo
 
-- **Trigger:** ❌ **undefined** — this is the root cause. Training has no fixed time slot.
-- **Counter:** frontmatter `trained`, `cardio`, `meals`, `water_l`, `weight_kg` in the daily note.
-- **Known failure mode:** *"a vontade de treinar anda a falhar"*. Willpower is being asked to do the job a schedule should do. Duolingo survives 555 days because it happens at breakfast, not because it's more wanted.
+- **Gatilho:** ❌ **indefinido** — esta é a causa raiz. O treino não tem horário fixo.
+- **Contador:** frontmatter `trained`, `cardio`, `meals`, `water_l`, `weight_kg` na nota diária.
+- **Modo de falha conhecido:** *"a vontade de treinar anda a falhar"*. Está-se a pedir à força de vontade para fazer o trabalho que um horário devia fazer. O Duolingo sobrevive 555 dias porque acontece ao pequeno-almoço, não por ser mais desejado.
 
 ---
 
-## 📊 Current state (Aug 2026)
+## 📊 Estado atual (ago 2026)
 
-Own assessment from the 2026 sheet, dated 26 July:
+Avaliação própria a partir da folha de 2026, datada de 26 de julho:
 
 > *"Estamos no dia 26 de Julho e eu não estipulei metas de peso nem até Maio, nem até Julho. Não segui o ginásio e um plano alimentar. Estou a falhar com este objetivo."*
 
-Once the current weight is known, the rate needed to reach 77 kg over 150 days tells you whether the target is still realistic or needs revising. Better to move the number than to spend five months failing against one that was never achievable.
+Assim que o peso atual for conhecido, o ritmo necessário para chegar a 77 kg em 150 dias diz se o alvo ainda é realista ou precisa de ser revisto. Melhor mexer no número do que passar cinco meses a falhar contra um que nunca foi atingível.
 
-The May and July checkpoints are gone — that's settled, not worth relitigating. **One target remains: 77 kg by December, 150 days out.**
+Os checkpoints de maio e julho já foram — isso está encerrado, não vale a pena reabrir. **Fica um alvo: 77 kg até dezembro, a 150 dias.**
 
-- [ ] **Log current weight** — the target is unmeasurable until there's a starting number. This is the single blocker on this pillar.
-- [ ] **Write the nutrition plan** — existed in 2025 and worked. Absent in 2026 by own admission ("por preguiça"). This is a solved problem that was dropped, not a new one.
-- [ ] **Fix the training days** — which days, what time. Not "3x per week" floating.
+- [ ] **Registar o peso atual** — o alvo é imensurável sem um número de partida. Este é o único bloqueio deste pilar.
+- [ ] **Escrever o plano alimentar** — existia em 2025 e funcionava. Ausente em 2026 por admissão própria ("por preguiça"). É um problema resolvido que foi abandonado, não um novo.
+- [ ] **Fixar os dias de treino** — que dias, a que hora. Não "3x por semana" a flutuar.
 
-## 🪞 Notes
+## 🪞 Notas
 
-The 2025 version of this worked and the plan is the known difference. This is not a new problem to solve, it is a solved problem that was dropped.
+A versão de 2025 disto funcionava e o plano é a diferença conhecida. Não é um problema novo para resolver, é um problema resolvido que foi abandonado.

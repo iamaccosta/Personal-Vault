@@ -2,9 +2,9 @@
 tags: [courses]
 ---
 
-# 🎓 Courses & Formações
+# 🎓 Cursos & Formações
 
-> Target: **6** in [[2026]] — 3 at INESC TEC + 3 personal. Current: **1**.
+> Alvo: **6** em [[2026]] — 3 no INESC TEC + 3 pessoais. Atual: **1**.
 
 ```dataview
 TABLE provider, context, status, completed
@@ -13,12 +13,12 @@ WHERE type = "course"
 SORT status ASC
 ```
 
-## Purpose
+## Propósito
 
-Knowledge, practice, and enough confidence to take on service work. Each course note has an **Applied** section — a course with no output is entertainment.
+Conhecimento, prática e confiança suficiente para assumir trabalho de serviços. Cada nota de curso tem uma secção **Aplicado** — um curso sem output é entretenimento.
 
-## Related
+## Relacionado
 
-German: **B1 certified** from a formal course. Maintenance now runs through Duolingo → [[Mind]].
+Alemão: **certificado B1** por um curso formal. A manutenção corre agora pelo Duolingo → [[Mind]].
 
-New course → copy [[Course]] from `99 - Templates`.
+Novo curso → copiar [[Course]] de `99 - Templates`.

@@ -1,54 +1,54 @@
 ---
-description: Open the day — read state, give direction
+description: Abrir o dia — ler o estado, dar direção
 allowed-tools: Read, Glob, Grep, Bash(date:*), Bash(git log:*)
 ---
 
-# Open the day
+# Abrir o dia
 
-The user is starting a work session. Give him direction, not a report.
+O utilizador está a começar uma sessão de trabalho. Dá-lhe direção, não um relatório.
 
-## 1. Establish the date
+## 1. Estabelecer a data
 
-Run `date +%Y-%m-%d` and `date +%A`. Compute days remaining in the year — do not reuse a number from the vault.
+Corre `date +%Y-%m-%d` e `date +%A`. Calcula os dias restantes no ano — não reutilizes um número do vault.
 
-## 2. Read state
+## 2. Ler o estado
 
-- `05 - Goals/2026.md` — year targets and current numbers
-- `05 - Goals/Routines.md` — daily/weekly targets
-- Today's note in `04 - Journal/Daily/YYYY-MM-DD.md` if it exists
-- The **last 5 daily notes** — this is what tells you what's actually happening, versus what's aspirational
-- Any pillar note relevant to what's lagging
+- `05 - Goals/2026.md` — alvos do ano e números atuais
+- `05 - Goals/Routines.md` — alvos diários/semanais
+- A nota de hoje em `04 - Journal/Daily/YYYY-MM-DD.md` se existir
+- As **últimas 5 notas diárias** — é isto que te diz o que está de facto a acontecer, versus o que é aspiracional
+- Qualquer nota de pilar relevante para o que está atrasado
 
-## 3. Ask him two things
+## 3. Pergunta-lhe duas coisas
 
-Keep it to two. Don't interrogate.
+Limita a duas. Não interrogues.
 
-1. **What have you already done today?**
-2. **How much time do you have, and for what?**
+1. **O que já fizeste hoje?**
+2. **Quanto tempo tens, e para quê?**
 
-If he already answered these in his message, skip the questions and go straight to direction.
+Se ele já respondeu a isto na mensagem, salta as perguntas e vai direto à direção.
 
-## 4. Give direction
+## 4. Dar direção
 
-Output in this shape, and keep it short:
+Output nesta forma, e mantém-no curto:
 
-**Where you are** — 2–4 lines. Only what's decision-relevant today. Not a full status dump.
+**Onde estás** — 2–4 linhas. Só o que é relevante para a decisão de hoje. Não um dump de estado completo.
 
-**Today, in order** — a short ordered list. Each item tied to a real time cost:
+**Hoje, por ordem** — uma lista ordenada curta. Cada item ligado a um custo de tempo real:
 
-- `15 min` — reading, 15 pages (4 days without it now)
-- `~2 h` — AquaOS: close out client zero's feedback
-- `5 min` — log your weight, Body is blocked on it
+- `15 min` — leitura, 15 páginas (4 dias sem ela agora)
+- `~2 h` — AquaOS: fechar o feedback do cliente zero
+- `5 min` — registar o peso, o Body está bloqueado nisso
 
-**One thing that matters most today** — a single line.
+**A única coisa que mais importa hoje** — uma única linha.
 
-**If you only have 15 minutes** — the highest-value small action available.
+**Se só tiveres 15 minutos** — a pequena ação de maior valor disponível.
 
-## Rules
+## Regras
 
-- Sequence by leverage, not by what's easiest to tick off.
-- If a blocker has been sitting untouched, put it first — but say it **once**, without re-arguing it.
-- Do not list all six pillars. Mention what's decision-relevant now.
-- No preamble. No "here's your daily briefing". Start with the substance.
-- If he's about to start a long Craft session and something small and blocking is outstanding, say so before he opens the editor — that's the moment it's cheap to fix.
-- Read `CLAUDE.md` for tone and hard rules. Especially: **Recharge gets no hour targets**, and never advise on rate of weight loss.
+- Sequencia por alavancagem, não pelo que é mais fácil de riscar.
+- Se um bloqueio tem estado por tocar, põe-no primeiro — mas di-lo **uma vez**, sem o reargumentar.
+- Não listes os seis pilares. Menciona o que é relevante para a decisão agora.
+- Sem preâmbulo. Sem "aqui está o teu briefing diário". Começa pela substância.
+- Se ele está prestes a começar uma sessão longa de Craft e algo pequeno e bloqueante está por resolver, di-lo antes de ele abrir o editor — é o momento em que é barato de resolver.
+- Lê o `CLAUDE.md` para tom e regras rígidas. Em especial: **o Recharge não leva alvos de horas**, e nunca aconselhes sobre o ritmo de perda de peso.

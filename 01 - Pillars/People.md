@@ -6,55 +6,55 @@ tags: [pillar]
 
 # 🤝 People
 
-> Her, the professional network, and friends. The pillar that was almost entirely absent from the original objectives.
+> Ela, a rede profissional e os amigos. O pilar que estava quase totalmente ausente dos objetivos originais.
 
-## 🎯 Targets
+## 🎯 Alvos
 
-### Daily
-| Target | Amount |
+### Diário
+| Alvo | Quantidade |
 |---|---|
-| New LinkedIn connections | 10 |
+| Novas ligações no LinkedIn | 10 |
 
-### Monthly
-| Target | Amount |
+### Mensal
+| Alvo | Quantidade |
 |---|---|
-| 🌹 **Flowers for her** | 1 — *dinners do NOT substitute flowers* |
+| 🌹 **Flores para ela** | 1 — *jantares NÃO substituem flores* |
 
 ### 2026
-| Target | Goal | Current |
+| Alvo | Meta | Atual |
 |---|---|---|
-| Flowers given | 12 | 2 |
-| LinkedIn connections | 4.000 | 3.323 |
-| LinkedIn posts | 10–12 | 2 |
+| Flores dadas | 12 | 2 |
+| Ligações no LinkedIn | 4.000 | 3.323 |
+| Publicações no LinkedIn | 10–12 | 2 |
 
 ---
 
-## ⚙️ Mechanism
+## ⚙️ Mecanismo
 
-- **Trigger:** LinkedIn — undefined. Flowers — monthly, no reminder, which is exactly why it's failing.
-- **Counter:** `linkedin_connections`, `socialised` daily; flowers checkbox in the monthly review.
-- **Known failure mode:** the two human targets have no trigger while the metric-shaped one (connections) at least has a number. Relationship items lose silently because nothing complains when they're skipped.
+- **Gatilho:** LinkedIn — indefinido. Flores — mensal, sem lembrete, que é exatamente porque está a falhar.
+- **Contador:** `linkedin_connections`, `socialised` diariamente; checkbox das flores na revisão mensal.
+- **Modo de falha conhecido:** os dois alvos humanos não têm gatilho, enquanto o alvo com forma de métrica (ligações) tem pelo menos um número. Os itens de relação perdem-se em silêncio porque nada se queixa quando são saltados.
 
 ---
 
-## 📊 Current state (Aug 2026)
+## 📊 Estado atual (ago 2026)
 
-**Flowers: 2 of 12.** Own comment from the sheet, 26 July:
+**Flores: 2 de 12.** Comentário próprio da folha, 26 de julho:
 
 > *"Estamos no dia 26 de Julho e eu só dei 2 vezes flores ao meu amor, sendo que uma delas foi de LEGO. Estou a falhar com este objetivo... Tenho de me esforçar mais nos próximos meses. Jantares NÃO SUBSTITUI as Flores. Estes pequenos gestos são importantes!"*
 
-**LinkedIn:** 3.323 → 4.000 needs **677 more** with 150 days left = **4,5/day** to break even. At the stated 10/day the target is hit around **mid-October** and finishes near 4.800.
+**LinkedIn:** 3.323 → 4.000 precisa de **mais 677** com 150 dias restantes = **4,5/dia** para atingir a meta. Ao ritmo declarado de 10/dia o alvo é atingido por volta de **meados de outubro** e termina perto de 4.800.
 
-This is the one target in the vault where the rate comfortably beats the goal. Worth asking whether 4.000 is still the right ceiling, or whether the real objective was always the 10–12 posts — because *connections* is the vanity half and *posts* is the half that generates the prospecting you described.
+Este é o único alvo do vault onde o ritmo bate confortavelmente a meta. Vale a pena perguntar se 4.000 ainda é o teto certo, ou se o verdadeiro objetivo foram sempre as 10–12 publicações — porque as *ligações* são a metade de vaidade e as *publicações* são a metade que gera a prospeção que descreveste.
 
-**Posts:** 2 of 10–12. Behind.
+**Publicações:** 2 de 10–12. Atrasado.
 
-**Friends:** ❌ nothing tracked, no target, never appeared in the 2026 sheet.
+**Amigos:** ❌ nada monitorizado, sem alvo, nunca apareceu na folha de 2026.
 
-- [ ] Set a minimum social frequency — this pillar can't be protected without a number
-- [ ] Reconcile 4.000 connections with 10/week, or raise the weekly rate
-- [ ] Put flowers on a recurring monthly reminder, not memory
+- [ ] Definir uma frequência social mínima — este pilar não se protege sem um número
+- [ ] Reconciliar 4.000 ligações com 10/semana, ou subir o ritmo semanal
+- [ ] Pôr as flores num lembrete mensal recorrente, não na memória
 
-## 🪞 Notes
+## 🪞 Notas
 
-She is the reason the [[Capital]] targets exist. Worth noticing that the pillar containing her is the least instrumented one in the system.
+Ela é a razão de os alvos de [[Capital]] existirem. Vale a pena notar que o pilar que a contém é o menos instrumentado do sistema.

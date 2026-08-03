@@ -7,63 +7,63 @@ tags: [pillar]
 
 # 🔋 Recharge
 
-> Social, leisure and sleep. Named *Recharge* deliberately: this is **input**, not the absence of progress.
+> Convívio, lazer e sono. Chamado *Recharge* deliberadamente: isto é **input**, não a ausência de progresso.
 >
-> **Status: observing.** No targets yet — by design. We build this one from data.
+> **Estado: em observação.** Ainda sem alvos — por design. Este constrói-se a partir de dados.
 
-## What counts
+## O que conta
 
 | | |
 |---|---|
-| 🍻 **Social with friends** | going out, a drink, dinner, cinema |
-| 💛 **Time with her** | dates, cinema, time together that isn't logistics |
-| 🎮 **Solo leisure** | gaming, series — alone, without guilt |
-| 😴 **Sleep & physical rest** | bedtime, enough hours |
+| 🍻 **Convívio com amigos** | sair, um copo, jantar, cinema |
+| 💛 **Tempo com ela** | encontros, cinema, tempo juntos que não seja logística |
+| 🎮 **Lazer a solo** | jogos, séries — sozinho, sem culpa |
+| 😴 **Sono e descanso físico** | hora de deitar, horas suficientes |
 
 ---
 
-## ⚙️ Mechanism
+## ⚙️ Mecanismo
 
-- **Trigger:** none yet.
-- **Counter:** free-text log in the daily note + `recharge` and `enjoyed` fields. **No hours target.**
-- **Known failure mode:** ⚠️ **guilt, not absence.**
+- **Gatilho:** ainda nenhum.
+- **Contador:** registo em texto livre na nota diária + campos `recharge` e `enjoyed`. **Sem alvo de horas.**
+- **Modo de falha conhecido:** ⚠️ **culpa, não ausência.**
 
 > *"já houve fases que eu nem descansava e o que provocou foi que quando eu descansava, ou fazia uma atividade de lazer (como jogar computador) sentia-me culpado e não conseguia desfrutar."*
 
-This is why there is no hours target. A quantified leisure goal becomes one more number to fail, and for an overthinker that feeds the exact guilt it was meant to cure. Leisure would become work.
+É por isto que não há alvo de horas. Uma meta de lazer quantificada torna-se mais um número para falhar, e para um overthinker isso alimenta exatamente a culpa que devia curar. O lazer tornar-se-ia trabalho.
 
-**The metric is therefore not how much, but whether you were actually there.** Two hours of gaming spent feeling guilty counts as zero. One hour genuinely absent from your own head counts fully.
+**A métrica não é portanto quanto, mas se estiveste de facto presente.** Duas horas de jogos passadas a sentir culpa contam como zero. Uma hora genuinamente ausente da própria cabeça conta por inteiro.
 
 ---
 
-## 🧠 The overthinking link
+## 🧠 A ligação ao overthinking
 
 > *"Eu sou overthinker e acabo por pensar muito e fazer pouco."*
 
-Worth recording that this shows up in two places that look unrelated:
+Vale a pena registar que isto aparece em dois sítios que parecem não relacionados:
 
-| Symptom | Where it appears |
+| Sintoma | Onde aparece |
 |---|---|
-| Thinking instead of doing | **entity not registered** — months old, no date → [[Capital]] |
-| Thinking instead of resting | guilt during leisure — can't be present → here |
+| Pensar em vez de fazer | **entidade não aberta** — com meses, sem data → [[Capital]] |
+| Pensar em vez de descansar | culpa durante o lazer — não conseguir estar presente → aqui |
 
-Same mechanism, two pillars. Analysis substituting for action in one case, for presence in the other. This pillar isn't a reward for finishing the others — it's treatment for the thing that slows them down.
+Mesmo mecanismo, dois pilares. Análise a substituir a ação num caso, a presença no outro. Este pilar não é uma recompensa por terminar os outros — é o tratamento para aquilo que os atrasa.
 
 ---
 
-## 📊 Observation phase
+## 📊 Fase de observação
 
-For the next few weeks: **log, don't score.** In the daily note, record what you did and whether you could actually enjoy it. Nothing else.
+Nas próximas semanas: **regista, não pontues.** Na nota diária, regista o que fizeste e se conseguiste de facto desfrutar. Nada mais.
 
-After ~3–4 weeks of real entries there'll be enough to answer:
+Após ~3–4 semanas de entradas reais haverá o suficiente para responder:
 
-- [ ] What actually recharges you, versus what you *think* should?
-- [ ] Is the problem frequency, or presence? (current hypothesis: presence)
-- [ ] Does guilt track with anything — Craft hours that day, an unfinished task, day of the week?
-- [ ] Does `mood` in the daily note move with recharge, or with output?
+- [ ] O que te recarrega de facto, versus o que *pensas* que devia?
+- [ ] O problema é a frequência ou a presença? (hipótese atual: presença)
+- [ ] A culpa acompanha alguma coisa — horas de Craft nesse dia, uma tarefa por acabar, o dia da semana?
+- [ ] O `mood` na nota diária move-se com o recharge, ou com o output?
 
-Only then does this pillar get targets — and they'll be built from what the data says, not from what a productivity system assumes.
+Só então este pilar ganha alvos — e serão construídos a partir do que os dados dizem, não do que um sistema de produtividade assume.
 
-## 🪞 Notes
+## 🪞 Notas
 
-`mood` is the early-warning signal for the whole vault. If mood falls while `craft_hours` rises, the system is optimising a machine rather than a life, and something here needs to change.
+O `mood` é o sinal de alerta precoce de todo o vault. Se o humor cai enquanto as `craft_hours` sobem, o sistema está a otimizar uma máquina em vez de uma vida, e algo aqui precisa de mudar.

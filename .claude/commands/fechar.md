@@ -1,58 +1,58 @@
 ---
-description: Close the day — write the daily note, commit and push
+description: Fechar o dia — escrever a nota diária, commit e push
 allowed-tools: Read, Write, Edit, Glob, Grep, Bash(date:*), Bash(git:*)
 ---
 
-# Close the day
+# Fechar o dia
 
-Write today's journal entry from what he tells you, then commit and push.
+Escreve a entrada de journal de hoje a partir do que ele te disser, depois faz commit e push.
 
-## 1. Date and existing note
+## 1. Data e nota existente
 
-Run `date +%Y-%m-%d`. Target file: `04 - Journal/Daily/YYYY-MM-DD.md`.
+Corre `date +%Y-%m-%d`. Ficheiro alvo: `04 - Journal/Daily/YYYY-MM-DD.md`.
 
-If it exists, edit it. If not, create it from `99 - Templates/Daily Note.md`.
+Se existir, edita-o. Se não, cria-o a partir de `99 - Templates/Daily Note.md`.
 
-## 2. Collect the numbers
+## 2. Recolher os números
 
-He'll tell you what got done. Convert it into the frontmatter fields — **real amounts, not checkboxes**:
+Ele vai dizer-te o que ficou feito. Converte-o nos campos do frontmatter — **quantidades reais, não checkboxes**:
 
-| Field | Notes |
+| Campo | Notas |
 |---|---|
-| `duolingo_min`, `duolingo_lessons`, `duolingo_level` | minutes and level, never the streak |
+| `duolingo_min`, `duolingo_lessons`, `duolingo_level` | minutos e nível, nunca a streak |
 | `pages_read` | |
 | `meals`, `water_l`, `trained`, `cardio`, `weight_kg` | |
-| `craft_hours` | plus **which project** and **what moved** — hours alone are meaningless |
+| `craft_hours` | mais **que projeto** e **o que se moveu** — só horas não significam nada |
 | `linkedin_connections` | |
-| `recharge`, `enjoyed` | what he did + could he be present (1–5) |
+| `recharge`, `enjoyed` | o que fez + conseguiu estar presente (1–5) |
 | `sleep_time`, `mood` | |
 
-If he doesn't mention something, **ask once** — then leave it blank rather than guessing. A blank is honest; an invented number corrupts the weekly rollup.
+Se ele não mencionar algo, **pergunta uma vez** — depois deixa em branco em vez de adivinhar. Um branco é honesto; um número inventado corrompe o rollup semanal.
 
-## 3. Write the note
+## 3. Escrever a nota
 
-Fill the Closing section:
+Preenche a secção Fecho:
 
-- What actually got done
-- What didn't, and why
-- Craft progress — which project, what moved
-- Did he stop today, and could he enjoy it
-- Mood
-- One line for future me
+- O que se fez de facto
+- O que não se fez, e porquê
+- Progresso de Craft — que projeto, o que se moveu
+- Parou hoje, e conseguiu desfrutar
+- Humor
+- Uma linha para o eu do futuro
 
-## 4. Say one useful thing
+## 4. Dizer uma coisa útil
 
-Not a summary — he was there. Pick **one**:
+Não um resumo — ele esteve lá. Escolhe **uma**:
 
-- A pattern across the last few days he might not have noticed
-- A number that just crossed a line worth knowing
-- A target whose arithmetic no longer works and needs a decision
+- Um padrão dos últimos dias que ele possa não ter notado
+- Um número que acabou de cruzar uma linha que vale a pena saber
+- Um alvo cuja aritmética já não funciona e precisa de uma decisão
 
-If reading (or anything) has been missing for several days, name it as a **trigger problem, not a discipline problem** — and only once.
+Se a leitura (ou outra coisa) tem faltado há vários dias, nomeia-o como um **problema de gatilho, não de disciplina** — e só uma vez.
 
-If `craft_hours` is high and `mood` or `enjoyed` is low, say that. That combination is the early warning that the system is optimising output at the cost of everything else.
+Se `craft_hours` está alto e `mood` ou `enjoyed` está baixo, di-lo. Essa combinação é o alerta precoce de que o sistema está a otimizar o output à custa de tudo o resto.
 
-## 5. Commit and push
+## 5. Commit e push
 
 ```
 git add -A
@@ -60,11 +60,11 @@ git commit -m "journal: YYYY-MM-DD"
 git push
 ```
 
-If the push fails, report the error plainly. Do not retry with force.
+Se o push falhar, reporta o erro com clareza. Não tentes de novo com force.
 
-## Rules
+## Regras
 
-- Never invent a number to fill a field.
-- No praise inflation. If it was a thin day, the note says so.
-- Don't propose hour targets for Recharge.
-- Read `CLAUDE.md` for tone.
+- Nunca inventes um número para preencher um campo.
+- Sem inflação de elogios. Se foi um dia fraco, a nota di-lo.
+- Não proponhas alvos de horas para o Recharge.
+- Lê o `CLAUDE.md` para o tom.

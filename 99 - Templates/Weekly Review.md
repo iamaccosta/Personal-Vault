@@ -5,37 +5,37 @@ start: "{{date:YYYY-MM-DD}}"
 tags: [weekly, review]
 ---
 
-# Week {{date:gggg-[W]ww}}
+# Semana {{date:gggg-[W]ww}}
 
-## 🎯 Weekly targets vs actual
+## 🎯 Alvos semanais vs real
 
-| Target | Goal | Actual | Hit? |
+| Alvo | Meta | Real | Cumprido? |
 |---|---|---|---|
-| Duolingo — 30 min/day | 210 min | | |
-| LinkedIn new connections/day | 70 | | |
-| Duolingo — level progress | +1 level | | |
-| Reading — 15 pages/day | 105 pages | | |
-| Training sessions | 3 | | |
-| Cardio / run | 1 | | |
-| Meals — 5/day | 35 | | |
-| Water — 3L/day | 21 L | | |
-| Craft / productivity hours | 15 | | |
-| Recharge (observing — no target) | log only | | |
+| Duolingo — 30 min/dia | 210 min | | |
+| Novas ligações LinkedIn/dia | 70 | | |
+| Duolingo — progresso de nível | +1 nível | | |
+| Leitura — 15 páginas/dia | 105 páginas | | |
+| Sessões de treino | 3 | | |
+| Cardio / corrida | 1 | | |
+| Refeições — 5/dia | 35 | | |
+| Água — 3L/dia | 21 L | | |
+| Horas de Craft / produtividade | 15 | | |
+| Recharge (em observação — sem alvo) | só registar | | |
 
-> Auto-rollup (requires Dataview):
+> Rollup automático (requer Dataview):
 
 ```dataview
 TABLE WITHOUT ID
-  file.link AS Day,
+  file.link AS Dia,
   duolingo_min AS "Duo",
-  pages_read AS "Pages",
-  meals AS "Meals",
-  water_l AS "Water",
+  pages_read AS "Págs",
+  meals AS "Refeições",
+  water_l AS "Água",
   craft_hours AS "Craft h",
   linkedin_connections AS "LI",
-  choice(trained, "✅", "—") AS "Gym",
+  choice(trained, "✅", "—") AS "Ginásio",
   choice(cardio, "✅", "—") AS "Cardio",
-  enjoyed AS "Present"
+  enjoyed AS "Presente"
 FROM "04 - Journal/Daily"
 WHERE week = this.week
 SORT date ASC
@@ -43,11 +43,11 @@ SORT date ASC
 
 ---
 
-## 🏛 Pillar scan
+## 🏛 Varrimento dos pilares
 
-Rate 1–5. Not "did I feel good" — did it move.
+Avalia 1–5. Não "senti-me bem" — mexeu-se?
 
-| Pillar | Score | What moved | What stalled |
+| Pilar | Pontuação | O que se moveu | O que ficou parado |
 |---|---|---|---|
 | [[Body]] | | | |
 | [[Mind]] | | | |
@@ -58,54 +58,54 @@ Rate 1–5. Not "did I feel good" — did it move.
 
 ---
 
-## 🔨 Craft — project status
+## 🔨 Craft — estado dos projetos
 
-| Project | Status | Moved this week? | Next action |
+| Projeto | Estado | Mexeu esta semana? | Próxima ação |
 |---|---|---|---|
-| [[AquaOS]] | active | | |
-| [[iamaccosta.dev]] | stable | | |
-| Services | | | |
+| [[AquaOS]] | ativo | | |
+| [[iamaccosta.dev]] | estável | | |
+| Serviços | | | |
 
 ---
 
-## 💼 Work (INESC TEC)
+## 💼 Trabalho (INESC TEC)
 
-> Tracked in the work vault — log headlines here so the 2026 objectives stay visible.
+> Monitorizado no vault de trabalho — regista os destaques aqui para os objetivos de 2026 se manterem visíveis.
 
-- Conferences / workshops / CSIs / demos progress:
+- Progresso de conferências / workshops / CSIs / demos:
 - Formações:
 
 ---
 
 ## 💰 Capital
 
-Capital is a **lagging indicator** — it moves only when Craft ships. No weekly quota; log reality.
+O Capital é um **indicador atrasado** — só se move quando o Craft entrega. Sem quota semanal; regista a realidade.
 
-- Invoiced this week: €
-- Saved this week: €
-- Blockers moved? (e.g. **entidade aberta**):
+- Faturado esta semana: €
+- Poupado esta semana: €
+- Bloqueios que se moveram? (ex: **entidade aberta**):
 
 ---
 
-## 🔋 Recharge — observation log
+## 🔋 Recharge — registo de observação
 
-No score. Just what happened and whether you were present.
+Sem pontuação. Apenas o que aconteceu e se estiveste presente.
 
-| Day | What | Present (1–5) | Guilt thought, if any |
+| Dia | O quê | Presente (1–5) | Pensamento de culpa, se houve |
 |---|---|---|---|
 | | | | |
 
-**Pattern noticed this week:**
+**Padrão notado esta semana:**
 
 ---
 
-## 🪞 Review
+## 🪞 Revisão
 
-**Biggest win:**
+**Maior vitória:**
 
-**Biggest miss — and the mechanical cause (not "no motivation"):**
+**Maior falha — e a causa mecânica (não "sem motivação"):**
 
-**What I'm carrying into next week:**
+**O que levo para a próxima semana:**
 
-**Next week — the one thing:**
+**Próxima semana — a única coisa:**
 > 

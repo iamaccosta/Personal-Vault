@@ -16,31 +16,31 @@ tags: [course]
 | | |
 |---|---|
 | **Provider** | |
-| **Context** | |
-| **Status** | |
-| **Certificate** | |
+| **Contexto** | |
+| **Estado** | |
+| **Certificado** | |
 
-> Counts toward the 2026 goal of **6 courses/formações** (3 at INESC TEC + 3 personal).
+> Conta para o objetivo de 2026 de **6 cursos/formações** (3 no INESC TEC + 3 pessoais).
 
 ---
 
-## 🎯 Why this course
+## 🎯 Porquê este curso
 
-What can I do afterwards that I can't do now? Tie it to a project or a service I want to sell.
+O que consigo fazer depois que não consigo fazer agora? Liga-o a um projeto ou a um serviço que queiras vender.
 > 
 
 ---
 
-## 📚 Notes
+## 📚 Notas
 
 - 
 
 ---
 
-## ✅ Applied
+## ✅ Aplicado
 
-Where did I use this? A course with no output is entertainment.
+Onde é que usei isto? Um curso sem output é entretenimento.
 
-| Skill | Used in | Date |
+| Competência | Usada em | Data |
 |---|---|---|
 | | | |

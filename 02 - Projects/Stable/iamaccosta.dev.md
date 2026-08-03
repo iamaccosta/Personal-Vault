@@ -8,61 +8,61 @@ stack: []
 repo:
 url: https://iamaccosta.dev
 monetisable: true
-revenue_model: replicable builds for other people
+revenue_model: construções replicáveis para outras pessoas
 tags: [project, webpage]
 ---
 
 # iamaccosta.dev
 
-> My personal web page. Main project of 2026 — built, published, stable.
+> A minha página web pessoal. Projeto principal de 2026 — construído, publicado, estável.
 
 | | |
 |---|---|
-| **Status** | 🔵 stable — nothing pending |
-| **Live at** | iamaccosta.dev |
+| **Estado** | 🔵 estável — nada pendente |
+| **Online em** | iamaccosta.dev |
 
-✅ Completes the **Web Page** objective in [[2026]].
-
----
-
-## 🎯 Definition of "done enough"
-
-✅ Reached. Built and published.
-
-The second half of the original intent is still open:
-
-- [ ] Replicate the build for other people, at low cost, as a source of extra income
-
-That converts this from a finished project into a [[Capital]] contributor. Currently it is neither active nor earning.
+✅ Completa o objetivo **Página Web** em [[2026]].
 
 ---
 
-## 🚧 Blockers
+## 🎯 Definição de "suficientemente feito"
 
-None. Deliberately idle.
+✅ Atingido. Construído e publicado.
 
----
+A segunda metade da intenção original continua em aberto:
 
-## 🔨 Next actions
+- [ ] Replicar a construção para outras pessoas, a baixo custo, como fonte de rendimento extra
 
-### Someday
-- [ ] Package the build so it can be resold as a service → would count toward the 5 services target
-
----
-
-## 💰 Revenue
-
-- Price: — not defined
-- Current clients: 0
-- Note: the stated purpose was *"desenvolver de forma a conseguir replicar o trabalho para outros"*. That step hasn't happened.
+Isso converte-o de projeto terminado num contribuinte para [[Capital]]. Atualmente não está nem ativo nem a gerar receita.
 
 ---
 
-## 🧱 Stack & architecture
+## 🚧 Bloqueios
 
-- *(to fill)*
+Nenhum. Deliberadamente parado.
+
+---
+
+## 🔨 Próximas ações
+
+### Um dia
+- [ ] Empacotar a construção para poder ser revendida como serviço → contaria para o alvo de 5 serviços
+
+---
+
+## 💰 Receita
+
+- Preço: — não definido
+- Clientes atuais: 0
+- Nota: o propósito declarado era *"desenvolver de forma a conseguir replicar o trabalho para outros"*. Esse passo não aconteceu.
+
+---
+
+## 🧱 Stack & arquitetura
+
+- *(a preencher)*
 
 ## 📜 Changelog
 
 ### 2026
-- Built and published
+- Construído e publicado

@@ -6,32 +6,32 @@ tags: [pillar]
 
 # 🔨 Craft
 
-> Personal projects and paid services. The engine that drives [[Capital]] — nothing gets invoiced that isn't built here first.
+> Projetos pessoais e serviços pagos. O motor que move o [[Capital]] — nada é faturado sem primeiro ser construído aqui.
 
-## 🎯 Targets
+## 🎯 Alvos
 
-### Weekly
-| Target | Amount |
+### Semanal
+| Alvo | Quantidade |
 |---|---|
-| Productivity hours | 15 h (everything not already slotted elsewhere) |
+| Horas de produtividade | 15 h (tudo o que não está já reservado noutro sítio) |
 
 ### 2026
-| Target | Goal | Current |
+| Alvo | Meta | Atual |
 |---|---|---|
-| Web page built & published | — | ✅ iamaccosta.dev |
-| Services delivered | 5 | 1 |
+| Página web construída e publicada | — | ✅ iamaccosta.dev |
+| Serviços entregues | 5 | 1 |
 
 ---
 
-## ⚙️ Mechanism
+## ⚙️ Mecanismo
 
-- **Trigger:** varies — the 15 h are not distributed across fixed slots.
-- **Counter:** `craft_hours` in the daily note; project status in [[Home|Projects]].
-- **Known failure mode:** hours logged without shipping. 15 h/week of activity on a project that never reaches a paying client produces zero Capital. Track **what moved**, not only hours.
+- **Gatilho:** varia — as 15 h não estão distribuídas por horários fixos.
+- **Contador:** `craft_hours` na nota diária; estado dos projetos em [[Home|Projetos]].
+- **Modo de falha conhecido:** horas registadas sem entregar. 15 h/semana de atividade num projeto que nunca chega a um cliente pagante produz zero Capital. Regista **o que se moveu**, não só as horas.
 
 ---
 
-## 🗂 Projects
+## 🗂 Projetos
 
 ```dataview
 TABLE status, last_worked, url
@@ -40,13 +40,13 @@ WHERE type = "project"
 SORT status ASC, last_worked DESC
 ```
 
-| Project | Status | Note |
+| Projeto | Estado | Nota |
 |---|---|---|
-| [[AquaOS]] | 🟢 active | CRM for pool companies. Deployed, client zero testing. **Only real revenue path.** |
-| [[iamaccosta.dev]] | 🔵 stable | Published, nothing pending. |
-| [[Onefolio Engine]] | ⏸ paused | Shelved — saturated market. |
+| [[AquaOS]] | 🟢 ativo | CRM para empresas de piscinas. Em produção, cliente zero em testes. **Único caminho real de receita.** |
+| [[iamaccosta.dev]] | 🔵 estável | Publicado, nada pendente. |
+| [[Onefolio Engine]] | ⏸ em pausa | Arquivado — mercado saturado. |
 
-## 💼 Services
+## 💼 Serviços
 
 ```dataview
 TABLE client, status, fee
@@ -55,14 +55,14 @@ WHERE type = "service"
 SORT started DESC
 ```
 
-One service delivered so far (Excel-based, not documented).
+Um serviço entregue até agora (baseado em Excel, não documentado).
 
 ---
 
-## 📊 Current state (Aug 2026)
+## 📊 Estado atual (ago 2026)
 
-AquaOS has been in development since May and is the highest-leverage thing in the entire vault — it is the only asset with a defined price (€3.000/year) and therefore the only one that can close the €10.000 gap. It is blocked on an **administrative** item, not a technical one.
+O AquaOS está em desenvolvimento desde maio e é a coisa de maior alavancagem em todo o vault — é o único ativo com um preço definido (3.000 €/ano) e portanto o único que pode fechar a lacuna de 10.000 €. Está travado por um item **administrativo**, não técnico.
 
-## 🪞 Notes
+## 🪞 Notas
 
-Claude Code is the tool of choice for development work on these projects.
+O Claude Code é a ferramenta de eleição para o trabalho de desenvolvimento nestes projetos.

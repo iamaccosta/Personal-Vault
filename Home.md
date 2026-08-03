@@ -4,52 +4,52 @@ tags: [home, dashboard]
 
 # 🏠 Home
 
-> Personal vault. Six pillars, all active. **Main goal of 2026: move in with her.**
+> Vault pessoal. Seis pilares, todos ativos. **Objetivo principal de 2026: ir viver com ela.**
 
-`📥` [[00 - Inbox]] · `🎯` [[2026]] · `🔄` [[Routines]] · `📚` [[06 - Library/README|Library]]
+`📥` [[00 - Inbox]] · `🎯` [[2026]] · `🔄` [[Routines]] · `📚` [[06 - Library/README|Biblioteca]]
 
 ---
 
-## 🏛 The six pillars
+## 🏛 Os seis pilares
 
-| Pillar | Covers | Weakest link |
+| Pilar | Cobre | Elo mais fraco |
 |---|---|---|
-| 🏋️ [[Body]] | training, cardio, 5 meals, 3 L water, 77 kg | current weight not logged; no nutrition plan; no training slot |
-| 🧠 [[Mind]] | German, reading, courses | streak ≠ level; reading has no slot |
-| 🔨 [[Craft]] | AquaOS, iamaccosta.dev, services, 15 h/week | hours logged ≠ shipped |
-| 💰 [[Capital]] | 10.000 € invoiced, 15.000 € saved | **can't invoice yet — scope unconfirmed** |
-| 🤝 [[People]] | her, LinkedIn, posts | flowers 2/12 — target unreachable; posts 2/10 |
-| 🔋 [[Recharge]] | friends, her, solo leisure, sleep | *observing* — targets built from data, not assumed |
+| 🏋️ [[Body]] | treino, cardio, 5 refeições, 3 L água, 77 kg | peso atual não registado; sem plano alimentar; sem horário de treino |
+| 🧠 [[Mind]] | alemão, leitura, cursos | streak ≠ nível; leitura sem horário |
+| 🔨 [[Craft]] | AquaOS, iamaccosta.dev, serviços, 15 h/semana | horas registadas ≠ entregue |
+| 💰 [[Capital]] | 10.000 € faturados, 15.000 € poupados | **ainda não pode faturar — âmbito por confirmar** |
+| 🤝 [[People]] | ela, LinkedIn, publicações | flores 2/12 — alvo inatingível; publicações 2/10 |
+| 🔋 [[Recharge]] | amigos, ela, lazer a solo, sono | *em observação* — alvos construídos a partir de dados, não assumidos |
 
 ---
 
-## 🔴 The one thing gating everything
+## 🔴 A única coisa que trava tudo
 
-> **Being able to invoice.** No date set — and the size of the task is still unconfirmed.
+> **Poder faturar.** Sem data definida — e a dimensão da tarefa ainda por confirmar.
 
-[[AquaOS]] can't take subscriptions without it. At 3.000 €/year, ~3 clients ≈ 9.000 € — which closes almost the whole 9.800 € gap in [[Capital]], which is what funds moving in together.
+O [[AquaOS]] não pode aceitar subscrições sem isto. A 3.000 €/ano, ~3 clientes ≈ 9.000 € — o que fecha quase toda a lacuna de 9.800 € em [[Capital]], que é o que financia ir viver juntos.
 
-❓ *Abertura de atividade* (free, online, one afternoon) or a company (weeks, ongoing cost)? Nobody has checked. **The first action isn't opening anything — it's 30 minutes with an accountant.**
+❓ *Abertura de atividade* (grátis, online, uma tarde) ou uma sociedade (semanas, custo contínuo)? Ninguém verificou. **A primeira ação não é abrir nada — são 30 minutos com um contabilista.**
 
 ---
 
-## 📅 Today
+## 📅 Hoje
 
 ```dataview
 TABLE WITHOUT ID
-  file.link AS Day, duolingo_min AS "Duo", pages_read AS "Pages",
-  craft_hours AS "Craft h", choice(trained, "✅", "—") AS "Gym", mood AS "Mood"
+  file.link AS Dia, duolingo_min AS "Duo", pages_read AS "Págs",
+  craft_hours AS "Craft h", choice(trained, "✅", "—") AS "Ginásio", mood AS "Humor"
 FROM "04 - Journal/Daily"
 SORT date DESC
 LIMIT 7
 ```
 
-**Opening the day** → new note in `04 - Journal/Daily` from [[Daily Note]]
-**Closing the day** → journaling section of the same note
+**Abrir o dia** → nova nota em `04 - Journal/Daily` a partir de [[Daily Note]]
+**Fechar o dia** → secção de journaling da mesma nota
 
 ---
 
-## 🔨 Projects
+## 🔨 Projetos
 
 ```dataview
 TABLE status, url, last_worked
@@ -58,7 +58,7 @@ WHERE type = "project"
 SORT status ASC
 ```
 
-## 💼 Services
+## 💼 Serviços
 
 ```dataview
 TABLE client, status, fee
@@ -68,29 +68,29 @@ WHERE type = "service"
 
 ---
 
-## 📊 2026 at a glance
+## 📊 2026 num relance
 
-| | Target | Now | |
+| | Alvo | Agora | |
 |---|---|---|---|
-| Invoiced | 10.000 € | 200 € | 🔴 2% |
-| Saved | 15.000 € | 5.648 € | 🟡 38% |
-| Services | 5 | 1 | 🔴 |
-| Courses | 6 | 1 | 🔴 |
-| Books | 6 | 2 | 🟡 |
+| Faturado | 10.000 € | 200 € | 🔴 2% |
+| Poupado | 15.000 € | 5.648 € | 🟡 38% |
+| Serviços | 5 | 1 | 🔴 |
+| Cursos | 6 | 1 | 🔴 |
+| Livros | 6 | 2 | 🟡 |
 | LinkedIn | 4.000 | 3.323 | 🟢 83% |
-| Posts | 10 | 2 | 🔴 |
-| Duolingo streak | 700 | 555 | 🟡 5 days slack |
-| 🌹 Flowers | 12 | 2 | ⚫ unreachable |
+| Publicações | 10 | 2 | 🔴 |
+| Streak Duolingo | 700 | 555 | 🟡 5 dias de folga |
+| 🌹 Flores | 12 | 2 | ⚫ inatingível |
 
-Full detail → [[2026]]
+Detalhe completo → [[2026]]
 
 ---
 
-## 🔁 Rhythm
+## 🔁 Ritmo
 
-| When | What |
+| Quando | O quê |
 |---|---|
-| **Every morning** | Opening — plan the day, name the one thing |
-| **Every night** | Journaling — log actuals, not intentions |
-| **Friday** | [[Weekly Review]] — pillar scan, inbox to zero, INESC TEC updates |
-| **Month end** | [[Monthly Review]] — 🌹 flowers, update [[2026]] |
+| **Todas as manhãs** | Abertura — planear o dia, nomear a única coisa |
+| **Todas as noites** | Journaling — registar o que aconteceu, não intenções |
+| **Sexta** | [[Weekly Review]] — varrimento dos pilares, inbox a zero, atualizações INESC TEC |
+| **Fim do mês** | [[Monthly Review]] — 🌹 flores, atualizar [[2026]] |

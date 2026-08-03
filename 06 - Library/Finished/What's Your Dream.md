@@ -11,18 +11,18 @@ tags: [book, finished]
 
 | | |
 |---|---|
-| **Status** | ✅ finished — book 1 of 6 for [[2026]] |
+| **Estado** | ✅ terminado — livro 1 de 6 para [[2026]] |
 
-## 📌 Ideas worth keeping
+## 📌 Ideias que vale a pena guardar
 
-> *(read before this vault existed — fill in from memory if anything stuck)*
+> *(lido antes de este vault existir — preencher de memória se algo ficou)*
 
-## ✅ Applied
+## ✅ Aplicado
 
-| Idea | Action I took | Date | Worked? |
+| Ideia | Ação que tomei | Data | Funcionou? |
 |---|---|---|---|
 | | | | |
 
-## 🪞 Retrospective
+## 🪞 Retrospetiva
 
-**The single thing I'm keeping:**
+**A única coisa que estou a guardar:**

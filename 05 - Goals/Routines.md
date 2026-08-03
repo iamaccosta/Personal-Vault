@@ -4,45 +4,45 @@ scope: daily-weekly
 tags: [routines, habits]
 ---
 
-# 🔄 Daily & Weekly Routines
+# 🔄 Rotinas Diárias & Semanais
 
-> These are what I want to do — not minimums. Logged as amounts in the [[Daily Note]], rolled up in the [[Weekly Review]].
+> Isto é o que quero fazer — não mínimos. Registado como quantidades na [[Daily Note]], somado na [[Weekly Review]].
 
-## Daily
+## Diário
 
-| # | Target | Pillar | Trigger | Notes |
+| # | Alvo | Pilar | Gatilho | Notas |
 |---|---|---|---|---|
-| 1 | **30 min Duolingo** (German) | [[Mind]] | ✅ at breakfast, first thing | B1 certified. Track *minutes and level*, not just the streak. |
-| 2 | **15 pages reading** | [[Mind]] | ❌ none | Apply, don't just finish. |
-| 3 | **5 meals** | [[Body]] | partial | Needs a nutrition plan to hit calorie target. |
-| 4 | **3 L water** | [[Body]] | ❌ none | Non-negotiable — taking creatine. |
-| 5 | **10 LinkedIn connections** | [[People]] | ❌ none | 3.323 → 4.000. At this rate, target lands ~mid-October. |
+| 1 | **30 min Duolingo** (alemão) | [[Mind]] | ✅ ao pequeno-almoço, logo à primeira | Certificado B1. Regista *minutos e nível*, não só a streak. |
+| 2 | **15 páginas de leitura** | [[Mind]] | ❌ nenhum | Aplicar, não apenas terminar. |
+| 3 | **5 refeições** | [[Body]] | parcial | Precisa de um plano alimentar para atingir o alvo calórico. |
+| 4 | **3 L água** | [[Body]] | ❌ nenhum | Não negociável — a tomar creatina. |
+| 5 | **10 ligações no LinkedIn** | [[People]] | ❌ nenhum | 3.323 → 4.000. A este ritmo, o alvo chega ~meados de outubro. |
 
-## Weekly
+## Semanal
 
-| # | Target | Pillar | Trigger | Notes |
+| # | Alvo | Pilar | Gatilho | Notas |
 |---|---|---|---|---|
-| 6 | **3 training sessions** | [[Body]] | ❌ none — root cause | Plan exists; the will is what's failing. Fix the days. |
-| 7 | **1 run / cardio** | [[Body]] | ❌ none | |
-| 8 | **15 h productivity** | [[Craft]] | ❌ none | Everything not already slotted above. |
+| 6 | **3 sessões de treino** | [[Body]] | ❌ nenhum — causa raiz | O plano existe; é a vontade que falha. Fixar os dias. |
+| 7 | **1 corrida / cardio** | [[Body]] | ❌ nenhum | |
+| 8 | **15 h de produtividade** | [[Craft]] | ❌ nenhum | Tudo o que não está já reservado acima. |
 
-## Monthly
+## Mensal
 
-| # | Target | Pillar | Notes |
+| # | Alvo | Pilar | Notas |
 |---|---|---|---|
-| 9 | 🌹 **Flowers for her** | [[People]] | Dinners do NOT substitute flowers. ⚫ 2/12 — unreachable monthly; needs a decision. |
+| 9 | 🌹 **Flores para ela** | [[People]] | Jantares NÃO substituem flores. ⚫ 2/12 — inatingível mensalmente; precisa de uma decisão. |
 
 ---
 
-## ⚠️ Missing triggers
+## ⚠️ Gatilhos em falta
 
-Duolingo is the only target with a real trigger, and it's the only one holding. Most targets rely on remembering and wanting — which is the mechanical explanation for the current state, not a character flaw.
+O Duolingo é o único alvo com um gatilho real, e é o único que se aguenta. A maioria dos alvos depende de lembrar e querer — que é a explicação mecânica para o estado atual, não um defeito de carácter.
 
-**Open decisions:**
+**Decisões em aberto:**
 
-- [ ] Which days and what time for training?
-- [ ] When does reading happen?
-- [ ] When do the 15 Craft hours actually sit in the week?
-- [ ] What time do I stop? ([[Recharge]] is in observation mode — logging first, targets later)
-- [ ] **Log current weight** — [[Body]] has no starting number
-- [ ] **Decide on flowers**: raise the cadence, or revise the target from 12 to 7
+- [ ] Que dias e a que hora para o treino?
+- [ ] Quando é que a leitura acontece?
+- [ ] Quando é que as 15 horas de Craft se situam de facto na semana?
+- [ ] A que horas paro? ([[Recharge]] está em modo de observação — registar primeiro, alvos depois)
+- [ ] **Registar o peso atual** — [[Body]] não tem número de partida
+- [ ] **Decidir sobre as flores**: subir a cadência, ou rever o alvo de 12 para 7

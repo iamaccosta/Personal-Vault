@@ -2,28 +2,28 @@
 tags: [library]
 ---
 
-# 📚 Library
+# 📚 Biblioteca
 
-> 6 books in [[2026]]. Currently 2 finished, 1 in progress.
+> 6 livros em [[2026]]. Atualmente 2 terminados, 1 em curso.
 
 ```dataview
-TABLE status, author, pages_done + "/" + pages_total AS Progress
+TABLE status, author, pages_done + "/" + pages_total AS Progresso
 FROM "06 - Library"
 WHERE type = "book"
 SORT status ASC
 ```
 
-## The rule
+## A regra
 
-A book counts when its **Applied** table has at least one row. Pages read is not the metric — behaviour changed is.
+Um livro conta quando a sua tabela **Aplicado** tem pelo menos uma linha. Páginas lidas não é a métrica — comportamento mudado é.
 
-This exists because of a specific, self-diagnosed failure mode from 2025: hitting the number (7 books vs a target of 4) while getting less out of it than possible.
+Isto existe por causa de um modo de falha específico, autodiagnosticado em 2025: atingir o número (7 livros contra um alvo de 4) enquanto se tira menos partido do que era possível.
 
-## Currently reading
+## A ler atualmente
 
 - [[Secrets of the Millionaire Mind]] — T. Harv Eker
 
-## Finished 2026
+## Terminados em 2026
 
 - [[What's Your Dream]]
 - [[The Magic of Thinking Big]]

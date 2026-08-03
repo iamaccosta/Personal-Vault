@@ -5,9 +5,9 @@ tags: [inbox]
 
 # 📥 Inbox
 
-> Everything unsorted lands here. Processed to zero in the [[Weekly Review]] (Friday) and again monthly.
+> Tudo o que está por organizar aterra aqui. Processado até zero na [[Weekly Review]] (sexta) e novamente todos os meses.
 
-Newest at the top.
+Mais recente no topo.
 
 ---
 
