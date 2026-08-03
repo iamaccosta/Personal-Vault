@@ -44,7 +44,7 @@ Vale a pena registar que isto aparece em dois sítios que parecem não relaciona
 
 | Sintoma | Onde aparece |
 |---|---|
-| Pensar em vez de fazer | **entidade não aberta** — com meses, sem data → [[Capital]] |
+| Pensar em vez de fazer | tarefas administrativas sem dono nem data, que ficam meses paradas |
 | Pensar em vez de descansar | culpa durante o lazer — não conseguir estar presente → aqui |
 
 Mesmo mecanismo, dois pilares. Análise a substituir a ação num caso, a presença no outro. Este pilar não é uma recompensa por terminar os outros — é o tratamento para aquilo que os atrasa.

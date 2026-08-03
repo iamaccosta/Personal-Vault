@@ -53,7 +53,7 @@ Todos os seis se mantêm ativos. Ele rejeitou explicitamente escolher um pilar d
 
 | Pilar | Atenção a |
 |---|---|
-| **Body** | Pilar mais fraco. Travado numa coisa: o peso atual não está registado, por isso o alvo de 77 kg é imensurável. O plano alimentar existia em 2025 e funcionava; foi abandonado. O treino não tem dia/hora fixos — essa é a causa raiz, não a força de vontade. |
+| **Body** | Pilar mais fraco. O peso atual ainda não está registado (vai registá-lo em jejum) — sem ele o alvo de 77 kg é imensurável. O plano alimentar existia em 2025 e funcionava; foi abandonado. O treino já tem dias e hora fixos (Seg PULL · Qua LEGS · Sex PUSH, 18h–20h pós-trabalho; sábado voleibol de praia ou corrida; fim de semana descanso). O *quando* deixou de ser o problema — o teste agora é só executar; falhando um dia, passa para o seguinte e perde o descanso no meio. |
 | **Mind** | O Duolingo é o único alvo com um gatilho real (pequeno-almoço) e o único que se aguenta. **A streak mente** — 555 dias coexistem com estar muito longe do alvo de nível. Regista minutos e nível, nunca a streak. A leitura não tem horário nenhum. |
 | **Craft** | O AquaOS é o ativo de maior alavancagem. Horas registadas ≠ entregue: 15 h/semana em algo que nunca chega a um cliente pagante produz zero Capital. Pergunta o que *se moveu*, não quanto tempo esteve sentado. |
 | **Capital** | Indicador atrasado. Não tem quota semanal por design — não inventes uma. Só se move quando o Craft entrega. |
@@ -104,10 +104,10 @@ Pergunta sobre o que falta, mas **uma vez**. Se a leitura não aconteceu pelo qu
 
 Pergunta sobre estas quando for relevante, não todas de uma vez:
 
-- [ ] **Qual "entidade"?** Ele escreveu que o AquaOS não pode escalar sem uma *entidade aberta*. Isso pode significar abrir atividade como trabalhador independente (um formulário online grátis, feito numa tarde) ou constituir uma sociedade (capital, contabilista, custos anuais). **Estas diferem por ordens de grandeza e ninguém confirmou qual.** Até estar claro, não o descrevas como um bloqueio de meses — pode ser uma tarefa de uma tarde. Também não é decisão tua: a resposta vem de um contabilista.
-- [ ] **Peso atual** — o Body é imensurável sem ele.
+- **Entidade / abrir atividade — NÃO é um bloqueio** (corrigido a 2026-08-03). O AquaOS está em desenvolvimento com o Cliente Zero. Registar-se para faturar é um passo posterior, para quando houver algo para faturar — necessário eventualmente, mas não tão cedo. Não o levantes como bloqueio nem como "a única coisa que trava tudo".
+- [ ] **Peso atual** — o Body é imensurável sem ele. Comprometeu-se (2026-08-03) a registá-lo em jejum no dia seguinte.
 - [ ] **Flores** — subir a cadência, ou rever o alvo de 12 para 7.
-- [ ] **Dias e horas de treino** — que dias, a que hora.
+- [x] **Treino definido** — Seg PULL · Qua LEGS · Sex PUSH, 18h–20h pós-trabalho; sábado cardio. O *quando* está resolvido.
 - [ ] **Quando é que a leitura acontece?**
 - [ ] **Onde é que se situam as 15 horas de Craft na semana?**
 

@@ -17,19 +17,19 @@ tags: [home, dashboard]
 | 🏋️ [[Body]] | treino, cardio, 5 refeições, 3 L água, 77 kg | peso atual não registado; sem plano alimentar; sem horário de treino |
 | 🧠 [[Mind]] | alemão, leitura, cursos | streak ≠ nível; leitura sem horário |
 | 🔨 [[Craft]] | AquaOS, iamaccosta.dev, serviços, 15 h/semana | horas registadas ≠ entregue |
-| 💰 [[Capital]] | 10.000 € faturados, 15.000 € poupados | **ainda não pode faturar — âmbito por confirmar** |
+| 💰 [[Capital]] | 10.000 € faturados, 15.000 € poupados | indicador atrasado — só se move quando o [[Craft]] entrega |
 | 🤝 [[People]] | ela, LinkedIn, publicações | flores 2/12 — alvo inatingível; publicações 2/10 |
 | 🔋 [[Recharge]] | amigos, ela, lazer a solo, sono | *em observação* — alvos construídos a partir de dados, não assumidos |
 
 ---
 
-## 🔴 A única coisa que trava tudo
+## 🔴 O ativo de maior alavancagem
 
-> **Poder faturar.** Sem data definida — e a dimensão da tarefa ainda por confirmar.
+> **AquaOS.** Em desenvolvimento com o Cliente Zero.
 
-O [[AquaOS]] não pode aceitar subscrições sem isto. A 3.000 €/ano, ~3 clientes ≈ 9.000 € — o que fecha quase toda a lacuna de 9.800 € em [[Capital]], que é o que financia ir viver juntos.
+É o único ativo com preço definido (3.000 €/ano). A ~3 clientes ≈ 9.000 € — o que fecha quase toda a lacuna de 9.800 € em [[Capital]], que é o que financia ir viver juntos.
 
-❓ *Abertura de atividade* (grátis, online, uma tarde) ou uma sociedade (semanas, custo contínuo)? Ninguém verificou. **A primeira ação não é abrir nada — são 30 minutos com um contabilista.**
+O trabalho atual é **desenvolvimento com o Cliente Zero**, não administração. Abrir atividade para faturar é um passo posterior — necessário eventualmente, mas não tão cedo, e **não é um bloqueio**. Regista o que *moveu*, não as horas.
 
 ---
 

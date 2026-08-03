@@ -31,11 +31,27 @@ tags: [pillar]
 
 ---
 
+## 🏋️ Split de treino
+
+Plano ideal, por dia da semana. Treino **depois do trabalho, entre as 18h e as 20h**.
+
+| Dia | Treino | Grupos |
+|---|---|---|
+| Segunda | **PULL** | costas, bíceps, ombro posterior |
+| Quarta | **LEGS** | pernas |
+| Sexta | **PUSH** | peito, tríceps, ombro lateral e frontal |
+| Sábado (manhã) | cardio | voleibol de praia ou corrida |
+| Fim de semana | descanso | |
+
+Falhando um dia, passa o treino para o seguinte — mas aí **fica sem descanso entre treinos**. Esse é o custo de derrapar, e o sinal de que a semana descarrilou.
+
+---
+
 ## ⚙️ Mecanismo
 
-- **Gatilho:** ❌ **indefinido** — esta é a causa raiz. O treino não tem horário fixo.
+- **Gatilho:** dias e hora fixos — **Seg PULL · Qua LEGS · Sex PUSH, depois do trabalho entre as 18h e as 20h**; sábado de manhã cardio; fim de semana para descanso. Gatilho completo: já não há nada indefinido no *quando*.
 - **Contador:** frontmatter `trained`, `cardio`, `meals`, `water_l`, `weight_kg` na nota diária.
-- **Modo de falha conhecido:** *"a vontade de treinar anda a falhar"*. Está-se a pedir à força de vontade para fazer o trabalho que um horário devia fazer. O Duolingo sobrevive 555 dias porque acontece ao pequeno-almoço, não por ser mais desejado.
+- **Modo de falha conhecido:** *"a vontade de treinar anda a falhar"*. Historicamente pedia-se à força de vontade o que um horário devia fazer. O split acima é a correção que está a ser tentada — o teste agora é se se aguenta, não se existe.
 
 ---
 
@@ -51,7 +67,7 @@ Os checkpoints de maio e julho já foram — isso está encerrado, não vale a p
 
 - [ ] **Registar o peso atual** — o alvo é imensurável sem um número de partida. Este é o único bloqueio deste pilar.
 - [ ] **Escrever o plano alimentar** — existia em 2025 e funcionava. Ausente em 2026 por admissão própria ("por preguiça"). É um problema resolvido que foi abandonado, não um novo.
-- [ ] **Fixar os dias de treino** — que dias, a que hora. Não "3x por semana" a flutuar.
+- [x] **Dias e hora do treino fixados** — Seg/Qua/Sex, 18h–20h, depois do trabalho. O *quando* deixou de ser o problema; agora é só executar.
 
 ## 🪞 Notas
 

@@ -31,7 +31,7 @@ tags: [project, aquaos]
 ## 🎯 Definição de "suficientemente feito"
 
 - [ ] Cliente zero validado e a pagar
-- [ ] Subscrições podem ser aceites (bloqueado — ver abaixo)
+- [ ] Subscrições podem ser aceites (passo posterior — exige registo para faturar)
 - [ ] Integrar um segundo cliente não exige reconstruir nada
 
 ---
@@ -40,19 +40,18 @@ tags: [project, aquaos]
 
 | Bloqueio | Tipo | Responsável | Data | Estado |
 |---|---|---|---|---|
-| **Sem registo para faturar** — não pode escalar com novas subscrições | 🔴 admin | eu | ❌ **nenhuma** | aberto — ❓ âmbito por esclarecer |
 | Cliente zero ainda em fase de testes | tech | eu | | aberto |
 
-> Este é um bloqueio **administrativo**, não técnico, e não tem data — que é por isso que não se moveu.
+> O AquaOS está **em desenvolvimento com o Cliente Zero** — é aí que está o trabalho.
 >
-> ❓ **A sua dimensão real é desconhecida.** A *abertura de atividade* como trabalhador independente é um formulário online grátis feito numa tarde; constituir uma sociedade é semanas e custo contínuo. Ninguém confirmou qual é necessário. Não o trates como um grande obstáculo até isso estar verificado — pode ser uma tarde. → [[Capital]]
+> Abrir atividade para faturar subscrições é um passo posterior, para quando houver algo para faturar. Necessário eventualmente, mas não tão cedo, e **não é um bloqueio** ao trabalho atual. → [[Capital]]
 
 ---
 
 ## 🔨 Próximas ações
 
 ### Agora
-- [ ] **Descobrir qual registo é necessário** (contabilista, ~30 min) — depois definir uma data
+- [ ] Continuar o desenvolvimento com o Cliente Zero
 - [ ] Fechar o feedback dos testes do cliente zero
 
 ### A seguir
@@ -71,7 +70,7 @@ tags: [project, aquaos]
 | **Preço** | 3.000 € / ano |
 | **Clientes necessários para contar** | ~3 até ao fim do ano ≈ 9.000 € |
 | **Clientes pagantes atuais** | 0 (cliente zero em testes) |
-| **A bloquear a monetização** | sem registo para faturar — âmbito dessa tarefa ainda por confirmar |
+| **A bloquear a monetização** | nada de imediato — em desenvolvimento; registo para faturar é passo posterior |
 
 Três clientes fecham quase todo o alvo de faturação de 2026. A aritmética não é o problema.
 

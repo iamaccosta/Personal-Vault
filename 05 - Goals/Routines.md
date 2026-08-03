@@ -22,8 +22,8 @@ tags: [routines, habits]
 
 | # | Alvo | Pilar | Gatilho | Notas |
 |---|---|---|---|---|
-| 6 | **3 sessões de treino** | [[Body]] | ❌ nenhum — causa raiz | O plano existe; é a vontade que falha. Fixar os dias. |
-| 7 | **1 corrida / cardio** | [[Body]] | ❌ nenhum | |
+| 6 | **3 sessões de treino** | [[Body]] | ✅ Seg PULL · Qua LEGS · Sex PUSH, 18h–20h (pós-trabalho) | Falha um dia → passa para o seguinte, mas perde o descanso no meio. |
+| 7 | **1 corrida / cardio** | [[Body]] | sábado de manhã | Corrida ou voleibol de praia. |
 | 8 | **15 h de produtividade** | [[Craft]] | ❌ nenhum | Tudo o que não está já reservado acima. |
 
 ## Mensal
@@ -40,7 +40,7 @@ O Duolingo é o único alvo com um gatilho real, e é o único que se aguenta. A
 
 **Decisões em aberto:**
 
-- [ ] Que dias e a que hora para o treino?
+- [x] Treino definido: Seg/Qua/Sex, 18h–20h (pós-trabalho)
 - [ ] Quando é que a leitura acontece?
 - [ ] Quando é que as 15 horas de Craft se situam de facto na semana?
 - [ ] A que horas paro? ([[Recharge]] está em modo de observação — registar primeiro, alvos depois)

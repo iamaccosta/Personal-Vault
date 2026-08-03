@@ -25,39 +25,21 @@ O alvo de poupança representa ~63% do total esperado de rendimentos (~24.000 �
 
 - **Gatilho:** nenhum, e bem — faturar não é um comportamento diário.
 - **Contador:** registado na revisão semanal; somado mensalmente contra a tabela acima.
-- **Modo de falha conhecido:** tratar isto como um problema de motivação. Não é. Está travado por uma única porta por abrir.
+- **Modo de falha conhecido:** tratar isto como um problema de motivação. Não é. Está a jusante do Craft — move-se quando o AquaOS entregar, não antes.
 
 ---
 
-## 🚧 O bloqueio — e uma questão em aberto sobre a sua dimensão
+## 🛠 A via principal: AquaOS
 
-> **"Entidade não aberta."**
+> **AquaOS — em desenvolvimento com o Cliente Zero.**
 
-O AquaOS não pode aceitar subscrições sem poder faturar legalmente. Mas **qual registo isto exige nunca foi estabelecido**, e as duas opções diferem por ordens de grandeza:
+O [[AquaOS]] é o veículo para o alvo de faturação: o único ativo com preço definido (3.000 €/ano). Está em desenvolvimento com o Cliente Zero, e é aí que está o trabalho.
 
-| Opção | O que envolve | Esforço realista |
-|---|---|---|
-| **Abertura de atividade** (trabalhador independente) | Portal das Finanças, online, grátis, no próprio dia. Recibos verdes. | **uma tarde** |
-| **Constituir sociedade** (Lda) | Capital social, contabilista obrigatório, IES, custos anuais fixos | semanas + custo contínuo |
+Uma subscrição anual é **3.000 €**. Se for a única fonte de receita, ~3 clientes até ao fim do ano ≈ 9.000 € — o que fecha quase toda a lacuna. A aritmética funciona.
 
-Para ~3 clientes a 3.000 €/ano, a primeira é muito provavelmente suficiente. Se for esse o caso, isto nunca foi um bloqueio de meses — é um formulário que não foi preenchido.
+### Abrir atividade — passo posterior, não bloqueio
 
-| | |
-|---|---|
-| **Tipo** | Administrativo |
-| **Responsável** | eu |
-| **Data** | ❌ **nenhuma definida** |
-| **Qual opção** | ❓ **por resolver** |
-| **Consequência se atrasar** | o objetivo dos 10.000 €, e com ele o prazo para ir viver juntos |
-
-⚠️ **Esta não é uma questão para o Claude.** Os limiares de isenção de IVA, como o rendimento da categoria B soma em cima de um salário, e se as subscrições recorrentes de software têm especificidades — isso muda anualmente e precisa de um **contabilista**. Meia hora com um é provavelmente a meia hora de maior retorno da lista de 2026.
-
-- [ ] **Perguntar a um contabilista qual registo isto realmente exige**
-- [ ] Depois dar-lhe uma data
-
-Uma subscrição anual do AquaOS é **3.000 €**. Se for a única fonte de receita, ~3 clientes até ao fim do ano ≈ 9.000 € — o que fecha quase toda a lacuna. Portanto a aritmética funciona. A porta é que está fechada.
-
-- [ ] **Estabelecer qual registo é necessário e depois dar-lhe uma data.** Tudo o resto neste pilar está a jusante disto.
+Para faturar subscrições será preciso estar registado. Isso é um passo para **quando houver algo para faturar** — necessário eventualmente, mas não tão cedo, e **não é o que trava o pilar agora**. Quando chegar a altura, qual registo (abertura de atividade vs sociedade) é questão para um contabilista, não para aqui.
 
 ---
 
@@ -66,7 +48,7 @@ Uma subscrição anual do AquaOS é **3.000 €**. Se for a única fonte de rece
 Faturado: **200 € de 10.000 € — 2%, com ~60% do ano decorrido.**
 Poupado: 5.648,14 € de 15.000 € — 38%.
 
-A poupança está mais ou menos no ritmo. A faturação não está, e não pode estar enquanto a entidade não existir.
+A poupança está mais ou menos no ritmo. A faturação ainda não arrancou — depende de o AquaOS sair da fase de desenvolvimento com o Cliente Zero.
 
 ## 🪞 Notas
 

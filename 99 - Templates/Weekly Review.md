@@ -83,7 +83,7 @@ O Capital é um **indicador atrasado** — só se move quando o Craft entrega. S
 
 - Faturado esta semana: €
 - Poupado esta semana: €
-- Bloqueios que se moveram? (ex: **entidade aberta**):
+- Bloqueios que se moveram?:
 
 ---
 
