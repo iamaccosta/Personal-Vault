@@ -1,0 +1,26 @@
+# --- Obsidian: per-machine state, not worth versioning ---
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/graph.json
+.obsidian/hotkeys.json.bak
+
+# Plugin data that is machine-local or regenerated
+.obsidian/plugins/*/data.json
+
+# Obsidian trash
+.trash/
+
+# --- OS noise ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+
+# --- Editors ---
+.vscode/
+.idea/
+
+# Note: .obsidian/app.json, appearance.json, core-plugins.json,
+# community-plugins.json and plugins/ ARE tracked on purpose,
+# so settings and plugin choices follow the vault to any machine.

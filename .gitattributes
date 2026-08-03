@@ -1,0 +1,15 @@
+# Normalise line endings — vault is edited by Obsidian on Windows
+# but committed from WSL over /mnt/c. Without this you get CRLF churn.
+* text=auto eol=lf
+
+*.md   text eol=lf
+*.json text eol=lf
+
+# Binaries — never touch
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.pdf  binary
+*.webp binary
+*.svg  text eol=lf
