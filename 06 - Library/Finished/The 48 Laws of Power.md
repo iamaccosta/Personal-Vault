@@ -1,17 +1,21 @@
 ---
 type: book
-title: What's Your Dream?
+title: The 48 Laws of Power (versão reduzida)
+author: Robert Greene
 status: finished
 finished: 2026
 counts_toward_2026: true
 tags: [book, finished]
 ---
 
-# What's Your Dream?
+# The 48 Laws of Power
+*Robert Greene — versão reduzida*
 
 | | |
 |---|---|
-| **Estado** | ✅ terminado — livro 2 de 6 para [[2026]] |
+| **Estado** | ✅ terminado — livro 1 de 6 para [[2026]] (lido antes dos outros) |
+
+> Versão reduzida/abreviada.
 
 ## 📌 Ideias que vale a pena guardar
 

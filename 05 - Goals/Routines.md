@@ -24,13 +24,14 @@ tags: [routines, habits]
 |---|---|---|---|---|
 | 6 | **3 sessões de treino** | [[Body]] | ✅ Seg PULL · Qua LEGS · Sex PUSH, 18h–20h (pós-trabalho) | Falha um dia → passa para o seguinte, mas perde o descanso no meio. |
 | 7 | **1 corrida / cardio** | [[Body]] | sábado de manhã | Corrida ou voleibol de praia. |
-| 8 | **15 h de produtividade** | [[Craft]] | ❌ nenhum | Tudo o que não está já reservado acima. |
+| 8 | **15 h de produtividade** | [[Craft]] | ✅ mín. 5 h dias úteis + 10 h fim de semana | **Não divide por igual.** Seg/Qua/Sex o ginásio (18–20h) só deixa ~1h30 antes de dormir, usada para desligar. Por isso o mínimo dos dias úteis é 5 h no total, e sobram ~10 h para sábado+domingo. Flexível — há dias de trabalhar mais e dormir menos. |
+| 9 | **Atualizar gestão financeira** (Google Sheets) | [[Capital]] | semanal | O sítio onde faz a gestão do dinheiro. Tem de ser atualizado todas as semanas. |
 
 ## Mensal
 
 | # | Alvo | Pilar | Notas |
 |---|---|---|---|
-| 9 | 🌹 **Flores para ela** | [[People]] | Jantares NÃO substituem flores. ⚫ 2/12 — inatingível mensalmente; precisa de uma decisão. |
+| 10 | 🌹 **Flores para ela** | [[People]] | Jantares NÃO substituem flores. ⚫ 2/12 — inatingível mensalmente; precisa de uma decisão. |
 
 ---
 
@@ -41,8 +42,8 @@ O Duolingo é o único alvo com um gatilho real, e é o único que se aguenta. A
 **Decisões em aberto:**
 
 - [x] Treino definido: Seg/Qua/Sex, 18h–20h (pós-trabalho)
+- [x] Craft na semana: mín. 5 h nos dias úteis + ~10 h ao fim de semana (não dividido por igual)
 - [ ] Quando é que a leitura acontece?
-- [ ] Quando é que as 15 horas de Craft se situam de facto na semana?
 - [ ] A que horas paro? ([[Recharge]] está em modo de observação — registar primeiro, alvos depois)
 - [ ] **Registar o peso atual** — [[Body]] não tem número de partida
 - [ ] **Decidir sobre as flores**: subir a cadência, ou rever o alvo de 12 para 7

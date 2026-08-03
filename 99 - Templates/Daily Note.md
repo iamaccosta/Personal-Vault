@@ -2,6 +2,7 @@
 type: daily
 date: "{{date:YYYY-MM-DD}}"
 week: "{{date:gggg-[W]ww}}"
+status: open        # open = dia em curso · closed = dia fechado (/fechar)
 # --- MIND ---
 duolingo_min: 0
 duolingo_lessons: 0

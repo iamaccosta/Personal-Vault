@@ -15,7 +15,7 @@ tags: [book, reading]
 
 | | |
 |---|---|
-| **Estado** | 📖 a ler — livro 3 de 6 para [[2026]] |
+| **Estado** | 📖 a ler — livro 4 de 6 para [[2026]] |
 
 > O objetivo **não** é terminar. No ano passado: 7 livros contra um alvo de 4, mas lidos *para provar um ponto* — *"não interagi com os livros como poderia ter interagido. Eu quero aprender e aplicar o que estes livros ensinam."*
 >

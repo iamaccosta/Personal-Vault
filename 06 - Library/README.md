@@ -4,7 +4,7 @@ tags: [library]
 
 # 📚 Biblioteca
 
-> 6 livros em [[2026]]. Atualmente 2 terminados, 1 em curso.
+> 6 livros em [[2026]]. Atualmente 3 terminados, 1 em curso. ⚠️ Terminados ≠ contados: pela regra abaixo, um livro só conta com uma linha em Aplicado — hoje as três tabelas estão vazias.
 
 ```dataview
 TABLE status, author, pages_done + "/" + pages_total AS Progresso
@@ -25,5 +25,6 @@ Isto existe por causa de um modo de falha específico, autodiagnosticado em 2025
 
 ## Terminados em 2026
 
+- [[The 48 Laws of Power]] *(versão reduzida)*
 - [[What's Your Dream]]
 - [[The Magic of Thinking Big]]

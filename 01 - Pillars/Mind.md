@@ -21,7 +21,7 @@ tags: [pillar]
 |---|---|---|
 | Streak Duolingo | 700 dias | 555 |
 | Nível Duolingo | A2 completo (nível 60) | muito atrasado |
-| Livros lidos | 6 | 2 terminados, 3.º em curso |
+| Livros lidos | 6 | 3 terminados, 4.º em curso (0 com Aplicado) |
 | Cursos / formações | 6 (3 INESC TEC + 3 pessoais) | 1 |
 
 Alemão: certificado **B1** por um curso formal. O Duolingo é manutenção + progressão, não a fonte principal.
@@ -45,7 +45,7 @@ A leitura tem o problema oposto: nenhum gatilho, e a versão de 2025 otimizava a
 ## 📊 Estado atual (ago 2026)
 
 **A ler agora:** *Secrets of the Millionaire Mind* — T. Harv Eker
-**Terminados em 2026:** *What's Your Dream?* · *The Magic of Thinking Big*
+**Terminados em 2026:** *The 48 Laws of Power* (versão reduzida) · *What's Your Dream?* · *The Magic of Thinking Big*
 **Resultado de 2025:** 7 livros contra um alvo de 4 — o hábito é comprovadamente atingível.
 
 - [ ] Fixar um horário de leitura (atualmente não tem nenhum)
@@ -53,4 +53,4 @@ A leitura tem o problema oposto: nenhum gatilho, e a versão de 2025 otimizava a
 
 ## 🪞 Notas
 
-A leitura está atrasada no ritmo (3.º livro, agosto, alvo 6), mas este é o pilar com o melhor historial. O excesso de 2025 significa que a capacidade não é a restrição.
+A leitura está mais ou menos no ritmo em número (4.º livro em curso, agosto, alvo 6), mas este é o pilar com o melhor historial. A restrição real não é a capacidade nem o número — é que nenhum livro tem ainda uma linha em Aplicado, exatamente o padrão de 2025 que a regra existe para travar.

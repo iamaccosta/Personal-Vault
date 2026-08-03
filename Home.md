@@ -76,7 +76,7 @@ WHERE type = "service"
 | Poupado | 15.000 € | 5.648 € | 🟡 38% |
 | Serviços | 5 | 1 | 🔴 |
 | Cursos | 6 | 1 | 🔴 |
-| Livros | 6 | 2 | 🟡 |
+| Livros | 6 | 3 | 🟡 |
 | LinkedIn | 4.000 | 3.323 | 🟢 83% |
 | Publicações | 10 | 2 | 🔴 |
 | Streak Duolingo | 700 | 555 | 🟡 5 dias de folga |

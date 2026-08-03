@@ -11,7 +11,9 @@ Escreve a entrada de journal de hoje a partir do que ele te disser, depois faz c
 
 Corre `date +%Y-%m-%d`. Ficheiro alvo: `04 - Journal/Daily/YYYY-MM-DD.md`.
 
-Se existir, edita-o. Se não, cria-o a partir de `99 - Templates/Daily Note.md`.
+Normalmente já existe (aberta no `/abrir`, atualizada ao longo do dia) — edita-a, não a recries. Se por acaso não existir, cria-a a partir de `99 - Templates/Daily Note.md`.
+
+No fim deste ritual, põe `status: closed` no frontmatter — é o que marca o dia como fechado.
 
 ## 2. Recolher os números
 

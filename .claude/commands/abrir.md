@@ -1,6 +1,6 @@
 ---
-description: Abrir o dia — ler o estado, dar direção
-allowed-tools: Read, Glob, Grep, Bash(date:*), Bash(git log:*)
+description: Abrir o dia — criar a nota, ler o estado, dar direção
+allowed-tools: Read, Write, Edit, Glob, Grep, Bash(date:*), Bash(git log:*)
 ---
 
 # Abrir o dia
@@ -11,7 +11,16 @@ O utilizador está a começar uma sessão de trabalho. Dá-lhe direção, não u
 
 Corre `date +%Y-%m-%d` e `date +%A`. Calcula os dias restantes no ano — não reutilizes um número do vault.
 
-## 2. Ler o estado
+## 2. Criar a nota de hoje se ainda não existir
+
+Ficheiro: `04 - Journal/Daily/YYYY-MM-DD.md`.
+
+- **Se não existir**, cria-o a partir de `99 - Templates/Daily Note.md`, substituindo os placeholders `{{date:...}}` pelos valores reais e com `status: open`. Esta é a primeira abertura do dia — a nota passa a ser a camada de persistência do dia.
+- **Se já existir**, lê-o. O dia já foi aberto (talvez noutra sessão); continua de onde ficou, não o recries nem apagues o que lá está.
+
+> A nota é escrita no disco **agora**, não no fecho. É isto que garante que nada se perde se uma sessão morrer a meio.
+
+## 3. Ler o estado
 
 - `05 - Goals/2026.md` — alvos do ano e números atuais
 - `05 - Goals/Routines.md` — alvos diários/semanais
@@ -19,7 +28,7 @@ Corre `date +%Y-%m-%d` e `date +%A`. Calcula os dias restantes no ano — não r
 - As **últimas 5 notas diárias** — é isto que te diz o que está de facto a acontecer, versus o que é aspiracional
 - Qualquer nota de pilar relevante para o que está atrasado
 
-## 3. Pergunta-lhe duas coisas
+## 4. Pergunta-lhe duas coisas
 
 Limita a duas. Não interrogues.
 
@@ -28,7 +37,7 @@ Limita a duas. Não interrogues.
 
 Se ele já respondeu a isto na mensagem, salta as perguntas e vai direto à direção.
 
-## 4. Dar direção
+## 5. Dar direção
 
 Output nesta forma, e mantém-no curto:
 

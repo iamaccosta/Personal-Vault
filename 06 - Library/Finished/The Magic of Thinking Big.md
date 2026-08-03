@@ -13,7 +13,7 @@ tags: [book, finished]
 
 | | |
 |---|---|
-| **Estado** | ✅ terminado — livro 2 de 6 para [[2026]] |
+| **Estado** | ✅ terminado — livro 3 de 6 para [[2026]] |
 
 ## 📌 Ideias que vale a pena guardar
 

@@ -6,7 +6,8 @@ pillar: Craft
 started: 2026-05
 last_worked: 2026-08
 stack: []
-repo:
+repo: git@github.com:iamaccosta/AquaOS.git
+local: /home/iamaccosta/projects/pool-as-a-service
 url: https://aquaos.pt
 monetisable: true
 revenue_model: subscrição anual — 3.000 €/cliente
@@ -19,7 +20,7 @@ tags: [project, aquaos]
 
 | | |
 |---|---|
-| **Estado** | 🟢 ativo — em testes com o cliente zero |
+| **Estado** | 🟢 dev ativo — validação com cliente zero em pausa, rumo ao launch público |
 | **Online em** | aquaos.pt |
 | **Início** | maio 2026 |
 | **Modelo de receita** | 3.000 € / ano por cliente |
@@ -28,10 +29,25 @@ tags: [project, aquaos]
 
 ---
 
+## 💻 Ambiente de desenvolvimento
+
+| | |
+|---|---|
+| **Código local** | `/home/iamaccosta/projects/pool-as-a-service` |
+| **Repositório** | `git@github.com:iamaccosta/AquaOS.git` |
+| **Online** | aquaos.pt |
+
+> O código **não está neste vault** — este ficheiro é o registo, o código está no caminho acima.
+>
+> O **Claude Code tem acesso `gh` a este repo**: pode ler e modificar Issues, abrir a board dos Issues, commitar, dar push, abrir PRs e mergeá-los. A gestão de trabalho do AquaOS faz-se pelos **Issues no GitHub** — a lista abaixo é a visão de topo; o detalhe vivo está lá.
+
+---
+
 ## 🎯 Definição de "suficientemente feito"
 
-- [ ] Cliente zero validado e a pagar
-- [ ] Subscrições podem ser aceites (passo posterior — exige registo para faturar)
+- [ ] Conjunto de Issues "obrigatórios antes do launch" fechados
+- [ ] **Launch público** — é isto, não o cliente zero, que abre a porta à receita
+- [ ] Primeiros clientes **pagantes** (o cliente zero não é um deles — ver abaixo)
 - [ ] Integrar um segundo cliente não exige reconstruir nada
 
 ---
@@ -40,26 +56,35 @@ tags: [project, aquaos]
 
 | Bloqueio | Tipo | Responsável | Data | Estado |
 |---|---|---|---|---|
-| Cliente zero ainda em fase de testes | tech | eu | | aberto |
+| Validação com o cliente zero em pausa (relação pessoal) | externo | — | 2026-08 | em pausa |
 
-> O AquaOS está **em desenvolvimento com o Cliente Zero** — é aí que está o trabalho.
+> **O cliente zero é a empresa do pai da namorada.** Não paga no 1.º ano — está a validar o *valor* que o software lhe traz, não a gerar receita. A relação não está no melhor momento, por isso a validação está **em pausa**.
 >
-> Abrir atividade para faturar subscrições é um passo posterior, para quando houver algo para faturar. Necessário eventualmente, mas não tão cedo, e **não é um bloqueio** ao trabalho atual. → [[Capital]]
+> Isto **não trava o desenvolvimento** — o André continua a fechar Issues obrigatórios rumo ao launch. O que trava é a *validação*, não o *código*.
+>
+> Abrir atividade para faturar é passo posterior, para quando houver clientes pagantes. Não é bloqueio ao trabalho atual. → [[Capital]]
 
 ---
 
 ## 🔨 Próximas ações
 
-### Agora
-- [ ] Continuar o desenvolvimento com o Cliente Zero
-- [ ] Fechar o feedback dos testes do cliente zero
+> Fonte de verdade: **Issues no GitHub** (`iamaccosta/AquaOS`). 18 fechados · 8 abertos a 2026-08-03. Esta lista é o espelho por prioridade — o detalhe está lá.
 
-### A seguir
-- [ ] Definir o fluxo de subscrição/faturação
-- [ ] Decidir o que o "cliente dois" precisa que o cliente zero não precisou
+### Agora — `priority:high`
+- [ ] #37 RGPD: /privacy, /terms e cookie banner *(feature)*
+- [ ] #13 [Epic] Stripe billing (subscrições) — **é o fluxo de faturação que fecha a monetização**
 
-### Um dia
-- [ ] Registo self-serve
+### A seguir — `priority:medium`
+- [ ] #47 Self-service: eliminar empresa + dados (right-to-erasure)
+- [ ] #30 [Epic] Portal do cliente final
+- [ ] #29 [Epic] Relatórios em PDF (motor + branding)
+
+### Em curso
+- [ ] #39 Landing: secção de funcionalidades com fotos — **feito num branch, ainda não merged na `develop`; não satisfeito com o resultado**
+
+### Um dia — `low` / `chore`
+- [ ] #20 Reativar registo público (flip `SIGNUPS_ENABLED`) — passo do launch
+- [ ] #45 Folha por cliente: substituir transcrição manual
 
 ---
 
@@ -68,11 +93,11 @@ tags: [project, aquaos]
 | | |
 |---|---|
 | **Preço** | 3.000 € / ano |
-| **Clientes necessários para contar** | ~3 até ao fim do ano ≈ 9.000 € |
-| **Clientes pagantes atuais** | 0 (cliente zero em testes) |
-| **A bloquear a monetização** | nada de imediato — em desenvolvimento; registo para faturar é passo posterior |
+| **Clientes necessários para contar** | ~3 pagantes ≈ 9.000 € — **todos vindos do launch público** |
+| **Clientes pagantes atuais** | 0 — o cliente zero não paga no 1.º ano |
+| **A mover a receita** | o **launch público**. Sem launch, 0 € — por mais Issues fechados que sejam |
 
-Três clientes fecham quase todo o alvo de faturação de 2026. A aritmética não é o problema.
+Três clientes pagantes fecham quase todo o alvo de faturação de 2026. A aritmética não é o problema; **a data do launch é.** Cada Issue fechado antes do launch adia o dia 1 da receita — e o ano tem menos dias a cada semana. Isto não é razão para não desenvolver; é razão para separar *obrigatório antes do launch* de *polimento que pode esperar por clientes reais*.
 
 ---
 
@@ -82,8 +107,12 @@ Três clientes fecham quase todo o alvo de faturação de 2026. A aritmética n�
 
 ## 🧠 Decisões & armadilhas
 
-### 
-- 
+### Estratégia atual: fechar os "obrigatórios antes do launch"
+- O plano é limpar os Issues que o André sente serem obrigatórios antes do launch verdadeiro (RGPD, relatórios de intervenção, relatórios de cliente, landing, etc.) e só depois lançar publicamente.
+- **Armadilha a vigiar:** "obrigatório antes do launch" é uma lista que se estica. Ele é um overthinker que polL — o risco não é fazer pouco, é adiar o launch a fechar Issues que um cliente real nem notaria. A pergunta a cada Issue: *isto trava mesmo o launch, ou pode fechar depois do primeiro pagante?*
+
+### Cliente zero ≠ receita
+- Validação de valor com a empresa do pai da namorada, sem pagamento no 1.º ano. A receita virá de outros clientes, via launch. Não confundir "cliente zero contente" com "AquaOS a faturar".
 
 ---
 
@@ -92,5 +121,9 @@ Três clientes fecham quase todo o alvo de faturação de 2026. A aritmética n�
 ### 2026-05
 - Projeto iniciado a partir de uma ideia
 
+### 2026-07
+- Módulo **Agenda** entregue: calendário interativo do operador, modelo de agendamento + CRUD, atribuição pelo owner, estado das visitas (feita/falhada) — Issues #50, #51, #52, #55, #58 fechados
+
 ### 2026-08
 - Em produção em aquaos.pt, cliente zero em testes
+- 18 Issues fechados no total; 8 abertos (2 `high`: RGPD #37, Stripe #13)
