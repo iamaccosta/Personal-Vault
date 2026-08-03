@@ -40,17 +40,19 @@ tags: [project, aquaos]
 
 | Blocker | Type | Owner | Date | Status |
 |---|---|---|---|---|
-| **Entity not registered** — can't scale with new subscriptions | 🔴 admin | me | ❌ **none** | open |
+| **Not registered to invoice** — can't scale with new subscriptions | 🔴 admin | me | ❌ **none** | open — ❓ scope unclear |
 | Client zero still in test phase | tech | me | | open |
 
-> The entity is an **administrative** blocker, not a technical one. It has no date, which is why it hasn't moved. It gates the largest financial goal of the year, which in turn gates the timeline for moving in together. → [[Capital]]
+> This is an **administrative** blocker, not a technical one, and it has no date — which is why it hasn't moved.
+>
+> ❓ **Its actual size is unknown.** *Abertura de atividade* as self-employed is a free online form done in an afternoon; incorporating a company is weeks and ongoing cost. Nobody has confirmed which this needs. Don't treat it as a large obstacle until that's checked — it may be an afternoon. → [[Capital]]
 
 ---
 
 ## 🔨 Next actions
 
 ### Now
-- [ ] **Set a date for opening the entity** — everything else here is downstream
+- [ ] **Find out which registration is needed** (accountant, ~30 min) — then set a date
 - [ ] Close out client zero's test feedback
 
 ### Next
@@ -69,7 +71,7 @@ tags: [project, aquaos]
 | **Price** | 3.000 € / year |
 | **Clients needed to matter** | ~3 by year end ≈ 9.000 € |
 | **Current paying clients** | 0 (client zero in test) |
-| **Blocking monetisation** | entity not registered |
+| **Blocking monetisation** | not registered to invoice — scope of that task still unconfirmed |
 
 Three clients closes almost the whole 2026 invoicing target. The arithmetic is not the problem.
 

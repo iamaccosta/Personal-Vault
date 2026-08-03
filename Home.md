@@ -17,7 +17,7 @@ tags: [home, dashboard]
 | 🏋️ [[Body]] | training, cardio, 5 meals, 3 L water, 77 kg | current weight not logged; no nutrition plan; no training slot |
 | 🧠 [[Mind]] | German, reading, courses | streak ≠ level; reading has no slot |
 | 🔨 [[Craft]] | AquaOS, iamaccosta.dev, services, 15 h/week | hours logged ≠ shipped |
-| 💰 [[Capital]] | 10.000 € invoiced, 15.000 € saved | **entity not registered** |
+| 💰 [[Capital]] | 10.000 € invoiced, 15.000 € saved | **can't invoice yet — scope unconfirmed** |
 | 🤝 [[People]] | her, LinkedIn, posts | flowers 2/12 — target unreachable; posts 2/10 |
 | 🔋 [[Recharge]] | friends, her, solo leisure, sleep | *observing* — targets built from data, not assumed |
 
@@ -25,9 +25,11 @@ tags: [home, dashboard]
 
 ## 🔴 The one thing gating everything
 
-> **Abrir entidade.** No date set.
+> **Being able to invoice.** No date set — and the size of the task is still unconfirmed.
 
-[[AquaOS]] can't take subscriptions without it. At 3.000 €/year, ~3 clients ≈ 9.000 € — which closes almost the whole 9.800 € gap in [[Capital]], which is what funds moving in together. Not a motivation problem. A shut door.
+[[AquaOS]] can't take subscriptions without it. At 3.000 €/year, ~3 clients ≈ 9.000 € — which closes almost the whole 9.800 € gap in [[Capital]], which is what funds moving in together.
+
+❓ *Abertura de atividade* (free, online, one afternoon) or a company (weeks, ongoing cost)? Nobody has checked. **The first action isn't opening anything — it's 30 minutes with an accountant.**
 
 ---
 

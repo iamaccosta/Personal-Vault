@@ -29,22 +29,35 @@ Savings target represents ~63% of total expected earnings (~24.000 € from sala
 
 ---
 
-## 🚧 The actual blocker
+## 🚧 The blocker — and an open question about its size
 
-> **Entidade não aberta.**
+> **"Entidade não aberta."**
 
-AquaOS cannot take subscriptions without a registered business entity. This is the whole bottleneck:
+AquaOS can't take subscriptions without being able to invoice legally. But **which registration this needs has never been established**, and the two options differ by orders of magnitude:
+
+| Option | What it involves | Realistic effort |
+|---|---|---|
+| **Abertura de atividade** (self-employed) | Portal das Finanças, online, free, same day. Recibos verdes. | **one afternoon** |
+| **Constituir sociedade** (Lda) | Share capital, mandatory accountant, IES, fixed annual costs | weeks + ongoing cost |
+
+For ~3 clients at 3.000 €/year, the first is very likely sufficient. If that's the case, this was never a months-long blocker — it's a form that hasn't been filled in.
 
 | | |
 |---|---|
 | **Type** | Administrative |
 | **Owner** | me |
 | **Date** | ❌ **none set** |
+| **Which option** | ❓ **unresolved** |
 | **Consequence if late** | the €10.000 goal, and with it the timeline for moving in together |
+
+⚠️ **This is not a question for Claude.** VAT exemption thresholds, how category B income stacks on top of a salary, and whether recurring software subscriptions carry specifics — those change yearly and need a **contabilista**. Half an hour with one is probably the highest-return half hour on the 2026 list.
+
+- [ ] **Ask an accountant which registration this actually needs**
+- [ ] Then give it a date
 
 An annual AquaOS subscription is **€3.000**. If it's the only revenue source, ~3 clients by year end ≈ €9.000 — which closes almost the entire gap. So the arithmetic works. The door is just shut.
 
-- [ ] **Give "abrir entidade" a date.** Everything else in this pillar is downstream of it.
+- [ ] **Establish which registration is needed, then give it a date.** Everything else in this pillar is downstream of it.
 
 ---
 
