@@ -7,9 +7,11 @@ allowed-tools: Read, Write, Edit, Glob, Grep, Bash(date:*), Bash(git log:*)
 
 O utilizador está a começar uma sessão de trabalho. Dá-lhe direção, não um relatório.
 
-## 1. Estabelecer a data
+## 1. Estabelecer a data e a hora
 
 Corre `date +%Y-%m-%d` e `date +%A`. Calcula os dias restantes no ano — não reutilizes um número do vault.
+
+Corre também `date +%H:%M` para saber **que horas são agora**. Ele tem um trabalho de quase 8 h/dia — a janela livre é curta e específica. Usa a hora atual para calcular quanto tempo resta até ao próximo compromisso fixo (PULL/LEGS/PUSH às 18h, jantar, dormir) e dimensiona a lista a esse tempo real. Se ele te disser a hora ou o tempo que tem, usa isso; se não, ancora na hora do relógio, não no abstrato.
 
 ## 2. Criar a nota de hoje se ainda não existir
 
@@ -41,7 +43,7 @@ Se ele já respondeu a isto na mensagem, salta as perguntas e vai direto à dire
 
 Output nesta forma, e mantém-no curto:
 
-**Onde estás** — 2–4 linhas. Só o que é relevante para a decisão de hoje. Não um dump de estado completo.
+**Onde estás** — 2–4 linhas. Começa por **creditar o que ele já fez hoje** (é um facto, não um adorno) e reflete os pilares relevantes, não só o Craft. Só o que é relevante para a decisão de hoje. Não um dump de estado completo, e sem o "mas" que apaga o crédito.
 
 **Hoje, por ordem** — uma lista ordenada curta. Cada item ligado a um custo de tempo real:
 
@@ -55,7 +57,8 @@ Output nesta forma, e mantém-no curto:
 
 ## Regras
 
-- Sequencia por alavancagem, não pelo que é mais fácil de riscar.
+- Sequencia por alavancagem, não pelo que é mais fácil de riscar. Mas **alavancagem ≠ sempre AquaOS** — não faças de todas as aberturas uma sessão sobre a Frente A.
+- Não lideres a abertura com a Frente A / launch por default. Levanta-a só quando for genuinamente a decisão do dia — uma vez, sem a reargumentar (ver `CLAUDE.md`, Regras rígidas).
 - Se um bloqueio tem estado por tocar, põe-no primeiro — mas di-lo **uma vez**, sem o reargumentar.
 - Não listes os seis pilares. Menciona o que é relevante para a decisão agora.
 - Sem preâmbulo. Sem "aqui está o teu briefing diário". Começa pela substância.

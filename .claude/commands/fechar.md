@@ -46,9 +46,12 @@ Preenche a secção Fecho:
 
 Não um resumo — ele esteve lá. Escolhe **uma**:
 
+- Um progresso real ou uma trajetória (esta semana vs. a anterior) que ele possa não ter notado — creditar o que subiu conta tanto como assinalar o que caiu
 - Um padrão dos últimos dias que ele possa não ter notado
 - Um número que acabou de cruzar uma linha que vale a pena saber
 - Um alvo cuja aritmética já não funciona e precisa de uma decisão
+
+Não escolhas por default a coisa negativa. Se o dia ou a semana mostram progresso, essa é a coisa útil a dizer.
 
 Se a leitura (ou outra coisa) tem faltado há vários dias, nomeia-o como um **problema de gatilho, não de disciplina** — e só uma vez.
 

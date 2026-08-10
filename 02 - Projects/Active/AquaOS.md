@@ -116,6 +116,26 @@ Três clientes pagantes fecham quase todo o alvo de faturação de 2026. A aritm
 
 ---
 
+## 🧾 Abrir atividade — perguntas para o contabilista
+
+> Reunião **por agendar** — o pai liga ao contabilista **terça, 2026-08-11** para marcar (o pai tem contabilista; volta de férias segunda à noite). Capturado 2026-08-09, atualizado 2026-08-10.
+>
+> **Nota:** abrir atividade trava *faturar*, não o *launch* nem as *entrevistas*. Estas perguntas correm em paralelo ao launch — não são bloqueio ao trabalho de produto.
+
+**Estrutura & fiscal (para o contabilista):**
+- [ ] **ENI vs Unipessoal Lda.** — qual faz sentido para começar?
+- [ ] **Regime de IVA** — qual se aplica?
+- [ ] **CAE** — qual código para a atividade (SaaS / CRM para empresas de piscinas)?
+- [ ] **Morada** — pessoal vs escritório digital?
+- [ ] **Primeiros clientes/pagamentos** — como lidar com os primeiros pagamentos (entrevistas → primeiros pagantes)? Muda algo na forma de faturar?
+- [ ] **Riscos vs custos** da estrutura escolhida.
+
+**Produto (resolve-se na app, não com o contabilista):**
+- [ ] **RGPD** ligado à atividade/app → Issue #37 (/privacy, /terms, cookie banner) e #47 (right-to-erasure)
+- [ ] **Backups da DB** — periodicidade (diária/semanal/mensal), riscos vs custos. *Decisão técnica.*
+
+---
+
 ## 📜 Changelog
 
 ### 2026-05
