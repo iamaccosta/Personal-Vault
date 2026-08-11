@@ -11,6 +11,7 @@ Mais recente no topo.
 
 ---
 
+- **[Tarefa · 2026-08-11] Criar comando de análise dia/semana.** ⏰ Amanhã (12-08). Um comando que dá a análise separada em **objetivos diários** (tudo o que é sobre o dia) e **objetivos semanais** (tudo o que é sobre a semana). O ano só entra quando for pedida explicitamente uma análise de 2026.
 - **[Compra · 2026-08-10] Encomendar ashwagandha.** ⏰ Lembrar amanhã (11-08).
 - **[Compra · 2026-08-10] Suporte de portátil + teclado portátil.** Modelos já escolhidos (por confirmar quais). Comprar quando decidir.
 - **[Ideia · 2026-08-05] UI/dashboard para o personal-vault.** Uma interface visual por cima deste vault que dê visibilidade rápida e transparente do ano, mês, semana e dia. Pilares (os 6, ou outra divisão melhor) com métricas, KPIs e dashboards a partir do frontmatter das notas diárias. Ao centro, um chat/terminal WSL com uma sessão do Claude iniciada para falar com o mentor como na command line. Só para registar — pegar mais tarde.
