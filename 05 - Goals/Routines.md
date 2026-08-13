@@ -31,7 +31,7 @@ tags: [routines, habits]
 
 | # | Alvo | Pilar | Notas |
 |---|---|---|---|
-| 10 | 🌹 **Flores para ela** | [[People]] | Jantares NÃO substituem flores. ⚫ 2/12 — inatingível mensalmente; precisa de uma decisão. |
+| 10 | 🌹 **Flores para ela** | [[People]] | Jantares NÃO substituem flores. 3/12 — alvo **mantido em 12 de propósito** (13-08): o gap fica visível, compensa nos últimos meses com cadência acima de 1×/mês. |
 
 ---
 
@@ -45,5 +45,5 @@ O Duolingo é o único alvo com um gatilho real, e é o único que se aguenta. A
 - [x] Craft na semana: mín. 5 h nos dias úteis + ~10 h ao fim de semana (não dividido por igual)
 - [ ] Quando é que a leitura acontece? → candidato: **de manhã, depois de pronto, antes de sair**. Mas a causa-raiz é **acordar tarde** (a manhã fica sem folga → Duolingo curto e leitura zero). O gatilho a fixar é a hora de acordar, não o da leitura — um upstream desbloqueia ambos. (identificado 04-08)
 - [ ] A que horas paro? ([[Recharge]] está em modo de observação — registar primeiro, alvos depois)
-- [ ] **Registar o peso atual** — [[Body]] não tem número de partida
-- [ ] **Decidir sobre as flores**: subir a cadência, ou rever o alvo de 12 para 7
+- [x] **Peso: 1×/semana em jejum, sem dia fixo** — pesa quando estiveres em casa com a balança (em casa da namorada não a tem). Cadência semanal, não diária. (definido 13-08)
+- [x] **Flores: manter o alvo em 12, de propósito** — não revê para 7. Deixa o gap visível como sinal de que está em falta; compensa nos últimos meses subindo a cadência. (decidido 13-08)

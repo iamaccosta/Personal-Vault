@@ -4,7 +4,7 @@ tags: [library]
 
 # 📚 Biblioteca
 
-> 6 livros em [[2026]]. Atualmente 3 terminados, 1 em curso. ⚠️ Terminados ≠ contados: pela regra abaixo, um livro só conta com uma linha em Aplicado — hoje as três tabelas estão vazias.
+> 6 livros em [[2026]]. Atualmente 3 terminados + 1 em curso, **os 4 com linha em Aplicado → 4 contam** (os 3 terminados foram aplicados antes de o vault existir; o *Secrets* foi aplicado a 11-08-2026).
 
 ```dataview
 TABLE status, author, pages_done + "/" + pages_total AS Progresso

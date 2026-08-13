@@ -71,11 +71,11 @@ tags: [project, aquaos]
 > Fonte de verdade: **Issues no GitHub** (`iamaccosta/AquaOS`). 18 fechados · 8 abertos a 2026-08-03. Esta lista é o espelho por prioridade — o detalhe está lá.
 
 ### Agora — `priority:high`
-- [ ] #37 RGPD: /privacy, /terms e cookie banner *(feature)*
-- [ ] #13 [Epic] Stripe billing (subscrições) — **é o fluxo de faturação que fecha a monetização**
+- [~] #37 RGPD: /privacy, /terms e cookie banner *(feature)* — **código feito (11-08); só falta o texto legal do contabilista/advogado.** Fica aberto por conteúdo, não por dev.
+- [ ] #13 [Epic] Stripe billing (subscrições) — **depende de atividade aberta.** É o fluxo de faturação que fecha a monetização.
 
 ### A seguir — `priority:medium`
-- [ ] #47 Self-service: eliminar empresa + dados (right-to-erasure)
+- [x] #47 Self-service: eliminar empresa + dados (right-to-erasure) — **merged e fechado 11-08**
 - [ ] #30 [Epic] Portal do cliente final
 - [ ] #29 [Epic] Relatórios em PDF (motor + branding)
 
@@ -83,7 +83,7 @@ tags: [project, aquaos]
 - [ ] #39 Landing: secção de funcionalidades com fotos — **feito num branch, ainda não merged na `develop`; não satisfeito com o resultado**
 
 ### Um dia — `low` / `chore`
-- [ ] #20 Reativar registo público (flip `SIGNUPS_ENABLED`) — passo do launch
+- [ ] #20 Reativar registo público (flip `SIGNUPS_ENABLED`) — passo do launch; **depende de atividade aberta**
 - [ ] #45 Folha por cliente: substituir transcrição manual
 
 ---
@@ -118,7 +118,7 @@ Três clientes pagantes fecham quase todo o alvo de faturação de 2026. A aritm
 
 ## 🧾 Abrir atividade — perguntas para o contabilista
 
-> Reunião **por agendar** — o pai liga ao contabilista **terça, 2026-08-11** para marcar (o pai tem contabilista; volta de férias segunda à noite). Capturado 2026-08-09, atualizado 2026-08-10.
+> Reunião **confirmada para sexta, 2026-08-14** (marcada via pai). Capturado 2026-08-09, atualizado 2026-08-13.
 >
 > **Nota:** abrir atividade trava *faturar*, não o *launch* nem as *entrevistas*. Estas perguntas correm em paralelo ao launch — não são bloqueio ao trabalho de produto.
 

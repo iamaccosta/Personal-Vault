@@ -31,6 +31,61 @@ Vale a pena ser concreto aqui — há um objetivo financeiro vivo em [[Capital]]
 
 ---
 
+## 🧩 Exercícios do livro
+
+### Exercício 1 — Porque é que criar riqueza é importante para mim (11-08-2026)
+
+> *"Creating wealth is important to me."* — dizer porquê.
+
+Creating wealth is important to me because I want to be able to provide to my family. I want to provide the life my future wife deserves. I don't want money to be the reason of problems but the reason of opportunities and joy. I want to be financially free for my kids to work on what they are good at and what they like to do and not just because it pays well.
+
+*(Passo 2 do exercício — dizê-lo à parceira — fica para fazer pessoalmente, não para apontar.)*
+
+### Exercício 2 — Objetivos 'play-to-win' (11-08-2026)
+
+> Escrever 2 objetivos financeiros que demonstram intenção de abundância, não mediocridade: (a) income anual e (b) net worth. Realistas com prazo, mas 'shoot for the stars'.
+
+- **(a) Income anual: 150 mil € até ao final de 2028.**
+- **(b) Net worth: 1 milhão € até 2030.**
+
+Referência em relação ao projeto atual: em 2028 ≈ 50 clientes na subscrição anual do plano intermédio, com crescimento exponencial em 2029–2030. A ideia **não** é depender só do [[AquaOS]]. Difícil, mas não impossível.
+
+### Exercício 3 — Iniciar um projeto pendente há muito (11-08-2026)
+
+> Começar um projeto que está adiado há muito tempo.
+
+⚠️ **Em aberto.** Não se sente preparado / confortável para começar. É o ponto onde ficou travado.
+- Qual é o projeto: *(a preencher)*
+- Primeiro passo mínimo que remove **um** desconhecido: *(a definir)*
+
+### Exercício 4 — Ser mais otimista no dia a dia (11-08-2026)
+
+> Adotar uma postura mais otimista no quotidiano.
+
+Intenção registada. Prática contínua, não uma ação única.
+
+### Exercício 5 — Lista de gratidão (10+), ler em voz alta 30 dias (11-08-2026)
+
+> Escrever 10 coisas por que se está grato, ler em voz alta, e depois ler todas as manhãs durante 30 dias. *"If you don't appreciate what you've got, you won't get any more and you don't need any more."*
+
+Escritas **12** (passou dos 10):
+1. A namorada — pelo que faz por ele, pelo esforço pela relação, pela felicidade que traz.
+2. A família — por lhe mostrarem o que é uma família unida.
+3. O pai — pelo sustento destes anos, por o criar da melhor forma que sabe, pelo esforço físico.
+4. A mãe — pelo amor incondicional, por tudo o que sofreu e passou, pela pessoa que é.
+5. O irmão — das pessoas mais importantes, presente em todos os momentos mesmo à distância, o melhor amigo destes anos.
+6. Os 4 avós — por ainda estarem presentes e por criarem esta família, pela educação que deram a filhos e netos.
+7. O melhor amigo desde os 6 anos — 19 anos de amizade.
+8. As pessoas que o rodeiam — se fazem parte da vida dele, é porque são importantes.
+9. O trabalho — que o faz feliz, com bom ambiente, que gosta.
+10. A saúde — sem problemas de saúde, incluindo motora/física, e todos os que referiu estarem bem também.
+11. As condições em casa — que lhe permitem seguir os projetos e objetivos.
+12. As férias — que lhe foram proporcionadas desde sempre.
+
+> Ação de 30 dias: ler esta lista em voz alta todas as manhãs (início 11-08-2026 → até ~10-09-2026). Bom gatilho: colar ao pequeno-almoço, onde o Duolingo já ancora.
+
+---
+
 ## 📌 Ideias que vale a pena guardar
 
 ### 
@@ -46,7 +101,9 @@ Vale a pena ser concreto aqui — há um objetivo financeiro vivo em [[Capital]]
 
 | Ideia | Ação que tomei | Data | Funcionou? |
 |---|---|---|---|
-| | | | |
+| O 'porquê' da riqueza tem de ser dito, não pressuposto | Escrevi a minha declaração de porque criar riqueza importa (prover à família / futura mulher / liberdade para os filhos) | 11-08-2026 | — |
+| Definir objetivos 'play-to-win', não de sobrevivência | Fixei income 150k€/ano até 2028 e net worth 1M€ até 2030, ancorados ao nº de clientes AquaOS | 11-08-2026 | — |
+| Gratidão diária ancora a mentalidade de abundância | Escrevi 12 coisas por que estou grato; ler em voz alta todas as manhãs 30 dias (→ 10-09) | 11-08-2026 | em curso |
 
 ---
 

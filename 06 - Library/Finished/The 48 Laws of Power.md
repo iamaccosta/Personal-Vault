@@ -25,7 +25,7 @@ tags: [book, finished]
 
 | Ideia | Ação que tomei | Data | Funcionou? |
 |---|---|---|---|
-| | | | |
+| Lido e aplicado antes de o vault existir | Aplicado na altura da leitura (pré-vault) — conta para 2026 | pré-vault | sim |
 
 ## 🪞 Retrospetiva
 
