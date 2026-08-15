@@ -16,7 +16,7 @@ tags: [project, aquaos]
 
 # AquaOS
 
-> Plataforma CRM para empresas de piscinas. Em produção e em testes com o cliente zero.
+> **Sistema operativo das empresas de manutenção de piscinas** — onde gerem clientes, equipa e o trabalho dos operadores. Em produção. Reposicionado de "CRM para empresas de piscinas" para plataforma de operações a **2026-08-15** (ver Decisões).
 
 | | |
 |---|---|
@@ -107,6 +107,26 @@ Três clientes pagantes fecham quase todo o alvo de faturação de 2026. A aritm
 
 ## 🧠 Decisões & armadilhas
 
+### Reposicionamento (2026-08-15) — de CRM a plataforma de operações
+Depois de duas análises de mercado (`Telemetria e software proprietário…` e `analise-potencial-saas-piscinas-portugal`), o foco estava disperso: telemetria por piscina + alertas sem integração resolvida + CRM sem workflow concreto de manutenção. **Novo eixo: o AquaOS é o sistema operativo da empresa de manutenção** — gestão de clientes, equipa e trabalho dos operadores.
+
+**Modelo de dados (correção importante):** três camadas, não uma.
+- **Contrato ↔ cliente/local** (embalagem comercial: preço, época, o que inclui). Um contrato pode cobrir várias piscinas — não forçar contrato por piscina (ex.: hotel com 2 piscinas = 1 contrato).
+- **Plano de serviço ↔ piscina** (frequência, SLA, checklist, parâmetros). É aqui que piscinas do mesmo cliente divergem.
+- **Intervenção + medições ↔ piscina** (execução e prova).
+
+**Segmento-alvo:** empresas com **5–15 técnicos**, dezenas/centenas de piscinas, contratos recorrentes. O profissional individual não é cliente (acha caro/complexo). Canal de validação eventual: **APPP**. Portugal = laboratório; escala real exigirá expansão ibérica/europeia (mercado PT isolado é médio-baixo).
+
+**Diferenciador defensável:** prova de serviço + portal do cliente + fluxo *alerta→intervenção* (funciona mesmo com medição manual). Não ser sensor nem controlador — ficar **acima** da camada de hardware.
+
+**Decisões de âmbito assumidas pelo André (divergem dos documentos, conscientemente):**
+- **Web-only, online, sem mobile/offline-first** por agora. Risco conhecido: sala técnica sem sinal não fecha visita no momento — a validar com operadores, não bloqueia o v1.
+- **Terminar o v1 antes de vender/entrevistar.** Não vai arranjar novo cliente-zero nem fazer entrevistas sem produto. ⚠️ Só é seguro com fronteira de v1 escrita (abaixo) — senão cai na armadilha do "obrigatório antes do launch" que se estica.
+
+**Fronteira do v1 (definida para "terminar o produto" ter um fim):**
+- Dentro: feito atual (CRM, piscinas, equipa, agenda) coerente sob o novo foco · refactor do processo de intervenção (incl. nº de amostragens) · refactor dos alertas (telemetria → **operacionais/preditivos**: intervenções em falta/não agendadas, piscinas a precisar de atenção) · **prova de serviço** (registo + relatório de intervenção) · **portal do cliente** mínimo.
+- **Fora do v1 (explícito):** otimização de rotas (Fase 2 — precisa de brainstorm+build grande) · telemetria (módulo premium, pós-v1, plataforma fica *telemetria-ready* mas não dependente).
+
 ### Estratégia atual: fechar os "obrigatórios antes do launch"
 - O plano é limpar os Issues que o André sente serem obrigatórios antes do launch verdadeiro (RGPD, relatórios de intervenção, relatórios de cliente, landing, etc.) e só depois lançar publicamente.
 - **Armadilha a vigiar:** "obrigatório antes do launch" é uma lista que se estica. Ele é um overthinker que polL — o risco não é fazer pouco, é adiar o launch a fechar Issues que um cliente real nem notaria. A pergunta a cada Issue: *isto trava mesmo o launch, ou pode fechar depois do primeiro pagante?*
@@ -147,3 +167,4 @@ Três clientes pagantes fecham quase todo o alvo de faturação de 2026. A aritm
 ### 2026-08
 - Em produção em aquaos.pt, cliente zero em testes
 - 18 Issues fechados no total; 8 abertos (2 `high`: RGPD #37, Stripe #13)
+- **15-08 — reposicionamento estratégico:** de "CRM" para **sistema operativo da empresa de manutenção**. Modelo de dados em 3 camadas (contrato↔cliente / plano↔piscina / intervenção↔piscina), segmento 5–15 técnicos, fronteira de v1 definida, rotas e telemetria fora do v1. Ver Decisões.
