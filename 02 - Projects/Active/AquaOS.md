@@ -68,23 +68,28 @@ tags: [project, aquaos]
 
 ## 🔨 Próximas ações
 
-> Fonte de verdade: **Issues no GitHub** (`iamaccosta/AquaOS`). 18 fechados · 8 abertos a 2026-08-03. Esta lista é o espelho por prioridade — o detalhe está lá.
+> Fonte de verdade: **Issues no GitHub** (`iamaccosta/AquaOS`), em **milestones** `1.0.0` e `Backlog (pós-1.0.0)`. Espelho local em `todo.md`. Estado: **`v0.1.0`** = versão de teste com o cliente zero (em `main`, pré-launch) → a construir o **1.0.0** (launch público). `main` fica atrás do `develop` até terminar.
 
-### Agora — `priority:high`
-- [~] #37 RGPD: /privacy, /terms e cookie banner *(feature)* — **código feito (11-08); só falta o texto legal do contabilista/advogado.** Fica aberto por conteúdo, não por dev.
-- [ ] #13 [Epic] Stripe billing (subscrições) — **depende de atividade aberta.** É o fluxo de faturação que fecha a monetização.
+### Milestone `1.0.0` — o launch público verdadeiro, pronta para venda (alvo: domingo 23-08)
+Ordem **estrita** — features → redesign → go-live:
 
-### A seguir — `priority:medium`
-- [x] #47 Self-service: eliminar empresa + dados (right-to-erasure) — **merged e fechado 11-08**
-- [ ] #30 [Epic] Portal do cliente final
-- [ ] #29 [Epic] Relatórios em PDF (motor + branding)
+**(1) Features**
+- [x] #77 Plano de serviço (leve) por piscina + 3 tabs — **feito e mergeado** (PR #78, 16-08). `ServicePlan` com gamas-alvo `ph/chlorine/temp/salinity`.
+- [x] #70 Refactor da intervenção — medições **antes/depois** (`InterventionMeasurement`) + relatório #32. **Feito e mergeado** (PR #76).
+- [x] #71 Alertas operacionais/preditivos derivados no core (missed-visit, needs-plan, needs-schedule, overdue-maintenance). **Feito e mergeado** (PR #79).
+- [ ] #74 Telemetria: scaffolding premium + gating da tab (por direito do plano + form "Conectar aos Equipamentos"). **Próximo.**
+- [ ] #72 Portal do cliente read-only mínimo.
 
-### Em curso
-- [ ] #39 Landing: secção de funcionalidades com fotos — **feito num branch, ainda não merged na `develop`; não satisfeito com o resultado**
+**(2) Redesign — #61**
+- Baseline (fundações+shell+dashboard) **merged no develop** via PR #73 (fechou #62, #68); #69 /clients **descartado**. Re-ataca as páginas a partir daí, só depois das features.
 
-### Um dia — `low` / `chore`
-- [ ] #20 Reativar registo público (flip `SIGNUPS_ENABLED`) — passo do launch; **depende de atividade aberta**
-- [ ] #45 Folha por cliente: substituir transcrição manual
+**(3) Go-live — `blocked` até (1) e (2)**
+- [~] #37 RGPD — código feito; falta texto legal.
+- [ ] #13 [Epic] Stripe billing — #14–#19 fechados; falta setup Stripe live. ENI (15-08) desbloqueou o administrativo.
+- [ ] #20 Reativar registo público (flip `SIGNUPS_ENABLED`) — flip final.
+
+### Milestone `Backlog (pós-1.0.0)`
+- [ ] Telemetria completa (ingestão de sensores) · rotas · #30 portal completo · #45 folha por cliente · #29 motor PDF avançado (fechável: filhos #32/#33 entregues).
 
 ---
 
@@ -107,6 +112,13 @@ Três clientes pagantes fecham quase todo o alvo de faturação de 2026. A aritm
 
 ## 🧠 Decisões & armadilhas
 
+### Modelo de domínio — plano de serviço vs. contrato (2026-08-16)
+Ao refatorar as intervenções percebeu-se que faltava a espinha do modelo 3-camadas. Decisões:
+- **Plano de serviço (operacional): construir agora, leve** — entidade por piscina com **frequência + gamas-alvo por parâmetro** (vocabulário condicionado pela ficha da piscina). É contra ele que as medições antes/depois comparam e de onde o #71 tira o alvo. Issue #77.
+- **Contrato (comercial: preço/época/packaging): adiado → Backlog.** Não é preciso para o loop operacional que se vai vender no 1.0.0.
+- **Como funciona o negócio (confirmado):** manutenção é recorrente com periodicidade acordada no início (vive no plano); construção/reparação são avulsos, fora da periodicidade → só manutenção leva medições. Tratamento é propriedade da piscina (ficha técnica), não do contrato. Agenda = híbrida: a cadência vem do plano, o dia/operador ficam por atribuir operacionalmente (já suportado pelo `visit-schedules`).
+- **Criar plano:** não na criação da piscina — empty-state com CTA na tab principal. Reorg da página da piscina em 3 tabs: **principal (ficha técnica + plano)** · intervenções · **telemetria (condicional ao módulo, gating no #74)**.
+
 ### Reposicionamento (2026-08-15) — de CRM a plataforma de operações
 Depois de duas análises de mercado (`Telemetria e software proprietário…` e `analise-potencial-saas-piscinas-portugal`), o foco estava disperso: telemetria por piscina + alertas sem integração resolvida + CRM sem workflow concreto de manutenção. **Novo eixo: o AquaOS é o sistema operativo da empresa de manutenção** — gestão de clientes, equipa e trabalho dos operadores.
 
@@ -126,6 +138,9 @@ Depois de duas análises de mercado (`Telemetria e software proprietário…` e 
 **Fronteira do v1 (definida para "terminar o produto" ter um fim):**
 - Dentro: feito atual (CRM, piscinas, equipa, agenda) coerente sob o novo foco · refactor do processo de intervenção (incl. nº de amostragens) · refactor dos alertas (telemetria → **operacionais/preditivos**: intervenções em falta/não agendadas, piscinas a precisar de atenção) · **prova de serviço** (registo + relatório de intervenção) · **portal do cliente** mínimo.
 - **Fora do v1 (explícito):** otimização de rotas (Fase 2 — precisa de brainstorm+build grande) · telemetria (módulo premium, pós-v1, plataforma fica *telemetria-ready* mas não dependente).
+
+### Redesign passa a bloquear o launch (2026-08-16) — reverte 08-05
+A 05-08 a decisão foi *launch na UI atual, redesign em paralelo não-bloqueante*. A 16-08 o André inverteu: **não lança sem o redesign** — #61 e filhos (#62, #68, #69) entraram na milestone `v1 — launch`. Consequência assumida e dita uma vez: o dia 1 de receita depende agora de quanto o redesign demorar, não só do go-live. ⚠️ O redesign é a zona de conforto dele (iterável ao infinito) — pô-lo no caminho crítico é exatamente o risco de "terminar o v1" esticar sem fim. Ver memória [[aquaos-launch-first-two-fronts]].
 
 ### Estratégia atual: fechar os "obrigatórios antes do launch"
 - O plano é limpar os Issues que o André sente serem obrigatórios antes do launch verdadeiro (RGPD, relatórios de intervenção, relatórios de cliente, landing, etc.) e só depois lançar publicamente.
@@ -168,3 +183,6 @@ Depois de duas análises de mercado (`Telemetria e software proprietário…` e 
 - Em produção em aquaos.pt, cliente zero em testes
 - 18 Issues fechados no total; 8 abertos (2 `high`: RGPD #37, Stripe #13)
 - **15-08 — reposicionamento estratégico:** de "CRM" para **sistema operativo da empresa de manutenção**. Modelo de dados em 3 camadas (contrato↔cliente / plano↔piscina / intervenção↔piscina), segmento 5–15 técnicos, fronteira de v1 definida, rotas e telemetria fora do v1. Ver Decisões.
+- **15-08 — ENI aberta** pela contabilista (atividade em nome individual). Desbloqueia #13 Stripe (setup live) e #20 registo público.
+- **16-08 (manhã) — 1.ª reorg do GitHub/docs:** milestones + #70/#71/#72 criados; #29 sinalizado. **Decisão: redesign bloqueia o launch** (ver Decisões).
+- **16-08 (tarde) — modelo de versões.** Decidido (opção SemVer): a versão de teste com o cliente zero (main atual) é **`v0.1.0`** (tag criada) — pré-launch, não era produção pública. A **nova versão passa a ser o `1.0.0`**, que coincide com o **launch verdadeiro** do produto. Alvo: **domingo 23-08** (curto, mas vamos tentar). Milestones `1.0.0` e `Backlog (pós-1.0.0)`. **Ordem estrita: features → redesign → go-live** (go-live marcado `blocked`). Baseline de design **merged no develop** (PR #73, fechou #62/#68); #69 /clients **descartado**. **Telemetria puxada para o 1.0.0 como scaffolding premium** (#74) — ingestão real fica no backlog. `main` fica atrás do `develop` até terminar (decisão consciente). Docs locais limpos (`temp.md` apagado, `tasks.md`/`todo.md` reset preservando backlog).
