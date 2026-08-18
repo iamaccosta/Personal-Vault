@@ -77,8 +77,10 @@ Ordem **estrita** — features → redesign → go-live:
 - [x] #77 Plano de serviço (leve) por piscina + 3 tabs — **feito e mergeado** (PR #78, 16-08). `ServicePlan` com gamas-alvo `ph/chlorine/temp/salinity`.
 - [x] #70 Refactor da intervenção — medições **antes/depois** (`InterventionMeasurement`) + relatório #32. **Feito e mergeado** (PR #76).
 - [x] #71 Alertas operacionais/preditivos derivados no core (missed-visit, needs-plan, needs-schedule, overdue-maintenance). **Feito e mergeado** (PR #79).
-- [ ] #74 Telemetria: scaffolding premium + gating da tab (por direito do plano + form "Conectar aos Equipamentos"). **Próximo.**
-- [ ] #72 Portal do cliente read-only mínimo.
+- [~] #74 Telemetria: **scaffolding feito e mergeado** (PR #80, 16-08). Flag `TELEMETRY_MODULE_ENABLED` (default OFF → tab mostra "Em Desenvolvimento…" no 1.0.0, launch inalterado) · gating stub `hasTelemetryEntitlement` · `PoolTelemetryTab` com 4 estados. **#74 fica aberto** — form de conexão real, real-time/histórico e direito real por plano (depende dos tiers/#13) vão para pós-1.0.0.
+- [x] #72 Portal do cliente read-only mínimo — **feito e mergeado** (PR #83, 17-08). Cliente acede à sua piscina (estado + plano + intervenções c/ fotos + agenda só data/estado); convite por link → password → JWT scope `portal`. **Scoping validado 7/7** (piscina de outro cliente → 404; token de empresa em `/portal/*` → 403), tal como decidido no modelo de acesso. Envio auto de email/QR do convite → #30.
+
+> **Fase de features do 1.0.0 COMPLETA** (5/5: #77, #70, #71, #74 scaffolding, #72). Pela ordem estrita, o próximo é **(2) o redesign #61** — que bloqueia o go-live.
 
 **(2) Redesign — #61**
 - Baseline (fundações+shell+dashboard) **merged no develop** via PR #73 (fechou #62, #68); #69 /clients **descartado**. Re-ataca as páginas a partir daí, só depois das features.
@@ -118,6 +120,18 @@ Ao refatorar as intervenções percebeu-se que faltava a espinha do modelo 3-cam
 - **Contrato (comercial: preço/época/packaging): adiado → Backlog.** Não é preciso para o loop operacional que se vai vender no 1.0.0.
 - **Como funciona o negócio (confirmado):** manutenção é recorrente com periodicidade acordada no início (vive no plano); construção/reparação são avulsos, fora da periodicidade → só manutenção leva medições. Tratamento é propriedade da piscina (ficha técnica), não do contrato. Agenda = híbrida: a cadência vem do plano, o dia/operador ficam por atribuir operacionalmente (já suportado pelo `visit-schedules`).
 - **Criar plano:** não na criação da piscina — empty-state com CTA na tab principal. Reorg da página da piscina em 3 tabs: **principal (ficha técnica + plano)** · intervenções · **telemetria (condicional ao módulo, gating no #74)**.
+
+### Portal do cliente #72 — modelo de acesso (2026-08-17)
+Ao especificar a última feature do 1.0.0, definido o que o cliente final vê. **Mantido como um só issue** (não epic — o epic é o #30; o âmbito v1 é coeso e o launch é curto; partir em sub-issues seria cerimónia contra a data).
+
+**Princípio:** o portal mostra ao cliente o **serviço** (o que paga + prova de que acontece), não a **operação interna** da empresa (mão de obra, gestão do próprio trabalho).
+
+- **Entrada:** área de cliente própria (não `/dashboard`), role de cliente final, sessão scoped ao `client_id`.
+- **Vê (read-only):** piscina(s) + estado · plano de serviço (frequência + gamas-alvo) · intervenções + relatório #32 (**núcleo — a prova de serviço**) · agendamentos (só datas + estado, sem operador).
+- **Não vê:** alertas #71 (interno; expõe falhas da empresa) · operador atribuído (mão de obra) · telemetria (dormente no 1.0.0) · contrato/preço (decisão de negócio, adiado) · ficha de contactos (opcional, adiável).
+- **Requisitos não-funcionais obrigatórios:** scoping estrito (impossível aceder a dados de outro cliente por manipular ids — mesmo rigor que #47/RGPD; é o pior bug possível deste produto) · suportar cliente → N piscinas.
+- **Peça que pode crescer:** convite/login do cliente final (role externo novo). Fica como item do checklist do #72; extrair para issue próprio **só se** crescer ao construir — não pré-separar.
+- ⚠️ **Armadilha:** não reutilizar o feed de alertas #71 no portal "por transparência". Um indicador de saúde virado ao cliente seria curado e separado (Fase 2, #30).
 
 ### Reposicionamento (2026-08-15) — de CRM a plataforma de operações
 Depois de duas análises de mercado (`Telemetria e software proprietário…` e `analise-potencial-saas-piscinas-portugal`), o foco estava disperso: telemetria por piscina + alertas sem integração resolvida + CRM sem workflow concreto de manutenção. **Novo eixo: o AquaOS é o sistema operativo da empresa de manutenção** — gestão de clientes, equipa e trabalho dos operadores.
@@ -186,3 +200,5 @@ A 05-08 a decisão foi *launch na UI atual, redesign em paralelo não-bloqueante
 - **15-08 — ENI aberta** pela contabilista (atividade em nome individual). Desbloqueia #13 Stripe (setup live) e #20 registo público.
 - **16-08 (manhã) — 1.ª reorg do GitHub/docs:** milestones + #70/#71/#72 criados; #29 sinalizado. **Decisão: redesign bloqueia o launch** (ver Decisões).
 - **16-08 (tarde) — modelo de versões.** Decidido (opção SemVer): a versão de teste com o cliente zero (main atual) é **`v0.1.0`** (tag criada) — pré-launch, não era produção pública. A **nova versão passa a ser o `1.0.0`**, que coincide com o **launch verdadeiro** do produto. Alvo: **domingo 23-08** (curto, mas vamos tentar). Milestones `1.0.0` e `Backlog (pós-1.0.0)`. **Ordem estrita: features → redesign → go-live** (go-live marcado `blocked`). Baseline de design **merged no develop** (PR #73, fechou #62/#68); #69 /clients **descartado**. **Telemetria puxada para o 1.0.0 como scaffolding premium** (#74) — ingestão real fica no backlog. `main` fica atrás do `develop` até terminar (decisão consciente). Docs locais limpos (`temp.md` apagado, `tasks.md`/`todo.md` reset preservando backlog).
+- **16-08 (noite) — 4.ª feature avançada: telemetria #74 (scaffolding).** PR #80 merged (19:35): flag `TELEMETRY_MODULE_ENABLED` default OFF (tab mostra "Em Desenvolvimento…", launch inalterado), gating stub `hasTelemetryEntitlement`, `PoolTelemetryTab` com 4 estados (só o 1.º alcançável com flag OFF). **Restante da telemetria (form de conexão, real-time, direito por plano) → pós-1.0.0; #74 fica aberto de propósito.** Depois: PR #81 (re-seed para o modelo operacional, sem telemetria) e PR #82 (fix #71 — needs-plan/needs-schedule só para piscinas de manutenção/limpeza), ambos 21:36. **Estado do 1.0.0: 4 de 5 features feitas; falta só #72 (portal read-only) antes do redesign #61.**
+- **17-08 — #72 portal do cliente FECHADO (PR #83).** 5.ª e última feature: read-only v1 (sua piscina — estado, plano, intervenções c/ fotos, agenda só data/estado), convite por link → password → JWT scope `portal`. Segurança concentrada no `TenantGuard`, **scoping validado 7/7** (piscina de outro cliente → 404, token de empresa em `/portal/*` → 403) — exatamente o modelo de acesso decidido a 17-08. **Fase de features do 1.0.0 completa (5/5). Próximo pela ordem estrita: redesign #61 (bloqueia go-live).** Gates de go-live restantes: #37 (falta texto legal), #13 Stripe live, #20 flip signups.

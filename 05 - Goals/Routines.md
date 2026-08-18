@@ -22,7 +22,7 @@ tags: [routines, habits]
 
 | # | Alvo | Pilar | Gatilho | Notas |
 |---|---|---|---|---|
-| 6 | **3 sessões de treino** | [[Body]] | ✅ Seg PULL · Qua LEGS · Sex PUSH, 18h–20h (pós-trabalho) | Falha um dia → passa para o seguinte, mas perde o descanso no meio. |
+| 6 | **3 sessões de treino** | [[Body]] | ✅ Seg LEGS · Qua PUSH · Sex PULL, 18h–20h (pós-trabalho) | LEGS à segunda de propósito — o treino que lhe custa mais fica no início da semana. Falha um dia → passa para o seguinte, mas perde o descanso no meio. |
 | 7 | **1 corrida / cardio** | [[Body]] | sábado de manhã | Corrida ou voleibol de praia. |
 | 8 | **15 h de produtividade** | [[Craft]] | ✅ mín. 5 h dias úteis + 10 h fim de semana | **Não divide por igual.** Seg/Qua/Sex o ginásio (18–20h) só deixa ~1h30 antes de dormir, usada para desligar. Por isso o mínimo dos dias úteis é 5 h no total, e sobram ~10 h para sábado+domingo. Flexível — há dias de trabalhar mais e dormir menos. |
 | 9 | **Atualizar gestão financeira** (Google Sheets) | [[Capital]] | semanal | O sítio onde faz a gestão do dinheiro. Tem de ser atualizado todas as semanas. |

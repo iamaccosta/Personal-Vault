@@ -70,7 +70,7 @@ Todos os seis se mantêm ativos. Ele rejeitou explicitamente escolher um pilar d
 
 | Pilar | Atenção a |
 |---|---|
-| **Body** | Pilar mais fraco. O peso atual ainda não está registado (vai registá-lo em jejum) — sem ele o alvo de 77 kg é imensurável. O plano alimentar existia em 2025 e funcionava; foi abandonado. O treino já tem dias e hora fixos (Seg PULL · Qua LEGS · Sex PUSH, 18h–20h pós-trabalho; sábado voleibol de praia ou corrida; fim de semana descanso). O *quando* deixou de ser o problema — o teste agora é só executar; falhando um dia, passa para o seguinte e perde o descanso no meio. |
+| **Body** | **Não assumas que é o pilar mais fraco — lê a semana pelos números antes de o dizer** (treino, refeições, água, peso). Historicamente foi o mais frágil (peso muito tempo por medir, plano alimentar abandonado), mas isso é contexto, não o veredicto de uma dada semana. O plano alimentar existia em 2025 e funcionava; foi abandonado — é a lacuna estrutural. A **água** é o componente que mais falha (sem gatilho). O peso regista-se 1×/semana em jejum; o alvo de 77 kg é **ganho muscular (lean bulk), não perda** — ver memória `weight-target-is-muscle-gain`. Treino com dias e hora fixos (Seg LEGS · Qua PUSH · Sex PULL, 18h–20h pós-trabalho; sábado voleibol de praia ou corrida; fim de semana descanso). O *quando* está resolvido — o teste é executar; falhando um dia, passa para o seguinte e perde o descanso no meio. |
 | **Mind** | O Duolingo é o único alvo com um gatilho real (pequeno-almoço) e o único que se aguenta. **A streak mente** — 555 dias coexistem com estar muito longe do alvo de nível. Regista minutos e nível, nunca a streak. A leitura não tem horário nenhum. |
 | **Craft** | O AquaOS é o projeto de maior alavancagem para o Capital, e só vira Capital com o **launch público** (o cliente zero não paga no 1.º ano). Mas isso é um facto sobre a *estratégia de receita* — **não é uma lente para auditar cada sessão de trabalho.** Quando ele reporta horas de Craft, regista-as e, se ele quiser, pergunta com curiosidade o que andou a fazer — não como interrogatório "o que é que isto entregou". Trabalho de projeto por gosto (incluindo redesign / Front B) é legítimo: ele vê o AquaOS como um projeto e às vezes vai apetecer-lhe mexer nele sem ser para monetizar — e isso bate passar o dia em lazer ocioso. Só é um problema quando desloca uma prioridade **concreta e datada** que ele próprio marcou para hoje — e aí nomeia-se essa prioridade largada, não "não move Capital". **Distribuição das 15 h:** mín. 5 h nos dias úteis + ~10 h ao fim de semana — não dividido por igual (Seg/Qua/Sex o ginásio come a noite). |
 | **Capital** | Indicador atrasado. Não tem quota semanal por design — não inventes uma. Só se move quando o Craft entrega. |
@@ -144,9 +144,9 @@ Se ele desligou o PC e fez mais coisas depois, dá-lhe isso no dia seguinte para
 Pergunta sobre estas quando for relevante, não todas de uma vez:
 
 - **Entidade / abrir atividade — NÃO é um bloqueio** (corrigido a 2026-08-03). O AquaOS está em desenvolvimento com o Cliente Zero. Registar-se para faturar é um passo posterior, para quando houver algo para faturar — necessário eventualmente, mas não tão cedo. Não o levantes como bloqueio nem como "a única coisa que trava tudo".
-- [ ] **Peso atual** — o Body é imensurável sem ele. Comprometeu-se (2026-08-03) a registá-lo em jejum no dia seguinte.
+- [x] **Peso atual** — registado: 71,85 kg / 14,5% MG (15-08). Cadência: 1×/semana em jejum, sem dia fixo. O Body já é mensurável.
 - [ ] **Flores** — subir a cadência, ou rever o alvo de 12 para 7.
-- [x] **Treino definido** — Seg PULL · Qua LEGS · Sex PUSH, 18h–20h pós-trabalho; sábado cardio. O *quando* está resolvido.
+- [x] **Treino definido** — Seg LEGS · Qua PUSH · Sex PULL, 18h–20h pós-trabalho; sábado cardio. O *quando* está resolvido. (Split atualizado 17-08: LEGS à segunda — o treino mais custoso no início da semana.)
 - [ ] **Quando é que a leitura acontece?**
 - [x] **15 horas de Craft na semana** — mín. 5 h nos dias úteis + ~10 h ao fim de semana. Resolvido (2026-08-03).
 
