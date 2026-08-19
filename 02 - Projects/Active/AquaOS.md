@@ -114,6 +114,22 @@ Três clientes pagantes fecham quase todo o alvo de faturação de 2026. A aritm
 
 ## 🧠 Decisões & armadilhas
 
+### Vista do operador no /dashboard — contas por responsabilidade (Bloco 6) (2026-08-18, confirmado 2026-08-19)
+**Entra no launch de 1.0.0.** É o **Bloco 6** do redesign do /dashboard (#84/#61) — a única peça que falta para fechar a página; depois avança-se para a próxima página.
+
+**Modelo de contas geridas pela empresa:**
+- Consoante o **plano** que contrata, a empresa tem direito a criar **contas** para os operadores — individuais **ou por conjuntos/equipas**, ao critério dela. Para o AquaOS é indiferente se é uma pessoa ou várias a usar a conta; há sempre **um responsável** pela conta.
+- Ao criar uma conta, atribuem-se **responsabilidades**: **manutenção · limpeza · reparação · construção**.
+- Essas responsabilidades geram **filtros de visibilidade**: uma conta de *manutenção* só vê os **clientes de manutenção**; na **agenda**, as visitas já são atribuídas **por conta**. Ou seja, a separação de acesso owner vs. operador **já vinha a ser construída à medida que as features foram feitas** — não é âmbito novo do zero.
+
+**O que a conta operador vê no /dashboard** (vs. a vista de dono/admin, Blocos 1–5):
+- **KPIs direcionados a si** (não os KPIs de gestão da empresa).
+- Só as **suas próximas visitas**.
+- Só os **clientes da sua área de trabalho** + estado deles.
+- **"Operação da semana" apenas da sua conta** (não da empresa/equipa toda).
+
+**Risco de launch (avaliação do André, 18-08):** baixo — porque a espinha da separação de acessos/visibilidade já existe do desenvolvimento das features. O Bloco 6 é **aplicar essa separação à página /dashboard**, não construí-la de raiz. Nas outras páginas, faz-se **uma a uma** depois.
+
 ### Modelo de domínio — plano de serviço vs. contrato (2026-08-16)
 Ao refatorar as intervenções percebeu-se que faltava a espinha do modelo 3-camadas. Decisões:
 - **Plano de serviço (operacional): construir agora, leve** — entidade por piscina com **frequência + gamas-alvo por parâmetro** (vocabulário condicionado pela ficha da piscina). É contra ele que as medições antes/depois comparam e de onde o #71 tira o alvo. Issue #77.
