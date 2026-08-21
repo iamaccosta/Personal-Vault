@@ -84,6 +84,25 @@ Escritas **12** (passou dos 10):
 
 > Ação de 30 dias: ler esta lista em voz alta todas as manhãs (início 11-08-2026 → até ~10-09-2026). Bom gatilho: colar ao pequeno-almoço, onde o Duolingo já ancora.
 
+### Exercício 6 — Focar nos 4 fatores de net worth + net worth statement (21-08-2026)
+
+> Os 4 fatores: aumentar income, aumentar savings, aumentar retorno de investimentos, baixar custo de vida (simplificar). E criar um *net worth statement* (ativos − passivos), revisto trimestralmente.
+
+✅ **Feito.** Criado [[Net Worth]]:
+- Net worth atual = **15.707 €** (11.107 à ordem + 4.600 poupança), **zero passivos**.
+- Fundo de emergência dimensionado: média de gastos **963 €/mês × 3 = 2.900 €** líquidos à ordem; excedente **12.807 €** movido para a poupança.
+- Fator **Investments = 0 €** identificado como a lacuna maior (dinheiro a render ~0%, perde para a inflação). Financial planner: **não para já** — reavaliar quando o AquaOS faturar ou o património crescer.
+- Distinção fixada: o `5.648 €` de [[2026]] é *fluxo* de poupança do ano, não património — não se misturam.
+
+### Exercício 7 — Sistema dos 6 JARs (dividir o income por contas) — ⚠️ EM ABERTO, retomar 22-08-2026
+
+> Repartir cada euro recebido por 6 contas: **FFA** (Financial Freedom, 10% — nunca se gasta, é a "galinha dos ovos de ouro" = rendimento passivo/reforma) · **Play** (10% — gasta-se todo o mês) · **Long-Term Savings for Spending** (10% — compras grandes futuras: mudança/casa, viagens, imprevistos) · **Education** (10% — cursos/livros que aumentam capacidade de ganhar) · **Necessities** (50% — essenciais; se não cabe, o estilo de vida é grande demais) · **Give** (10% — dar/generosidade).
+
+**Estado:** conceitos explicados nesta sessão; ele percebeu o papel das 6. **Falta decidir e montar.** Próximos passos para amanhã:
+- Decidir as **percentagens reais** (o 50/10/10/10/10/10 é referência — ele já poupa ~5.648 €/ano, logo vive abaixo de 50% de Necessities; provavelmente pode mandar a folga para FFA/LTSS).
+- Montar na **Google Sheet** uma aba que pega no income mensal e reparte automaticamente pelas 6 contas.
+- Nota-chave: a **FFA é exatamente o "passo 2"** adiado — pôr o excedente (>colchão) num fundo indexado de baixo custo a gerar rendimento passivo. Os dois assuntos são a mesma máquina.
+
 ---
 
 ## 📌 Ideias que vale a pena guardar
@@ -104,6 +123,7 @@ Escritas **12** (passou dos 10):
 | O 'porquê' da riqueza tem de ser dito, não pressuposto | Escrevi a minha declaração de porque criar riqueza importa (prover à família / futura mulher / liberdade para os filhos) | 11-08-2026 | — |
 | Definir objetivos 'play-to-win', não de sobrevivência | Fixei income 150k€/ano até 2028 e net worth 1M€ até 2030, ancorados ao nº de clientes AquaOS | 11-08-2026 | — |
 | Gratidão diária ancora a mentalidade de abundância | Escrevi 12 coisas por que estou grato; ler em voz alta todas as manhãs 30 dias (→ 10-09) | 11-08-2026 | em curso |
+| Net worth mede-se (stock), não se pressupõe | Criei net worth statement (15.707 €, 0 dívida) + fundo de emergência 2.900 €; excedente 12.807 € isolado para investir | 21-08-2026 | — |
 
 ---
 
