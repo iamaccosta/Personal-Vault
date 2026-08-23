@@ -98,10 +98,21 @@ Escritas **12** (passou dos 10):
 
 > Repartir cada euro recebido por 6 contas: **FFA** (Financial Freedom, 10% — nunca se gasta, é a "galinha dos ovos de ouro" = rendimento passivo/reforma) · **Play** (10% — gasta-se todo o mês) · **Long-Term Savings for Spending** (10% — compras grandes futuras: mudança/casa, viagens, imprevistos) · **Education** (10% — cursos/livros que aumentam capacidade de ganhar) · **Necessities** (50% — essenciais; se não cabe, o estilo de vida é grande demais) · **Give** (10% — dar/generosidade).
 
-**Estado:** conceitos explicados nesta sessão; ele percebeu o papel das 6. **Falta decidir e montar.** Próximos passos para amanhã:
-- Decidir as **percentagens reais** (o 50/10/10/10/10/10 é referência — ele já poupa ~5.648 €/ano, logo vive abaixo de 50% de Necessities; provavelmente pode mandar a folga para FFA/LTSS).
-- Montar na **Google Sheet** uma aba que pega no income mensal e reparte automaticamente pelas 6 contas.
-- Nota-chave: a **FFA é exatamente o "passo 2"** adiado — pôr o excedente (>colchão) num fundo indexado de baixo custo a gerar rendimento passivo. Os dois assuntos são a mesma máquina.
+**Estado:** conceitos explicados; sistema em construção no Excel. Estrutura fechada na sessão de **23-08**; percentagens **on hold** por decisão dele (finaliza a estrutura primeiro, valores depois).
+
+**Nota-chave:** a **FFA é exatamente o "passo 2"** adiado — pôr o excedente (>colchão) num fundo indexado de baixo custo a gerar rendimento passivo. Os dois assuntos são a mesma máquina.
+
+#### Decisões de estrutura (23-08)
+
+- **Percentagens — ON HOLD.** O 50/10/10/10/10/10 é só a *referência* do Eker. O **julho real** (labeling de 22-08) mostra Necessities **25%**, Play **37%** (a fuga), LTSS 23%, Give 11%, Education 4%, FFA **0%** — logo o alvo do livro está desalinhado (folga a mais em Necessities, fantasia em Play, e trava o FFA que ele quer arrancar). Ele viu os números e adiou para depois de fechar a estrutura. **Retomar: fixar as % reais contra o julho.**
+- **Duas lentes, um tag.** Mantêm-se os **Labels/Tipo** das Saídas (granularidade por categoria) *e* os **JARs** (orçamento). O JAR deriva do Label por default e ele faz override por linha. Não se deitam labels fora.
+- **Mapa Label→JAR (default), na tabela de Labels das Saídas no Config** (colunas novas `JAR (Default)` + `Override Manual`): Carro/Casa/Refeições/Ginásio/Impostos/Apps e Serviços/Outros Gastos → **Necessities**; Lazer → **Play**; Prendas → **Give**; **Educação (label NOVO, separado de Apps e Serviços)** → **Education**. Overrides típicos: avaria/carro novo→LTSS, obras→LTSS, viagem grande→LTSS, streaming→Play, cinema/saída→Play, prenda consumida em conjunto→Play, Apps dirigidas ao AquaOS→Negócio/AquaOS.
+- **`Negócio/AquaOS` = 7.º valor da coluna JAR das Saídas, FORA das 6 contas** (custos de negócio: Claude, servidor, domínio; abate à receita do AquaOS antes de repartir). Só por override, nunca default. A montar como valor da validação de dados da coluna JAR.
+- **Entradas não levam JAR.** Servem só para dar o **total de income** a que se aplicam as %. A tabela de Labels das Entradas ganha flag **`Conta como Income? (default)`** + override por linha: Trabalho/Serviços-Projetos/Juros/Investimentos = **Sim**; **Transferências = Não** (é reembolso de terceiros); **Reembolsos = Não** (devolução compensa gasto).
+- **Prenda em dinheiro = income** (dinheiro novo) → reparte-se pelos 6; é o *override* "Sim" no label Transferências. O "quero gastar parte / guardar parte" já é o que o split faz. Exceção: prenda com destino explícito ("para a tua viagem") = *earmarked* → override all-para-1-JAR (LTSS).
+- **Ganhos de investimento ficam no FFA** — a galinha não se come; capital e ganhos ficam lá, reinvestidos, nunca repartidos nem gastos (até à fase de viver do passivo). Trading: capital do FFA → ganhos ficam no FFA; lucro **sacado** para gastar → conta como income e reparte-se pelos 6.
+- **Timing do income:** recebe ao fim do mês → o income que funda o mês M é o **recebido no fim de M-1** (SUMIFS com desfasamento de 1 mês).
+- **Net Worth** passa a **série temporal na tab do Excel** (fonte da verdade migra da nota do vault para a folha; a nota fica resumo). Os 4 fatores: Income · Savings · Investments · **Simplification** (= custo de vida mensal = soma do JAR Necessities → os JARs alimentam este fator).
 
 ---
 
