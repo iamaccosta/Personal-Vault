@@ -15,7 +15,7 @@ tags: [routines, habits]
 | 1 | **30 min Duolingo** (alemão) | [[Mind]] | ✅ ao pequeno-almoço, logo à primeira | Certificado B1. Regista *minutos e nível*, não só a streak. |
 | 2 | **15 páginas de leitura** | [[Mind]] | ❌ nenhum | Aplicar, não apenas terminar. |
 | 3 | **5 refeições** | [[Body]] | parcial | Precisa de um plano alimentar para atingir o alvo calórico. |
-| 4 | **3 L água** | [[Body]] | ❌ nenhum | Não negociável — a tomar creatina. |
+| 4 | **2,5 L água** | [[Body]] | ❌ nenhum | Baixado de 3L → 2,5L (25-08): 3L causava despertares noturnos para urinar. A tomar creatina. |
 | 5 | **10 ligações no LinkedIn** | [[People]] | ❌ nenhum | 3.323 → 4.000. A este ritmo, o alvo chega ~meados de outubro. |
 
 ## Semanal
