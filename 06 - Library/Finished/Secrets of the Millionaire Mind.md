@@ -2,12 +2,13 @@
 type: book
 title: Secrets of the Millionaire Mind
 author: T. Harv Eker
-status: reading
+status: finished
 started: 2026
+finished: 2026-09-02
 pages_total:
 pages_done: 0
 counts_toward_2026: true
-tags: [book, reading]
+tags: [book, finished]
 ---
 
 # Secrets of the Millionaire Mind
@@ -15,7 +16,7 @@ tags: [book, reading]
 
 | | |
 |---|---|
-| **Estado** | 📖 a ler — livro 4 de 6 para [[2026]] |
+| **Estado** | ✅ terminado (02-09-2026) — livro 4 de 6 para [[2026]], aplicado |
 
 > O objetivo **não** é terminar. No ano passado: 7 livros contra um alvo de 4, mas lidos *para provar um ponto* — *"não interagi com os livros como poderia ter interagido. Eu quero aprender e aplicar o que estes livros ensinam."*
 >
@@ -98,7 +99,7 @@ Escritas **12** (passou dos 10):
 
 > Repartir cada euro recebido por 6 contas: **FFA** (Financial Freedom, 10% — nunca se gasta, é a "galinha dos ovos de ouro" = rendimento passivo/reforma) · **Play** (10% — gasta-se todo o mês) · **Long-Term Savings for Spending** (10% — compras grandes futuras: mudança/casa, viagens, imprevistos) · **Education** (10% — cursos/livros que aumentam capacidade de ganhar) · **Necessities** (50% — essenciais; se não cabe, o estilo de vida é grande demais) · **Give** (10% — dar/generosidade).
 
-**Estado:** conceitos explicados; sistema em construção no Excel. Estrutura fechada na sessão de **23-08**; percentagens **on hold** por decisão dele (finaliza a estrutura primeiro, valores depois).
+**Estado:** ✅ **concluído (02-09-2026).** Folha de Excel dos 6 JARs terminada e já em uso regular para a gestão do dinheiro. Estrutura fechada em 23-08; execução finalizada a 02-09.
 
 **Nota-chave:** a **FFA é exatamente o "passo 2"** adiado — pôr o excedente (>colchão) num fundo indexado de baixo custo a gerar rendimento passivo. Os dois assuntos são a mesma máquina.
 

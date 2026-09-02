@@ -4,7 +4,7 @@ tags: [library]
 
 # 📚 Biblioteca
 
-> 6 livros em [[2026]]. Atualmente 3 terminados + 1 em curso, **os 4 com linha em Aplicado → 4 contam** (os 3 terminados foram aplicados antes de o vault existir; o *Secrets* foi aplicado a 11-08-2026).
+> 6 livros em [[2026]]. Atualmente **4 terminados**, **os 4 com linha em Aplicado → 4 contam** (os 3 primeiros foram aplicados antes de o vault existir; o *Secrets* foi aplicado a 11-08-2026, terminado a 02-09-2026).
 
 ```dataview
 TABLE status, author, pages_done + "/" + pages_total AS Progresso
@@ -21,10 +21,11 @@ Isto existe por causa de um modo de falha específico, autodiagnosticado em 2025
 
 ## A ler atualmente
 
-- [[Secrets of the Millionaire Mind]] — T. Harv Eker
+- *(nenhum — A Simple Path to Wealth a caminho)*
 
 ## Terminados em 2026
 
 - [[The 48 Laws of Power]] *(versão reduzida)*
 - [[What's Your Dream]]
 - [[The Magic of Thinking Big]]
+- [[Secrets of the Millionaire Mind]] — T. Harv Eker *(02-09-2026)*

@@ -88,6 +88,7 @@ Ordem **estrita** — features → redesign → go-live:
 **(3) Go-live — `blocked` até (1) e (2)**
 - [~] #37 RGPD — código feito; falta texto legal.
 - [ ] #13 [Epic] Stripe billing — #14–#19 fechados; falta setup Stripe live. ENI (15-08) desbloqueou o administrativo.
+- [ ] #101 Add-on medido de capacidade (+10 piscinas/+1 conta = 15 €) — **obrigatório antes do launch**, depende de #13. Criado 31-08.
 - [ ] #20 Reativar registo público (flip `SIGNUPS_ENABLED`) — flip final.
 
 ### Milestone `Backlog (pós-1.0.0)`
@@ -113,6 +114,35 @@ Três clientes pagantes fecham quase todo o alvo de faturação de 2026. A aritm
 - *(a preencher — o Claude Code é a ferramenta de dev para isto)*
 
 ## 🧠 Decisões & armadilhas
+
+### Planos, preços & landing page (2026-08-31) — spec para #13 (billing) e #61 (landing)
+Sessão de trabalho sobre o visual da landing (features + planos). Decisões tomadas, a implementar na sessão de código (repo `AquaOS`).
+
+**Estrutura de planos (deriva do valor, não de tetos ao calhas):**
+
+| | Base | Pro *(default / "Mais Popular")* | Unlimited |
+|---|---|---|---|
+| Preço/mês | 49,99 € | 299,99 € | 499,99 € |
+| Piscinas | 30 | 200 | ∞ |
+| Contas | 3 | 20 | ∞ |
+| Core (CRM, agenda, intervenções+relatórios+histórico, alertas, dashboard) | ✓ | ✓ | ✓ |
+| Portal do cliente | — | ✓ | ✓ |
+| API · Telemetria · Rotas · AquaCopilot | — | ✓ | ✓ |
+| Suporte prioritário + onboarding | — | — | ✓ |
+
+- **Rácio 10 piscinas : 1 conta, uniforme** em todos os tiers e no add-on. Racional: as contas cobrem **manutenção + limpeza + reparação + construção** — não são limitadas pela cadência de manutenção. Construção ocupa o dia todo meses a fio; por isso o nº de contas não sai da carga de manutenção. Uniformidade é o que mantém a crossover do add-on limpa.
+- **Add-on medido: +10 piscinas / +1 conta = 15 €** (Issue **#101**, milestone `1.0.0` — obrigatório antes do launch, depende de #13). Escolhido em vez de 4.º tier fixo — o 4.º tier seria uma caixa barata onde o cliente estaciona (mata o ARPU); o add-on faz o cliente **entrar barato e a conta crescer com ele** até ao alvo. Crossover: Base + 17 add-ons = 305 € para 200 piscinas/20 contas ≈ Pro (300 €) — mas sem a camada avançada. Logo o add-on **nunca canibaliza o Pro** (só vende capacidade; o fosso do Pro são as features). O bundle +10/+1 espelha o funil: a conta de construção traz a capacidade de piscinas que essas obras vão gerar quando passarem a manutenção.
+- **Camada avançada (Telemetria #74, Rotas, AquaCopilot) gatada ao Pro+, marcada "em breve"** na página — não vender como incluída o que ainda não entrega; quando sai, é upgrade de valor real.
+- **Portal do cliente #72 fora do Base** — é a alavanca de upsell do Pro (o pilar "relação operador-cliente").
+- **Subscrição anual com toggle Mensal/Anual + badge de %.** Calibrar a % (~17%, ~2 meses grátis) para o **Pro-anual aterrar em ~3.000 €/ano** — o número em que assenta a conta dos ~3 clientes ≈ 9.000 €.
+- **Título "Planos"** (remover "simples"). Preços a número redondo (49/299/499), não `,99` (lê a consumidor em B2B).
+
+**Landing — outras correções:**
+- **Secção de features:** o showcase "clique numa funcionalidade" tem espaço morto enorme e esconde as features atrás de cliques (só setas + 4 pontos, sem labels). Pôr os nomes das features visíveis (tabs/lista), scannable sem interação; encolher o container ao conteúdo ou aumentar os screenshots. Lista de features do produto a mapear na página: CRM (clientes+piscinas), contas de operador por responsabilidade, agenda operador↔cliente, registo de intervenções (relatório+histórico), alertas, portal do cliente. Em construção (badge): telemetria, otimização de rotas, AquaCopilot.
+- **Última secção ("Pronto para melhorar…"/"Criar conta"):** não cortar por default. O problema é redundância de *destino* — "Começar"/"Experimentar agora"/"Ver planos"/"Subscrever X"/"Criar conta" caem no mesmo fluxo. Primeiro: **"Subscrever X" tem de pré-selecionar o plano** no registo, senão os botões dos planos perdem sentido. Reaproveitar o fecho para o indeciso ("peça uma demo") em vez de um 3.º "criar conta"; se ficar idêntico, aí cortar é justo. Uniformizar os verbos de CTA.
+- **"Experimentar agora" no hero** promete trial self-serve, mas "a ativação é confirmada pela nossa equipa" diz o contrário. Alinhar o copy com o que o produto faz.
+
+**Aberto — validação de preço:** os níveis foram postos por valor (horas devolvidas × valor/hora do dono), método certo. Mas o *número absoluto* (300 €/mês) é a fricção no mercado PT, não a conta de valor. A disposição-a-pagar real do meio do mercado (empresas ~50–100 piscinas) **confirma-se com o Cliente Zero + 2–3 empresas**, não com a folha de preços. Os "3 clientes ≈ 9.000 €" só se aguentam se esses 3 forem à escala do Pro / precisarem da camada avançada — quem são os 3 decide se chega aos 9.000.
 
 ### Vista do operador no /dashboard — contas por responsabilidade (Bloco 6) (2026-08-18, confirmado 2026-08-19)
 **Entra no launch de 1.0.0.** É o **Bloco 6** do redesign do /dashboard (#84/#61) — a única peça que falta para fechar a página; depois avança-se para a próxima página.
@@ -217,4 +247,5 @@ A 05-08 a decisão foi *launch na UI atual, redesign em paralelo não-bloqueante
 - **16-08 (manhã) — 1.ª reorg do GitHub/docs:** milestones + #70/#71/#72 criados; #29 sinalizado. **Decisão: redesign bloqueia o launch** (ver Decisões).
 - **16-08 (tarde) — modelo de versões.** Decidido (opção SemVer): a versão de teste com o cliente zero (main atual) é **`v0.1.0`** (tag criada) — pré-launch, não era produção pública. A **nova versão passa a ser o `1.0.0`**, que coincide com o **launch verdadeiro** do produto. Alvo: **domingo 23-08** (curto, mas vamos tentar). Milestones `1.0.0` e `Backlog (pós-1.0.0)`. **Ordem estrita: features → redesign → go-live** (go-live marcado `blocked`). Baseline de design **merged no develop** (PR #73, fechou #62/#68); #69 /clients **descartado**. **Telemetria puxada para o 1.0.0 como scaffolding premium** (#74) — ingestão real fica no backlog. `main` fica atrás do `develop` até terminar (decisão consciente). Docs locais limpos (`temp.md` apagado, `tasks.md`/`todo.md` reset preservando backlog).
 - **16-08 (noite) — 4.ª feature avançada: telemetria #74 (scaffolding).** PR #80 merged (19:35): flag `TELEMETRY_MODULE_ENABLED` default OFF (tab mostra "Em Desenvolvimento…", launch inalterado), gating stub `hasTelemetryEntitlement`, `PoolTelemetryTab` com 4 estados (só o 1.º alcançável com flag OFF). **Restante da telemetria (form de conexão, real-time, direito por plano) → pós-1.0.0; #74 fica aberto de propósito.** Depois: PR #81 (re-seed para o modelo operacional, sem telemetria) e PR #82 (fix #71 — needs-plan/needs-schedule só para piscinas de manutenção/limpeza), ambos 21:36. **Estado do 1.0.0: 4 de 5 features feitas; falta só #72 (portal read-only) antes do redesign #61.**
+- **31-08 — página da piscina finalizada (30-08); spec de planos+preços+landing.** Estrutura Base/Pro/Unlimited (49,99/299,99/499,99 €), rácio 10 piscinas:1 conta uniforme, add-on medido +10/+1 = 15 € (em vez de 4.º tier), camada avançada gatada ao Pro+ e marcada "em breve", portal fora do Base, toggle anual calibrado p/ Pro-anual ≈ 3.000 €/ano, título "Planos", correções à secção de features e à última secção da landing. Validação de preço com Cliente Zero em aberto. Ver Decisões (2026-08-31) — spec para #13 (billing) e #61 (landing). **Issue #101 criado** para o add-on (obrigatório antes do launch).
 - **17-08 — #72 portal do cliente FECHADO (PR #83).** 5.ª e última feature: read-only v1 (sua piscina — estado, plano, intervenções c/ fotos, agenda só data/estado), convite por link → password → JWT scope `portal`. Segurança concentrada no `TenantGuard`, **scoping validado 7/7** (piscina de outro cliente → 404, token de empresa em `/portal/*` → 403) — exatamente o modelo de acesso decidido a 17-08. **Fase de features do 1.0.0 completa (5/5). Próximo pela ordem estrita: redesign #61 (bloqueia go-live).** Gates de go-live restantes: #37 (falta texto legal), #13 Stripe live, #20 flip signups.
