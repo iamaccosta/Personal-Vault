@@ -1,63 +1,42 @@
 ---
-description: Fechar o dia — escrever a nota diária, commit e push
+description: Fechar o dia — verificar o registo, apontar falhas, commit e push
 allowed-tools: Read, Write, Edit, Glob, Grep, Bash(date:*), Bash(git:*)
 ---
 
 # Fechar o dia
 
-Escreve a entrada de journal de hoje a partir do que ele te disser, depois faz commit e push.
+Os dados do dia já estão na nota — ele registou-os pelo form do BEACON ao longo do dia. **Não peças valores. Não perguntes o humor nem o descanso.** O teu trabalho é verificar o que ficou registado, dizer-lhe o que faltou e o que falhou, e fazer commit + push.
 
-## 1. Data e nota existente
+## 1. Data e nota
 
-Corre `date +%Y-%m-%d`. Ficheiro alvo: `04 - Journal/Daily/YYYY-MM-DD.md`.
+Corre `date +%Y-%m-%d`. Ficheiro: `04 - Journal/Daily/YYYY-MM-DD.md`. Lê-a — normalmente já existe, aberta no `/abrir` e preenchida ao longo do dia. Se por acaso não existir, cria-a a partir de `99 - Templates/Daily Note.md` e nota que o dia não foi registado.
 
-Normalmente já existe (aberta no `/abrir`, atualizada ao longo do dia) — edita-a, não a recries. Se por acaso não existir, cria-a a partir de `99 - Templates/Daily Note.md`.
+## 2. Verificar o que fez
 
-No fim deste ritual, põe `status: closed` no frontmatter — é o que marca o dia como fechado.
+Lê o frontmatter e a secção `## 📝 Registo`. Confere os valores contra os alvos diários/semanais (`05 - Goals/Routines.md`). Se ajudar a leitura, completa a secção Fecho a partir **dos números que já lá estão** — resumo mecânico, sem inventar sentimentos e sem pedir nada. Nunca preenchas um campo com um número que não foi registado.
 
-## 2. Recolher os números
+## 3. O que faltou registar
 
-Ele vai dizer-te o que ficou feito. Converte-o nos campos do frontmatter — **quantidades reais, não checkboxes**:
+Diz-lhe, em concreto, que campos ficaram **em branco** e deviam ter valor (ex.: água não registada, refeições vazias, Craft sem horas num dia de trabalho). Distingue:
 
-| Campo | Notas |
-|---|---|
-| `duolingo_min`, `duolingo_lessons`, `duolingo_level` | minutos e nível, nunca a streak |
-| `pages_read` | |
-| `meals`, `water_l`, `trained`, `cardio`, `weight_kg` | |
-| `craft_hours` | mais **que projeto** e **o que se moveu** — só horas não significam nada |
-| `linkedin_connections` | |
-| `recharge`, `enjoyed` | o que fez + conseguiu estar presente (1–5) |
-| `sleep_time`, `mood` | |
+- **Não registado** — o dado existe mas não entrou no form. É um buraco no registo; ele pode preencher agora.
+- **Zero real** — a coisa não aconteceu (ex.: leitura 0). Isso não é um buraco de registo, é um facto do dia — trata-o na secção seguinte.
 
-Se ele não mencionar algo, **pergunta uma vez** — depois deixa em branco em vez de adivinhar. Um branco é honesto; um número inventado corrompe o rollup semanal.
+## 4. O que falhou e não devia
 
-## 3. Escrever a nota
+Uma passagem curta, dado o dia (era dia de treino? tinha uma prioridade datada marcada no `/abrir`?):
 
-Preenche a secção Fecho:
+- Um alvo diário falhado que estava ao alcance.
+- Uma prioridade concreta que ele próprio marcou para hoje e ficou por tocar — nomeia-a (não "não move Capital").
+- Um padrão de vários dias (ex.: leitura em branco há N dias) — nomeia-o como **problema de gatilho, não de disciplina**, e só **uma vez**.
 
-- O que se fez de facto
-- O que não se fez, e porquê
-- Progresso de Craft — que projeto, o que se moveu
-- Parou hoje, e conseguiu desfrutar
-- Humor
-- Uma linha para o eu do futuro
+Credita o que subiu tanto como assinalas o que caiu. Não escolhas por default a coisa negativa: se o dia mostra progresso, essa é a coisa a dizer. Toda a comparação (trajetória, "N dias seguidos", semana vs. semana) **lê-se dos números registados**, nunca da memória.
 
-## 4. Dizer uma coisa útil
+Se `craft_hours` está alto e `mood`/`enjoyed` está baixo, di-lo — é o alerta de que o sistema está a otimizar output à custa do resto.
 
-Não um resumo — ele esteve lá. Escolhe **uma**:
+## 5. Fechar, commit e push
 
-- Um progresso real ou uma trajetória (esta semana vs. a anterior) que ele possa não ter notado — creditar o que subiu conta tanto como assinalar o que caiu
-- Um padrão dos últimos dias que ele possa não ter notado
-- Um número que acabou de cruzar uma linha que vale a pena saber
-- Um alvo cuja aritmética já não funciona e precisa de uma decisão
-
-Não escolhas por default a coisa negativa. Se o dia ou a semana mostram progresso, essa é a coisa útil a dizer.
-
-Se a leitura (ou outra coisa) tem faltado há vários dias, nomeia-o como um **problema de gatilho, não de disciplina** — e só uma vez.
-
-Se `craft_hours` está alto e `mood` ou `enjoyed` está baixo, di-lo. Essa combinação é o alerta precoce de que o sistema está a otimizar o output à custa de tudo o resto.
-
-## 5. Commit e push
+Põe `status: closed` no frontmatter. Depois:
 
 ```
 git add -A
@@ -65,11 +44,11 @@ git commit -m "journal: YYYY-MM-DD"
 git push
 ```
 
-Se o push falhar, reporta o erro com clareza. Não tentes de novo com force.
+Se o push falhar, reporta o erro com clareza. Não tentes de novo com `--force`.
 
 ## Regras
 
-- Nunca inventes um número para preencher um campo.
-- Sem inflação de elogios. Se foi um dia fraco, a nota di-lo.
-- Não proponhas alvos de horas para o Recharge.
+- Nunca inventes um número. Um branco é honesto; um número inventado corrompe o rollup semanal.
+- Não peças humor nem descanso. O Recharge não leva alvos nem pontuação tua.
+- Sem inflação de elogios. Se foi um dia fraco, di-lo — mas credita o esforço real primeiro, como facto, sem o "mas" que o apaga.
 - Lê o `CLAUDE.md` para o tom.

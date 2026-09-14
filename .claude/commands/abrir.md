@@ -5,62 +5,52 @@ allowed-tools: Read, Write, Edit, Glob, Grep, Bash(date:*), Bash(git log:*)
 
 # Abrir o dia
 
-O utilizador está a começar uma sessão de trabalho. Dá-lhe direção, não um relatório.
+O utilizador está a começar o dia. **Não peças valores** — ele regista os dados do dia à parte, pelo form do BEACON, logo a seguir. O teu trabalho aqui é três coisas: **criar a nota**, mostrar-lhe o dia e o que tem planeado, e dar direção ligada à hora a que corres o comando.
 
-## 1. Estabelecer a data e a hora
+## 1. Criar a nota de hoje — é o mais importante
 
-Corre `date +%Y-%m-%d` e `date +%A`. Calcula os dias restantes no ano — não reutilizes um número do vault.
+Corre `date +%Y-%m-%d`. Ficheiro: `04 - Journal/Daily/YYYY-MM-DD.md`.
 
-Corre também `date +%H:%M` para saber **que horas são agora**. Ele tem um trabalho de quase 8 h/dia — a janela livre é curta e específica. Usa a hora atual para calcular quanto tempo resta até ao próximo compromisso fixo (PULL/LEGS/PUSH às 18h, jantar, dormir) e dimensiona a lista a esse tempo real. Se ele te disser a hora ou o tempo que tem, usa isso; se não, ancora na hora do relógio, não no abstrato.
+- **Se não existir**, cria-o a partir de `99 - Templates/Daily Note.md`, substituindo os placeholders `{{date:...}}` pelos valores reais e com `status: open`. Isto tem de acontecer **sempre, independentemente da hora** — a nota é a camada de persistência do dia e ele vai registar os dados logo a seguir. Se não criares a nota, o form não tem onde escrever.
+- **Se já existir**, lê-o. O dia já foi aberto; continua de onde ficou, não o recries nem apagues o que lá está.
 
-## 2. Criar a nota de hoje se ainda não existir
+> A nota é escrita no disco **agora**. É isto que garante que nada se perde.
 
-Ficheiro: `04 - Journal/Daily/YYYY-MM-DD.md`.
+## 2. Estabelecer a data e a hora
 
-- **Se não existir**, cria-o a partir de `99 - Templates/Daily Note.md`, substituindo os placeholders `{{date:...}}` pelos valores reais e com `status: open`. Esta é a primeira abertura do dia — a nota passa a ser a camada de persistência do dia.
-- **Se já existir**, lê-o. O dia já foi aberto (talvez noutra sessão); continua de onde ficou, não o recries nem apagues o que lá está.
+Corre `date +%A` e `date +%H:%M`. Calcula os dias restantes no ano — não reutilizes um número do vault.
 
-> A nota é escrita no disco **agora**, não no fecho. É isto que garante que nada se perde se uma sessão morrer a meio.
+A hora **importa**: ele tem um trabalho de quase 8 h/dia e a janela livre é curta e específica. Usa a hora atual para calcular quanto tempo resta até ao próximo compromisso fixo (LEGS/PUSH/PULL às 18h nos dias de treino, jantar ~21h, dormir ~22h30–23h) e dimensiona a direção a esse tempo real. Não sequencies no abstrato.
 
 ## 3. Ler o estado
 
 - `05 - Goals/2026.md` — alvos do ano e números atuais
 - `05 - Goals/Routines.md` — alvos diários/semanais
-- A nota de hoje em `04 - Journal/Daily/YYYY-MM-DD.md` se existir
-- As **últimas 5 notas diárias** — é isto que te diz o que está de facto a acontecer, versus o que é aspiracional
+- As **últimas 5 notas diárias** — o que está de facto a acontecer, versus o aspiracional
+- `02 - Projects/` — estado dos projetos, bloqueios, próximas ações (é sobre isto que a tua direção incide)
 - Qualquer nota de pilar relevante para o que está atrasado
 
-## 4. Pergunta-lhe duas coisas
+## 4. Dar direção
 
-Limita a duas. Não interrogues.
+Não peças nada. Output nesta forma, curto:
 
-1. **O que já fizeste hoje?**
-2. **Quanto tempo tens, e para quê?**
+**Onde estás** — 2–4 linhas. Começa por **creditar o que os últimos dias mostram** (facto, não adorno), reflete os pilares relevantes, não só o Craft. Só o que importa para a decisão de hoje. Sem o "mas" que apaga o crédito.
 
-Se ele já respondeu a isto na mensagem, salta as perguntas e vai direto à direção.
+**Hoje, por ordem** — lista ordenada curta, dado o estado dos projetos e a hora a que corres o comando. Cada item ligado a um custo de tempo real:
 
-## 5. Dar direção
+- `15 min` — leitura, 15 páginas (N dias sem ela agora)
+- `~2 h` — AquaOS / BEACON: a próxima ação concreta
+- `5 min` — o que estiver bloqueante e barato de resolver agora
 
-Output nesta forma, e mantém-no curto:
+**A única coisa que mais importa hoje** — uma linha.
 
-**Onde estás** — 2–4 linhas. Começa por **creditar o que ele já fez hoje** (é um facto, não um adorno) e reflete os pilares relevantes, não só o Craft. Só o que é relevante para a decisão de hoje. Não um dump de estado completo, e sem o "mas" que apaga o crédito.
-
-**Hoje, por ordem** — uma lista ordenada curta. Cada item ligado a um custo de tempo real:
-
-- `15 min` — leitura, 15 páginas (4 dias sem ela agora)
-- `~2 h` — AquaOS: fechar o feedback do cliente zero
-- `5 min` — registar o peso, o Body está bloqueado nisso
-
-**A única coisa que mais importa hoje** — uma única linha.
-
-**Se só tiveres 15 minutos** — a pequena ação de maior valor disponível.
+**Se só tiveres 15 minutos** — a ação de maior valor disponível.
 
 ## Regras
 
-- Sequencia por alavancagem, não pelo que é mais fácil de riscar. Mas **alavancagem ≠ sempre AquaOS** — não faças de todas as aberturas uma sessão sobre a Frente A.
-- Não lideres a abertura com a Frente A / launch por default. Levanta-a só quando for genuinamente a decisão do dia — uma vez, sem a reargumentar (ver `CLAUDE.md`, Regras rígidas).
-- Se um bloqueio tem estado por tocar, põe-no primeiro — mas di-lo **uma vez**, sem o reargumentar.
-- Não listes os seis pilares. Menciona o que é relevante para a decisão agora.
-- Sem preâmbulo. Sem "aqui está o teu briefing diário". Começa pela substância.
-- Se ele está prestes a começar uma sessão longa de Craft e algo pequeno e bloqueante está por resolver, di-lo antes de ele abrir o editor — é o momento em que é barato de resolver.
+- Sequencia por alavancagem, não pelo que é fácil de riscar. Mas **alavancagem ≠ sempre AquaOS** — não faças de todas as aberturas uma sessão sobre a Frente A / launch.
+- Não lideres com a Frente A por default. Levanta-a só quando for genuinamente a decisão do dia — uma vez, sem reargumentar (ver `CLAUDE.md`).
+- Se um bloqueio está por tocar, põe-no primeiro — mas di-lo **uma vez**.
+- Não listes os seis pilares. Menciona o que é relevante agora.
+- Sem preâmbulo. Sem "aqui está o teu briefing". Começa pela substância.
 - Lê o `CLAUDE.md` para tom e regras rígidas. Em especial: **o Recharge não leva alvos de horas**, e nunca aconselhes sobre o ritmo de perda de peso.
