@@ -37,9 +37,9 @@ Plano ideal, por dia da semana. Treino **depois do trabalho, entre as 18h e as 2
 
 | Dia | Treino | Grupos |
 |---|---|---|
-| Segunda | **PULL** | costas, bíceps, ombro posterior |
-| Quarta | **LEGS** | pernas |
-| Sexta | **PUSH** | peito, tríceps, ombro lateral e frontal |
+| Segunda | **UPPER** | 1.º UPPER (feito 26-10) |
+| *(dia por confirmar)* | **LOWER** | plano de 3 sessões UPPER · LOWER · UPPER desde 26-10 (antes PULL/LEGS/PUSH) |
+| *(dia por confirmar)* | **UPPER** | 2.º UPPER |
 | Sábado (manhã) | cardio | voleibol de praia ou corrida |
 | Fim de semana | descanso | |
 
@@ -49,7 +49,7 @@ Falhando um dia, passa o treino para o seguinte — mas aí **fica sem descanso 
 
 ## ⚙️ Mecanismo
 
-- **Gatilho:** dias e hora fixos — **Seg PULL · Qua LEGS · Sex PUSH, depois do trabalho entre as 18h e as 20h**; sábado de manhã cardio; fim de semana para descanso. Gatilho completo: já não há nada indefinido no *quando*.
+- **Gatilho:** dias e hora fixos — **3 sessões UPPER · LOWER · UPPER (Seg = UPPER; restantes dias por confirmar), depois do trabalho entre as 18h e as 20h**; sábado de manhã cardio; fim de semana para descanso. Gatilho completo: já não há nada indefinido no *quando*.
 - **Contador:** frontmatter `trained`, `cardio`, `meals`, `water_l`, `weight_kg` na nota diária.
 - **Modo de falha conhecido:** *"a vontade de treinar anda a falhar"*. Historicamente pedia-se à força de vontade o que um horário devia fazer. O split acima é a correção que está a ser tentada — o teste agora é se se aguenta, não se existe.
 
